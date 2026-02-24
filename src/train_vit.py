@@ -73,7 +73,6 @@ def main(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     print(f"Using device: {device}")
 
-    # Create dataloaders
     train_loader, val_loader, num_classes = create_dataloaders(
         csv_path=args.csv_path,
         root_dir=args.data_dir,
@@ -83,7 +82,6 @@ def main(args):
     print(f"Number of classes: {num_classes}")
     print(f"Train batches: {len(train_loader)}, Val batches: {len(val_loader)}")
 
-    # Create model
     model = create_vit_model(
         num_classes=num_classes,
         pretrained=args.pretrained,
@@ -91,12 +89,10 @@ def main(args):
     )
     model = model.to(device)
 
-    # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
     scheduler = CosineAnnealingLR(optimizer, T_max=args.epochs)
 
-    # Training loop
     best_val_acc = 0.0
     os.makedirs(args.checkpoint_dir, exist_ok=True)
 
@@ -114,7 +110,6 @@ def main(args):
         print(f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}%")
         print(f"Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%")
 
-        # Save best model
         if val_acc > best_val_acc:
             best_val_acc = val_acc
             torch.save({
@@ -126,7 +121,6 @@ def main(args):
             }, os.path.join(args.checkpoint_dir, 'best_model.pth'))
             print(f"Saved best model with val acc: {val_acc:.2f}%")
 
-        # Save latest checkpoint
         torch.save({
             'epoch': epoch,
             'model_state_dict': model.state_dict(),
