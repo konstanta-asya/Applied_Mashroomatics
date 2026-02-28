@@ -110,6 +110,7 @@ def main(args):
         print(f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}%")
         print(f"Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%")
 
+
         if val_acc > best_val_acc:
             best_val_acc = val_acc
             torch.save({

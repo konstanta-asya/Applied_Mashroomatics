@@ -14,9 +14,7 @@ class MushroomDataset(Dataset):
         self.mode = mode
         self.images_per_group = images_per_group
 
-        # Create class_id if it doesn't exist
         if 'class_id' not in self.annotations.columns:
-            # Use species column to create class labels
             unique_species = self.annotations['species'].unique()
             self.species_to_id = {sp: idx for idx, sp in enumerate(unique_species)}
             self.annotations['class_id'] = self.annotations['species'].map(self.species_to_id)
@@ -25,7 +23,6 @@ class MushroomDataset(Dataset):
             self.num_classes = self.annotations['class_id'].nunique()
 
         if self.mode == 'group':
-            # Group by gbifID for group mode
             self.groups = self.annotations.groupby('gbifID')
             self.group_ids = list(self.groups.groups.keys())
 
@@ -74,27 +71,20 @@ class MushroomDataset(Dataset):
         gbif_id = self.group_ids[index]
         group_df = self.groups.get_group(gbif_id)
 
-        # Get image paths for this group
         image_paths = group_df['image_path'].tolist()
 
-        # Sample or pad to get exactly images_per_group images
         if len(image_paths) >= self.images_per_group:
-            # Random sample without replacement
             selected_paths = np.random.choice(image_paths, self.images_per_group, replace=False)
         else:
-            # Sample with replacement if not enough images
             selected_paths = np.random.choice(image_paths, self.images_per_group, replace=True)
 
-        # Load images
         images = []
         for path in selected_paths:
             img_path = os.path.join(self.root_dir, path)
             images.append(self._load_image(img_path))
 
-        # Stack images: [images_per_group, C, H, W]
         images = torch.stack(images)
 
-        # Get label and metadata from first row
         first_row = group_df.iloc[0]
         label = torch.tensor(int(first_row['class_id']))
 
