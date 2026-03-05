@@ -7,7 +7,7 @@ import numpy as np
 
 
 class MushroomDataset(Dataset):
-    def __init__(self, metadata_file, root_dir, transform=None, mode='single', images_per_group=3):
+    def __init__(self, metadata_file, root_dir, transform=None, mode='single', images_per_group=3, species_to_id=None):
         self.annotations = pd.read_csv(metadata_file)
         self.root_dir = root_dir
         self.transform = transform
@@ -15,10 +15,15 @@ class MushroomDataset(Dataset):
         self.images_per_group = images_per_group
 
         if 'class_id' not in self.annotations.columns:
-            unique_species = self.annotations['species'].unique()
-            self.species_to_id = {sp: idx for idx, sp in enumerate(unique_species)}
+            if species_to_id is not None:
+                # Use provided mapping for consistent labels across train/val
+                self.species_to_id = species_to_id
+            else:
+                # Create new mapping (only use when processing full dataset)
+                unique_species = sorted(self.annotations['species'].unique())
+                self.species_to_id = {sp: idx for idx, sp in enumerate(unique_species)}
             self.annotations['class_id'] = self.annotations['species'].map(self.species_to_id)
-            self.num_classes = len(unique_species)
+            self.num_classes = len(self.species_to_id)
         else:
             self.num_classes = self.annotations['class_id'].nunique()
 

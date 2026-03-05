@@ -16,6 +16,10 @@ def create_dataloaders(
 
     df = pd.read_csv(csv_path)
 
+    # Create consistent label mapping from FULL dataset before splitting
+    unique_species = sorted(df['species'].unique())
+    species_to_id = {sp: idx for idx, sp in enumerate(unique_species)}
+
     unique_ids = df['gbifID'].unique()
     train_ids, val_ids = train_test_split(unique_ids, test_size=split_ratio, random_state=42)
 
@@ -32,14 +36,16 @@ def create_dataloaders(
         metadata_file=train_csv,
         root_dir=root_dir,
         transform=get_transforms('train'),
-        mode=mode
+        mode=mode,
+        species_to_id=species_to_id
     )
 
     val_ds = MushroomDataset(
         metadata_file=val_csv,
         root_dir=root_dir,
         transform=get_transforms('val'),
-        mode=mode
+        mode=mode,
+        species_to_id=species_to_id
     )
 
     train_loader = DataLoader(
