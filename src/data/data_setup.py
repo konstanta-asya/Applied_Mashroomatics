@@ -16,6 +16,9 @@ def create_dataloaders(
 
     df = pd.read_csv(csv_path)
 
+    # Remove rows with missing species
+    df = df.dropna(subset=['species']).reset_index(drop=True)
+
     # Create consistent label mapping from FULL dataset before splitting
     unique_species = sorted(df['species'].unique())
     species_to_id = {sp: idx for idx, sp in enumerate(unique_species)}
