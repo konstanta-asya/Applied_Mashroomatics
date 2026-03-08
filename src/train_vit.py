@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
-from torch.cuda.amp import GradScaler, autocast
+from torch.amp import GradScaler, autocast
 from tqdm import tqdm
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -29,7 +29,7 @@ def train_one_epoch(model, train_loader, criterion, optimizer, device, scaler=No
         optimizer.zero_grad()
 
         if use_amp:
-            with autocast():
+            with autocast('cuda'):
                 outputs = model(images)
                 loss = criterion(outputs, labels)
             scaler.scale(loss).backward()
@@ -68,7 +68,7 @@ def validate(model, val_loader, criterion, device, use_amp=False):
         labels = batch["label"].to(device)
 
         if use_amp and device.type == 'cuda':
-            with autocast():
+            with autocast('cuda'):
                 outputs = model(images)
                 loss = criterion(outputs, labels)
         else:
@@ -91,7 +91,7 @@ def main(args):
 
     # Mixed precision setup
     use_amp = args.amp and device.type == 'cuda'
-    scaler = GradScaler() if use_amp else None
+    scaler = GradScaler('cuda') if use_amp else None
     if use_amp:
         print("Mixed precision (AMP) enabled")
 
@@ -128,9 +128,22 @@ def main(args):
     scheduler = CosineAnnealingLR(optimizer, T_max=args.epochs)
 
     best_val_acc = 0.0
+    start_epoch = 0
     os.makedirs(args.checkpoint_dir, exist_ok=True)
 
-    for epoch in range(args.epochs):
+    # Resume from checkpoint
+    if args.resume and os.path.exists(args.resume):
+        print(f"Resuming from checkpoint: {args.resume}")
+        checkpoint = torch.load(args.resume, map_location=device)
+        model.load_state_dict(checkpoint['model_state_dict'])
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        if 'scheduler_state_dict' in checkpoint:
+            scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+        start_epoch = checkpoint['epoch'] + 1
+        best_val_acc = checkpoint.get('val_acc', 0.0)
+        print(f"Resumed from epoch {start_epoch}, best val acc: {best_val_acc:.2f}%")
+
+    for epoch in range(start_epoch, args.epochs):
         print(f"\nEpoch {epoch+1}/{args.epochs}")
         print("-" * 30)
 
@@ -189,6 +202,7 @@ if __name__ == "__main__":
     parser.add_argument("--no_amp", action="store_false", dest="amp")
     parser.add_argument("--compile", action="store_true", default=False, help="Use torch.compile (PyTorch 2.0+)")
     parser.add_argument("--num_workers", type=int, default=4, help="DataLoader workers")
+    parser.add_argument("--resume", type=str, default=None, help="Path to checkpoint to resume from")
 
     args = parser.parse_args()
     main(args)
