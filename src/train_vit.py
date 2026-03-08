@@ -135,13 +135,20 @@ def main(args):
     if args.resume and os.path.exists(args.resume):
         print(f"Resuming from checkpoint: {args.resume}")
         checkpoint = torch.load(args.resume, map_location=device)
-        model.load_state_dict(checkpoint['model_state_dict'])
-        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-        if 'scheduler_state_dict' in checkpoint:
-            scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
-        start_epoch = checkpoint['epoch'] + 1
-        best_val_acc = checkpoint.get('val_acc', 0.0)
-        print(f"Resumed from epoch {start_epoch}, best val acc: {best_val_acc:.2f}%")
+
+        # Check model type matches
+        saved_model_type = checkpoint.get('model_type', 'vit_base')
+        if saved_model_type != args.model:
+            print(f"WARNING: Checkpoint is from {saved_model_type}, but you're using {args.model}")
+            print("Starting fresh instead of resuming (incompatible architectures)")
+        else:
+            model.load_state_dict(checkpoint['model_state_dict'])
+            optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+            if 'scheduler_state_dict' in checkpoint:
+                scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+            start_epoch = checkpoint['epoch'] + 1
+            best_val_acc = checkpoint.get('val_acc', 0.0)
+            print(f"Resumed from epoch {start_epoch}, best val acc: {best_val_acc:.2f}%")
 
     for epoch in range(start_epoch, args.epochs):
         print(f"\nEpoch {epoch+1}/{args.epochs}")
