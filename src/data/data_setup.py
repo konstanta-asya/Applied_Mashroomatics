@@ -11,7 +11,8 @@ def create_dataloaders(
         root_dir,
         batch_size=32,
         mode='single',
-        split_ratio=0.2
+        split_ratio=0.2,
+        num_workers=4
 ):
 
     df = pd.read_csv(csv_path)
@@ -55,16 +56,18 @@ def create_dataloaders(
         train_ds,
         batch_size=batch_size,
         shuffle=True,
-        num_workers=2,
-        pin_memory=True
+        num_workers=num_workers,
+        pin_memory=True,
+        persistent_workers=num_workers > 0
     )
 
     val_loader = DataLoader(
         val_ds,
         batch_size=batch_size,
         shuffle=False,
-        num_workers=2,
-        pin_memory=True
+        num_workers=num_workers,
+        pin_memory=True,
+        persistent_workers=num_workers > 0
     )
 
     os.remove(train_csv)

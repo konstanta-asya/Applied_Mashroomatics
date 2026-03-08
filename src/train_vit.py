@@ -5,19 +5,21 @@ import torch
 import torch.nn as nn
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
+from torch.cuda.amp import GradScaler, autocast
 from tqdm import tqdm
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.data.data_setup import create_dataloaders
-from src.models.vit import create_vit_model
+from src.models.vit import create_vit_model, create_vit_small
 
 
-def train_one_epoch(model, train_loader, criterion, optimizer, device):
+def train_one_epoch(model, train_loader, criterion, optimizer, device, scaler=None):
     model.train()
     running_loss = 0.0
     correct = 0
     total = 0
+    use_amp = scaler is not None and device.type == 'cuda'
 
     pbar = tqdm(train_loader, desc="Training")
     for batch in pbar:
@@ -25,10 +27,19 @@ def train_one_epoch(model, train_loader, criterion, optimizer, device):
         labels = batch["label"].to(device)
 
         optimizer.zero_grad()
-        outputs = model(images)
-        loss = criterion(outputs, labels)
-        loss.backward()
-        optimizer.step()
+
+        if use_amp:
+            with autocast():
+                outputs = model(images)
+                loss = criterion(outputs, labels)
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
+        else:
+            outputs = model(images)
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
 
         running_loss += loss.item()
         _, predicted = outputs.max(1)
@@ -46,7 +57,7 @@ def train_one_epoch(model, train_loader, criterion, optimizer, device):
 
 
 @torch.no_grad()
-def validate(model, val_loader, criterion, device):
+def validate(model, val_loader, criterion, device, use_amp=False):
     model.eval()
     running_loss = 0.0
     correct = 0
@@ -56,8 +67,13 @@ def validate(model, val_loader, criterion, device):
         images = batch["image"].to(device)
         labels = batch["label"].to(device)
 
-        outputs = model(images)
-        loss = criterion(outputs, labels)
+        if use_amp and device.type == 'cuda':
+            with autocast():
+                outputs = model(images)
+                loss = criterion(outputs, labels)
+        else:
+            outputs = model(images)
+            loss = criterion(outputs, labels)
 
         running_loss += loss.item()
         _, predicted = outputs.max(1)
@@ -73,21 +89,39 @@ def main(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
     print(f"Using device: {device}")
 
+    # Mixed precision setup
+    use_amp = args.amp and device.type == 'cuda'
+    scaler = GradScaler() if use_amp else None
+    if use_amp:
+        print("Mixed precision (AMP) enabled")
+
     train_loader, val_loader, num_classes = create_dataloaders(
         csv_path=args.csv_path,
         root_dir=args.data_dir,
         batch_size=args.batch_size,
-        mode='single'
+        mode='single',
+        num_workers=args.num_workers
     )
     print(f"Number of classes: {num_classes}")
     print(f"Train batches: {len(train_loader)}, Val batches: {len(val_loader)}")
 
-    model = create_vit_model(
-        num_classes=num_classes,
-        pretrained=args.pretrained,
-        freeze_backbone=args.freeze_backbone
-    )
+    # Model selection: ViT-Small (faster) or ViT-Base
+    if args.model == 'vit_small':
+        print("Using ViT-Small (faster)")
+        model = create_vit_small(num_classes=num_classes, pretrained=args.pretrained)
+    else:
+        print("Using ViT-Base")
+        model = create_vit_model(
+            num_classes=num_classes,
+            pretrained=args.pretrained,
+            freeze_backbone=args.freeze_backbone
+        )
     model = model.to(device)
+
+    # torch.compile for PyTorch 2.0+ (significant speedup)
+    if args.compile and hasattr(torch, 'compile'):
+        print("Compiling model with torch.compile()")
+        model = torch.compile(model)
 
     criterion = nn.CrossEntropyLoss()
     optimizer = AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
@@ -101,9 +135,9 @@ def main(args):
         print("-" * 30)
 
         train_loss, train_acc = train_one_epoch(
-            model, train_loader, criterion, optimizer, device
+            model, train_loader, criterion, optimizer, device, scaler
         )
-        val_loss, val_acc = validate(model, val_loader, criterion, device)
+        val_loss, val_acc = validate(model, val_loader, criterion, device, use_amp)
 
         scheduler.step()
 
@@ -119,6 +153,7 @@ def main(args):
                 'optimizer_state_dict': optimizer.state_dict(),
                 'val_acc': val_acc,
                 'num_classes': num_classes,
+                'model_type': args.model,
             }, os.path.join(args.checkpoint_dir, 'best_model.pth'))
             print(f"Saved best model with val acc: {val_acc:.2f}%")
 
@@ -129,6 +164,7 @@ def main(args):
             'scheduler_state_dict': scheduler.state_dict(),
             'val_acc': val_acc,
             'num_classes': num_classes,
+            'model_type': args.model,
         }, os.path.join(args.checkpoint_dir, 'latest_checkpoint.pth'))
 
     print(f"\nTraining complete! Best validation accuracy: {best_val_acc:.2f}%")
@@ -146,6 +182,13 @@ if __name__ == "__main__":
     parser.add_argument("--no_pretrained", action="store_false", dest="pretrained")
     parser.add_argument("--freeze_backbone", action="store_true", default=False)
     parser.add_argument("--checkpoint_dir", type=str, default="checkpoints")
+    # Speed optimizations
+    parser.add_argument("--model", type=str, default="vit_base", choices=["vit_base", "vit_small"],
+                        help="Model variant: vit_base (slower, more accurate) or vit_small (faster)")
+    parser.add_argument("--amp", action="store_true", default=True, help="Use mixed precision training")
+    parser.add_argument("--no_amp", action="store_false", dest="amp")
+    parser.add_argument("--compile", action="store_true", default=False, help="Use torch.compile (PyTorch 2.0+)")
+    parser.add_argument("--num_workers", type=int, default=4, help="DataLoader workers")
 
     args = parser.parse_args()
     main(args)
