@@ -12,7 +12,8 @@ def create_dataloaders(
         batch_size=32,
         mode='single',
         split_ratio=0.2,
-        num_workers=4
+        num_workers=4,
+        augmentation_strength='standard'
 ):
 
     df = pd.read_csv(csv_path)
@@ -39,7 +40,7 @@ def create_dataloaders(
     train_ds = MushroomDataset(
         metadata_file=train_csv,
         root_dir=root_dir,
-        transform=get_transforms('train'),
+        transform=get_transforms('train', augmentation_strength=augmentation_strength),
         mode=mode,
         species_to_id=species_to_id
     )
