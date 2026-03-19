@@ -12,8 +12,8 @@ def create_dataloaders(
         batch_size=32,
         mode='single',
         split_ratio=0.2,
-        num_workers=4,
-        augmentation_strength='standard'
+        num_workers=0,
+        augmentation_strength='strong'
 ):
 
     df = pd.read_csv(csv_path)

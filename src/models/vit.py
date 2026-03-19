@@ -1,34 +1,36 @@
 
 import torch
 import torch.nn as nn
-from torchvision.models import vit_b_16, ViT_B_16_Weights
+import timm
 
 
-def create_vit_model(num_classes, pretrained=True, freeze_backbone=False):
+def create_vit_model(num_classes, pretrained=True, freeze_backbone=False,
+                     drop_path_rate=0.2, drop_rate=0.1):
     """
-    Create a Vision Transformer model for mushroom classification.
+    Create a Vision Transformer model for mushroom classification using timm.
 
     Args:
         num_classes: Number of mushroom species to classify
         pretrained: Whether to use ImageNet pretrained weights
         freeze_backbone: Whether to freeze the backbone layers
+        drop_path_rate: Stochastic depth rate for regularization
+        drop_rate: Dropout rate for classifier
 
     Returns:
         ViT model with modified classification head
     """
-    if pretrained:
-        weights = ViT_B_16_Weights.IMAGENET1K_V1
-        model = vit_b_16(weights=weights)
-    else:
-        model = vit_b_16(weights=None)
+    model = timm.create_model(
+        'vit_base_patch16_224',
+        pretrained=pretrained,
+        num_classes=num_classes,
+        drop_path_rate=drop_path_rate,
+        drop_rate=drop_rate
+    )
 
     if freeze_backbone:
-        for param in model.parameters():
-            param.requires_grad = False
-
-    # Replace classification head
-    in_features = model.heads.head.in_features
-    model.heads.head = nn.Linear(in_features, num_classes)
+        for name, param in model.named_parameters():
+            if 'head' not in name:
+                param.requires_grad = False
 
     return model
 
@@ -36,16 +38,26 @@ def create_vit_model(num_classes, pretrained=True, freeze_backbone=False):
 def create_vit_small(num_classes, pretrained=True):
     """
     Create a smaller ViT variant using timm library.
-    Requires: pip install timm
     """
-    try:
-        import timm
-        model = timm.create_model(
-            'vit_small_patch16_224',
-            pretrained=pretrained,
-            num_classes=num_classes
-        )
-        return model
-    except ImportError:
-        print("timm not installed. Using torchvision ViT instead.")
-        return create_vit_model(num_classes, pretrained)
+    model = timm.create_model(
+        'vit_small_patch16_224',
+        pretrained=pretrained,
+        num_classes=num_classes,
+        drop_path_rate=0.1,
+        drop_rate=0.1
+    )
+    return model
+
+
+def create_vit_large(num_classes, pretrained=True, drop_path_rate=0.2, drop_rate=0.1):
+    """
+    Create a large ViT variant using timm library.
+    """
+    model = timm.create_model(
+        'vit_large_patch16_224',
+        pretrained=pretrained,
+        num_classes=num_classes,
+        drop_path_rate=drop_path_rate,
+        drop_rate=drop_rate
+    )
+    return model
