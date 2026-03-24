@@ -7,6 +7,14 @@ import json
 from pathlib import Path
 
 st.set_page_config(page_title="Види грибів", page_icon="🍄", layout="wide")
+st.markdown('<style>[data-testid="stSidebarNav"]{display:none}</style>', unsafe_allow_html=True)
+
+# Sidebar navigation
+with st.sidebar:
+    st.page_link("streamlit_app.py", label="Класифікатор", icon="🔬")
+    st.page_link("pages/2_📖_Про_проєкт.py", label="Про проєкт", icon="📖")
+    st.page_link("pages/3_🍄_Види_грибів.py", label="Види грибів", icon="🍄")
+    st.page_link("pages/4_👥_Команда.py", label="Команда", icon="👥")
 
 # Load species data
 @st.cache_data

@@ -198,6 +198,38 @@ async def get_species_info(species_id: int):
     }
 
 
+@app.post("/attention")
+async def get_attention_map(file: UploadFile = File(...)):
+    """
+    Generate attention rollout heatmap for the uploaded image.
+
+    Returns base64-encoded PNG image showing where the model focuses.
+    """
+    classifier = get_classifier()
+
+    if not classifier.is_loaded:
+        raise HTTPException(status_code=503, detail="Model not loaded")
+
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="Invalid file type")
+
+    try:
+        contents = await file.read()
+        image = Image.open(io.BytesIO(contents))
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Could not read image: {str(e)}")
+
+    attention_map = classifier.get_attention_map(image)
+
+    if attention_map is None:
+        raise HTTPException(
+            status_code=501,
+            detail="Attention maps not supported for this model architecture"
+        )
+
+    return {"attention_map": attention_map}
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

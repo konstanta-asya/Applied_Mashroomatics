@@ -13,3 +13,5 @@ venv/
 .venv-pythonorg/
 .DS_Store
 .idea/
+src/models/*.pth
+*.pth

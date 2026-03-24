@@ -6,11 +6,13 @@ import streamlit as st
 import requests
 from PIL import Image
 import io
+import base64
 
 # Configuration
 API_URL = "http://localhost:8000"
 
 st.set_page_config(page_title="Класифікатор", page_icon="🔬", layout="centered")
+st.markdown('<style>[data-testid="stSidebarNav"]{display:none}</style>', unsafe_allow_html=True)
 
 
 def check_api_health():
@@ -42,6 +44,18 @@ def classify_image(image_bytes, top_k=5, use_tta=False, month=None, habitat=None
         return {"error": "Cannot connect to API. Make sure the server is running."}
     except Exception as e:
         return {"error": str(e)}
+
+
+def get_attention_map(image_bytes):
+    """Get attention map from API."""
+    try:
+        files = {"file": ("image.jpg", image_bytes, "image/jpeg")}
+        response = requests.post(f"{API_URL}/attention", files=files, timeout=30)
+        if response.status_code == 200:
+            return response.json().get("attention_map")
+        return None
+    except:
+        return None
 
 
 def get_edibility_badge(edibility):
@@ -111,6 +125,7 @@ with st.sidebar:
 
     top_k = st.slider("Кількість результатів", 1, 10, 5)
     use_tta = st.checkbox("Test-Time Augmentation", help="Покращує точність, але працює повільніше")
+    show_attention = st.checkbox("🔍 Показати Attention Map", help="Візуалізація: на що дивиться модель")
 
     st.divider()
     st.subheader("📋 Метадані")
@@ -178,6 +193,7 @@ if image_sources:
 
     if st.button("🔍 Визначити гриб", type="primary", use_container_width=True):
         all_results = []
+        attention_maps = []
 
         with st.spinner(f"Аналізую {len(images)} зображень..."):
             for image in images:
@@ -190,9 +206,17 @@ if image_sources:
                 if "error" not in result:
                     all_results.append(result)
 
+                # Get attention map if enabled
+                if show_attention:
+                    img_byte_arr.seek(0)
+                    attn_map = get_attention_map(img_byte_arr.getvalue())
+                    attention_maps.append(attn_map)
+
         if all_results:
             result = combine_predictions(all_results)
             st.session_state.result = result
+            st.session_state.attention_maps = attention_maps if show_attention else []
+            st.session_state.original_images = [img.copy() for img in images]
 
 # Results
 if "result" in st.session_state:
@@ -244,6 +268,28 @@ if "result" in st.session_state:
         name = pred.get("common_name_ua") or pred.get("species_name")
         st.write(f"{i}. **{name}** - {pred['confidence']*100:.1f}% {badge}")
 
+    # Display attention maps if available
+    if "attention_maps" in st.session_state and st.session_state.attention_maps:
+        st.divider()
+        st.markdown("### 🔍 Attention Maps")
+        st.caption("Жовті області — на що модель звертає найбільше уваги")
+
+        attn_cols = st.columns(len(st.session_state.attention_maps))
+        for idx, (col, attn_b64) in enumerate(zip(attn_cols, st.session_state.attention_maps)):
+            with col:
+                if attn_b64:
+                    # Decode base64 to image
+                    attn_bytes = base64.b64decode(attn_b64)
+                    attn_img = Image.open(io.BytesIO(attn_bytes))
+                    st.image(attn_img, caption=f"Attention {idx+1}", use_container_width=True)
+                else:
+                    st.info("Attention map недоступна")
+
     if st.button("🗑️ Очистити"):
-        del st.session_state.result
+        if "result" in st.session_state:
+            del st.session_state.result
+        if "attention_maps" in st.session_state:
+            del st.session_state.attention_maps
+        if "original_images" in st.session_state:
+            del st.session_state.original_images
         st.rerun()

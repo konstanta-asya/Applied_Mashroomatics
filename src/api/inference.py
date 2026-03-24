@@ -1,10 +1,13 @@
 import torch
 import torch.nn.functional as F
+import numpy as np
 from PIL import Image
 from pathlib import Path
-from typing import Union
+from typing import Union, Optional
 import json
 import timm
+import io
+import base64
 
 from .config import settings
 from .schemas import SpeciesPrediction, PredictionResponse, EdibilityStatus, MetadataInput
@@ -291,6 +294,109 @@ class MushroomClassifier:
     @property
     def is_loaded(self) -> bool:
         return self._is_loaded
+
+    @torch.no_grad()
+    def get_attention_map(self, image: Union[Image.Image, str, Path]) -> Optional[str]:
+        """
+        Generate attention rollout map for the image.
+
+        Returns:
+            Base64 encoded PNG image of the attention heatmap overlay
+        """
+        if not self._is_loaded:
+            return None
+
+        # Load image if path provided
+        if isinstance(image, (str, Path)):
+            image = Image.open(image)
+        if image.mode != "RGB":
+            image = image.convert("RGB")
+
+        # Preprocess
+        img_tensor = self.transform(image).unsqueeze(0).to(self.device)
+
+        # Check if model is timm ViT (has blocks attribute)
+        if not hasattr(self.model, 'blocks'):
+            return None  # Attention maps only for timm ViT models
+
+        # Get patch embedding
+        x = self.model.patch_embed(img_tensor)
+        B = x.shape[0]
+
+        # Add CLS token
+        cls_token = self.model.cls_token.expand(B, -1, -1)
+        x = torch.cat([cls_token, x], dim=1)
+
+        # Add position embedding
+        x = x + self.model.pos_embed
+        x = self.model.pos_drop(x)
+
+        # Collect attention from all layers (attention rollout)
+        all_attns = []
+        for block in self.model.blocks:
+            # Get attention weights
+            y = block.norm1(x)
+            B, N, C = y.shape
+
+            qkv = block.attn.qkv(y).reshape(B, N, 3, block.attn.num_heads, C // block.attn.num_heads).permute(2, 0, 3, 1, 4)
+            q, k, v = qkv[0], qkv[1], qkv[2]
+
+            attn = (q @ k.transpose(-2, -1)) * block.attn.scale
+            attn = attn.softmax(dim=-1)
+            all_attns.append(attn.mean(dim=1))  # Average across heads
+
+            # Continue forward pass
+            x = block(x)
+
+        # Attention rollout: multiply attention matrices
+        rollout = torch.eye(all_attns[0].shape[-1]).to(self.device)
+        for attn in all_attns:
+            attn = attn + torch.eye(attn.shape[-1]).to(self.device)  # Add residual connection
+            attn = attn / attn.sum(dim=-1, keepdim=True)  # Normalize
+            rollout = attn @ rollout
+
+        # CLS attention to patches (skip CLS token at index 0)
+        cls_attn = rollout[0, 0, 1:]  # (num_patches,)
+
+        # Reshape to grid
+        num_patches = cls_attn.shape[0]
+        grid_size = int(num_patches ** 0.5)
+        cls_attn = cls_attn.reshape(grid_size, grid_size)
+
+        # Upsample to image size
+        cls_attn = F.interpolate(
+            cls_attn.unsqueeze(0).unsqueeze(0),
+            size=(224, 224),
+            mode='bilinear',
+            align_corners=False
+        )
+        cls_attn = cls_attn.squeeze().cpu().numpy()
+
+        # Normalize to [0, 1]
+        cls_attn = (cls_attn - cls_attn.min()) / (cls_attn.max() - cls_attn.min() + 1e-8)
+
+        # Create overlay image
+        img_resized = image.resize((224, 224))
+        img_array = np.array(img_resized)
+
+        # Create heatmap (using hot colormap manually)
+        heatmap = np.zeros((224, 224, 3), dtype=np.uint8)
+        # Hot colormap: black -> red -> yellow -> white
+        heatmap[:, :, 0] = np.clip(cls_attn * 3, 0, 1) * 255  # Red channel
+        heatmap[:, :, 1] = np.clip(cls_attn * 3 - 1, 0, 1) * 255  # Green channel
+        heatmap[:, :, 2] = np.clip(cls_attn * 3 - 2, 0, 1) * 255  # Blue channel
+
+        # Blend original image with heatmap
+        alpha = 0.5
+        overlay = (img_array * (1 - alpha) + heatmap * alpha).astype(np.uint8)
+
+        # Convert to base64 PNG
+        overlay_img = Image.fromarray(overlay)
+        buffer = io.BytesIO()
+        overlay_img.save(buffer, format='PNG')
+        buffer.seek(0)
+
+        return base64.b64encode(buffer.getvalue()).decode('utf-8')
 
 
 # Global classifier instance (singleton)

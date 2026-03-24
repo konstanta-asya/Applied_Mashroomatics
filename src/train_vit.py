@@ -334,7 +334,6 @@ def main(args):
         val_loss, val_acc = validate(model, val_loader, criterion, device, use_amp)
 
         scheduler.step()
-
         print(f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}%")
         print(f"Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%")
 
