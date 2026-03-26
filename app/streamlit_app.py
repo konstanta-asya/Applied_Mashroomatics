@@ -1,6 +1,6 @@
 """
 Applied Mashroomatics - Mushroom Classification App
-Compare YOLO · CNN · ViT on mushroom photos
+Compare CNN · ViT on mushroom photos
 """
 
 import streamlit as st
@@ -518,24 +518,16 @@ def combine_predictions(results_list):
 
 
 def run_all_models_multiview(images, habitat, substrate, month, models):
-    """Run all models on multiple views and combine results."""
+    """Run CNN and ViT models on multiple views and combine results."""
     metadata = {'habitat': habitat, 'substrate': substrate, 'month': month}
 
     # Collect results from all views
-    all_yolo = []
     all_cnn = []
     all_vit = []
-    yolo_imgs = []
     gradcam_imgs = []
     attn_imgs = []
 
     for img in images:
-        # YOLO (use path for lazy loading)
-        yolo_model = models.get('yolo') or models.get('yolo_path')
-        yolo_result = safe_predict_yolo(img, yolo_model)
-        all_yolo.append(yolo_result)
-        yolo_imgs.append(yolo_result['img'])
-
         # CNN
         cnn_result = safe_predict_cnn(img, models['cnn'], models['id_to_species'])
         all_cnn.append(cnn_result)
@@ -556,18 +548,7 @@ def run_all_models_multiview(images, habitat, substrate, month, models):
     vit_combined = combine_predictions(all_vit)
     vit_combined['attn_imgs'] = attn_imgs
 
-    # YOLO: use most confident or most "dangerous" prediction
-    best_yolo = all_yolo[0]
-    for yolo_result in all_yolo:
-        if yolo_result.get('edible') == False:  # Poisonous takes priority
-            best_yolo = yolo_result
-            break
-        if yolo_result.get('conf', 0) > best_yolo.get('conf', 0):
-            best_yolo = yolo_result
-    best_yolo['all_imgs'] = yolo_imgs
-
     return {
-        'yolo': best_yolo,
         'cnn': cnn_combined,
         'vit': vit_combined,
         'metadata': metadata,
@@ -587,7 +568,7 @@ with st.sidebar:
 
 # ============== Main Page ==============
 st.title("🍄 Applied Mashroomatics")
-st.caption("Classify mushrooms using YOLO, CNN & Vision Transformer")
+st.caption("Classify mushrooms using CNN & Vision Transformer")
 
 # Two-column layout: Input left, Results right
 col_left, col_right = st.columns([1, 2])
