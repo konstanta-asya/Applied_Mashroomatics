@@ -1,0 +1,5278 @@
+{
+  "Mycena crocata": {
+    "months": {
+      "10": 218,
+      "9": 199,
+      "11": 61,
+      "8": 26,
+      "12": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 258,
+      "Unmanaged deciduous woodland": 120,
+      "Mixed woodland (with coniferous and deciduous trees)": 84,
+      "coniferous woodland/plantation": 13,
+      "Bog woodland": 8,
+      "Thorny scrubland": 7,
+      "wooded meadow, grazing forest": 5,
+      "Forest bog": 4,
+      "bog": 2,
+      "garden": 2,
+      "park/churchyard": 1,
+      "salt meadow": 1,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 224,
+      "soil": 150,
+      "leaf or needle litter": 59,
+      "wood": 50,
+      "wood and roots of living trees": 9,
+      "bark of living trees": 3,
+      "bark": 1,
+      "dead stems of herbs, grass etc": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 506
+  },
+  "Agaricus augustus": {
+    "months": {
+      "9": 131,
+      "7": 69,
+      "8": 62,
+      "10": 41,
+      "11": 21,
+      "6": 12,
+      "5": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 78,
+      "park/churchyard": 60,
+      "Mixed woodland (with coniferous and deciduous trees)": 47,
+      "Deciduous woodland": 40,
+      "Unmanaged deciduous woodland": 20,
+      "roadside": 20,
+      "garden": 20,
+      "Unmanaged coniferous woodland": 17,
+      "hedgerow": 9,
+      "lawn": 9,
+      "Thorny scrubland": 5,
+      "natural grassland": 4,
+      "wooded meadow, grazing forest": 3,
+      "other habitat": 2,
+      "improved grassland": 1
+    },
+    "substrates": {
+      "soil": 290,
+      "leaf or needle litter": 29,
+      "wood chips or mulch": 7,
+      "wood and roots of living trees": 5,
+      "faeces": 2,
+      "other substrate": 1
+    },
+    "total_samples": 337
+  },
+  "Russula olivacea": {
+    "months": {
+      "9": 96,
+      "8": 62,
+      "7": 37,
+      "10": 34,
+      "6": 3,
+      "11": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 139,
+      "Unmanaged deciduous woodland": 62,
+      "Mixed woodland (with coniferous and deciduous trees)": 18,
+      "park/churchyard": 15
+    },
+    "substrates": {
+      "soil": 222,
+      "leaf or needle litter": 8,
+      "fungi": 2,
+      "wood": 2
+    },
+    "total_samples": 234
+  },
+  "Boletus edulis": {
+    "months": {
+      "9": 375,
+      "10": 187,
+      "8": 138,
+      "7": 57,
+      "11": 48,
+      "6": 6
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 215,
+      "Deciduous woodland": 195,
+      "Mixed woodland (with coniferous and deciduous trees)": 177,
+      "Unmanaged deciduous woodland": 83,
+      "Unmanaged coniferous woodland": 47,
+      "park/churchyard": 26,
+      "Forest bog": 10,
+      "natural grassland": 10,
+      "roadside": 10,
+      "lawn": 8,
+      "hedgerow": 8,
+      "Acidic oak woodland": 6,
+      "meadow": 5,
+      "heath": 3,
+      "wooded meadow, grazing forest": 3,
+      "Thorny scrubland": 2,
+      "garden": 1,
+      "dune": 1,
+      "ditch": 1
+    },
+    "substrates": {
+      "soil": 670,
+      "leaf or needle litter": 63,
+      "wood and roots of living trees": 31,
+      "mosses": 28,
+      "dead wood (including bark)": 12,
+      "wood": 2,
+      "cones": 2,
+      "other substrate": 1,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 811
+  },
+  "Mycena pseudocorticola": {
+    "months": {
+      "10": 89,
+      "12": 54,
+      "11": 52,
+      "8": 19,
+      "9": 19,
+      "1": 8,
+      "2": 3,
+      "7": 1
+    },
+    "habitats": {
+      "Thorny scrubland": 57,
+      "Deciduous woodland": 29,
+      "Unmanaged deciduous woodland": 25,
+      "Mixed woodland (with coniferous and deciduous trees)": 25,
+      "park/churchyard": 18,
+      "natural grassland": 14,
+      "Willow scrubland": 13,
+      "hedgerow": 13,
+      "garden": 12,
+      "Bog woodland": 10,
+      "bog": 7,
+      "Acidic oak woodland": 6,
+      "heath": 4,
+      "Forest bog": 3,
+      "roadside": 2,
+      "wooded meadow, grazing forest": 2,
+      "lawn": 1,
+      "other habitat": 1,
+      "coniferous woodland/plantation": 1
+    },
+    "substrates": {
+      "bark of living trees": 162,
+      "bark": 45,
+      "dead wood (including bark)": 21,
+      "wood": 11,
+      "mosses": 4,
+      "wood and roots of living trees": 2
+    },
+    "total_samples": 245
+  },
+  "Amanita muscaria": {
+    "months": {
+      "10": 417,
+      "9": 321,
+      "11": 56,
+      "8": 53,
+      "7": 12,
+      "12": 2,
+      "6": 1,
+      "1": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 262,
+      "Mixed woodland (with coniferous and deciduous trees)": 204,
+      "Deciduous woodland": 102,
+      "Unmanaged coniferous woodland": 61,
+      "Unmanaged deciduous woodland": 60,
+      "lawn": 33,
+      "park/churchyard": 22,
+      "roadside": 16,
+      "Thorny scrubland": 16,
+      "natural grassland": 14,
+      "garden": 12,
+      "hedgerow": 10,
+      "Forest bog": 9,
+      "meadow": 7,
+      "salt meadow": 7,
+      "heath": 7,
+      "bog": 4,
+      "ditch": 4,
+      "other habitat": 3,
+      "Acidic oak woodland": 3,
+      "gravel or clay pit": 3,
+      "wooded meadow, grazing forest": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 717,
+      "leaf or needle litter": 53,
+      "wood and roots of living trees": 30,
+      "mosses": 25,
+      "stems of herbs, grass etc": 13,
+      "bark of living trees": 6,
+      "living stems of herbs, grass etc": 6,
+      "dead wood (including bark)": 5,
+      "cones": 2,
+      "wood chips or mulch": 2,
+      "bark": 1,
+      "lichens": 1
+    },
+    "total_samples": 863
+  },
+  "Amanita phalloides": {
+    "months": {
+      "9": 186,
+      "8": 79,
+      "10": 44,
+      "7": 20,
+      "11": 6
+    },
+    "habitats": {
+      "Deciduous woodland": 132,
+      "Unmanaged deciduous woodland": 64,
+      "park/churchyard": 44,
+      "Mixed woodland (with coniferous and deciduous trees)": 41,
+      "hedgerow": 18,
+      "lawn": 9,
+      "coniferous woodland/plantation": 8,
+      "roadside": 7,
+      "garden": 4,
+      "Unmanaged coniferous woodland": 3,
+      "wooded meadow, grazing forest": 2,
+      "gravel or clay pit": 1,
+      "other habitat": 1,
+      "Acidic oak woodland": 1
+    },
+    "substrates": {
+      "soil": 312,
+      "leaf or needle litter": 19,
+      "bark of living trees": 2,
+      "dead wood (including bark)": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 335
+  },
+  "Russula nobilis": {
+    "months": {
+      "9": 49,
+      "10": 48,
+      "8": 37,
+      "7": 17,
+      "11": 11,
+      "6": 2,
+      "12": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 97,
+      "Mixed woodland (with coniferous and deciduous trees)": 24,
+      "Unmanaged deciduous woodland": 22,
+      "park/churchyard": 7,
+      "Bog woodland": 6,
+      "hedgerow": 3,
+      "garden": 2,
+      "Thorny scrubland": 2,
+      "wooded meadow, grazing forest": 1,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "soil": 156,
+      "leaf or needle litter": 9
+    },
+    "total_samples": 165
+  },
+  "Russula decolorans": {
+    "months": {
+      "9": 35,
+      "7": 24,
+      "10": 15,
+      "8": 14,
+      "11": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 38,
+      "Unmanaged coniferous woodland": 31,
+      "Mixed woodland (with coniferous and deciduous trees)": 11,
+      "Bog woodland": 3,
+      "bog": 2,
+      "Deciduous woodland": 1,
+      "lawn": 1,
+      "heath": 1
+    },
+    "substrates": {
+      "soil": 85,
+      "mosses": 2,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 89
+  },
+  "Mycena rosea": {
+    "months": {
+      "10": 248,
+      "9": 184,
+      "11": 69,
+      "8": 21,
+      "12": 10,
+      "7": 6
+    },
+    "habitats": {
+      "Deciduous woodland": 253,
+      "Mixed woodland (with coniferous and deciduous trees)": 112,
+      "Unmanaged deciduous woodland": 100,
+      "Thorny scrubland": 25,
+      "coniferous woodland/plantation": 16,
+      "Acidic oak woodland": 7,
+      "park/churchyard": 7,
+      "wooded meadow, grazing forest": 3,
+      "Unmanaged coniferous woodland": 3,
+      "roadside": 3,
+      "garden": 2,
+      "lawn": 1,
+      "Bog woodland": 1,
+      "other habitat": 1,
+      "hedgerow": 1,
+      "meadow": 1,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 391,
+      "leaf or needle litter": 133,
+      "wood and roots of living trees": 5,
+      "dead wood (including bark)": 4,
+      "wood chips or mulch": 2,
+      "wood": 1,
+      "fruits": 1
+    },
+    "total_samples": 538
+  },
+  "Mycena pelianthina": {
+    "months": {
+      "9": 123,
+      "8": 84,
+      "10": 29,
+      "7": 21,
+      "6": 17,
+      "11": 5
+    },
+    "habitats": {
+      "Deciduous woodland": 147,
+      "Mixed woodland (with coniferous and deciduous trees)": 74,
+      "Unmanaged deciduous woodland": 45,
+      "Thorny scrubland": 4,
+      "coniferous woodland/plantation": 3,
+      "Unmanaged coniferous woodland": 2,
+      "Forest bog": 1,
+      "park/churchyard": 1,
+      "heath": 1
+    },
+    "substrates": {
+      "soil": 207,
+      "leaf or needle litter": 68,
+      "dead wood (including bark)": 1,
+      "stems of herbs, grass etc": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 279
+  },
+  "Mycena metata": {
+    "months": {
+      "11": 92,
+      "10": 56,
+      "12": 34,
+      "9": 12,
+      "1": 5,
+      "8": 5,
+      "7": 1,
+      "2": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 108,
+      "Mixed woodland (with coniferous and deciduous trees)": 25,
+      "Unmanaged coniferous woodland": 16,
+      "Deciduous woodland": 12,
+      "heath": 10,
+      "garden": 7,
+      "natural grassland": 7,
+      "Willow scrubland": 6,
+      "Bog woodland": 4,
+      "park/churchyard": 4,
+      "lawn": 4,
+      "Unmanaged deciduous woodland": 1,
+      "hedgerow": 1,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 73,
+      "soil": 61,
+      "dead wood (including bark)": 47,
+      "bark": 10,
+      "cones": 6,
+      "wood": 4,
+      "mosses": 4,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 206
+  },
+  "Russula risigallina": {
+    "months": {
+      "7": 57,
+      "8": 51,
+      "9": 39,
+      "10": 14,
+      "6": 14
+    },
+    "habitats": {
+      "Deciduous woodland": 106,
+      "Unmanaged deciduous woodland": 30,
+      "park/churchyard": 22,
+      "Mixed woodland (with coniferous and deciduous trees)": 9,
+      "meadow": 3,
+      "Acidic oak woodland": 3,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 171,
+      "dead wood (including bark)": 2,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 175
+  },
+  "Boletus reticulatus": {
+    "months": {
+      "6": 88,
+      "9": 74,
+      "7": 69,
+      "8": 54,
+      "10": 21,
+      "11": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 135,
+      "Unmanaged deciduous woodland": 76,
+      "Mixed woodland (with coniferous and deciduous trees)": 38,
+      "park/churchyard": 34,
+      "lawn": 7,
+      "garden": 4,
+      "Unmanaged coniferous woodland": 4,
+      "coniferous woodland/plantation": 4,
+      "wooded meadow, grazing forest": 3,
+      "roadside": 2,
+      "Acidic oak woodland": 2
+    },
+    "substrates": {
+      "soil": 286,
+      "leaf or needle litter": 8,
+      "wood and roots of living trees": 5,
+      "fungi": 3,
+      "wood chips or mulch": 3,
+      "living stems of herbs, grass etc": 2,
+      "mosses": 2
+    },
+    "total_samples": 309
+  },
+  "Amanita excelsa": {
+    "months": {
+      "7": 150,
+      "9": 145,
+      "6": 75,
+      "8": 73,
+      "10": 64,
+      "11": 5
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 179,
+      "Deciduous woodland": 121,
+      "Mixed woodland (with coniferous and deciduous trees)": 106,
+      "Unmanaged deciduous woodland": 43,
+      "Unmanaged coniferous woodland": 38,
+      "park/churchyard": 12,
+      "roadside": 4,
+      "other habitat": 3,
+      "Acidic oak woodland": 1,
+      "natural grassland": 1,
+      "hedgerow": 1,
+      "garden": 1,
+      "wooded meadow, grazing forest": 1,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "soil": 487,
+      "leaf or needle litter": 11,
+      "wood chips or mulch": 5,
+      "dead wood (including bark)": 4,
+      "mosses": 2,
+      "wood and roots of living trees": 2,
+      "bark of living trees": 1
+    },
+    "total_samples": 512
+  },
+  "Mycena epipterygia": {
+    "months": {
+      "10": 235,
+      "11": 110,
+      "9": 59,
+      "12": 28,
+      "8": 6,
+      "1": 5
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 149,
+      "Mixed woodland (with coniferous and deciduous trees)": 114,
+      "Unmanaged coniferous woodland": 50,
+      "natural grassland": 20,
+      "heath": 18,
+      "Thorny scrubland": 17,
+      "roof": 17,
+      "Deciduous woodland": 14,
+      "dune": 8,
+      "park/churchyard": 7,
+      "bog": 6,
+      "roadside": 6,
+      "Unmanaged deciduous woodland": 5,
+      "Willow scrubland": 3,
+      "Forest bog": 2,
+      "meadow": 2,
+      "garden": 1,
+      "Bog woodland": 1,
+      "Acidic oak woodland": 1,
+      "wooded meadow, grazing forest": 1,
+      "gravel or clay pit": 1
+    },
+    "substrates": {
+      "soil": 241,
+      "leaf or needle litter": 68,
+      "dead wood (including bark)": 52,
+      "cones": 21,
+      "mosses": 17,
+      "stems of herbs, grass etc": 14,
+      "dead stems of herbs, grass etc": 14,
+      "wood": 9,
+      "wood chips or mulch": 3,
+      "other substrate": 1,
+      "bark of living trees": 1
+    },
+    "total_samples": 443
+  },
+  "Mycena galericulata": {
+    "months": {
+      "10": 367,
+      "9": 331,
+      "11": 168,
+      "12": 70,
+      "8": 43,
+      "5": 31,
+      "6": 29,
+      "1": 26,
+      "7": 14,
+      "4": 10,
+      "2": 8,
+      "3": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 250,
+      "Mixed woodland (with coniferous and deciduous trees)": 239,
+      "Unmanaged deciduous woodland": 161,
+      "coniferous woodland/plantation": 83,
+      "Thorny scrubland": 72,
+      "natural grassland": 32,
+      "Forest bog": 29,
+      "heath": 27,
+      "garden": 27,
+      "Bog woodland": 26,
+      "Unmanaged coniferous woodland": 23,
+      "hedgerow": 23,
+      "park/churchyard": 21,
+      "bog": 21,
+      "meadow": 16,
+      "wooded meadow, grazing forest": 13,
+      "salt meadow": 10,
+      "Acidic oak woodland": 6,
+      "roadside": 5,
+      "lawn": 3,
+      "other habitat": 3,
+      "dune": 2,
+      "gravel or clay pit": 2,
+      "rock": 1,
+      "Willow scrubland": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 742,
+      "wood": 181,
+      "soil": 93,
+      "leaf or needle litter": 17,
+      "bark of living trees": 13,
+      "mosses": 10,
+      "stems of herbs, grass etc": 9,
+      "wood and roots of living trees": 7,
+      "fire spot": 7,
+      "bark": 5,
+      "wood chips or mulch": 3,
+      "building stone (e.g. bricks)": 1
+    },
+    "total_samples": 1099
+  },
+  "Russula adusta": {
+    "months": {
+      "9": 319,
+      "10": 154,
+      "8": 77,
+      "7": 40,
+      "11": 10,
+      "1": 3,
+      "3": 1,
+      "6": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 268,
+      "Mixed woodland (with coniferous and deciduous trees)": 95,
+      "Unmanaged deciduous woodland": 92,
+      "coniferous woodland/plantation": 88,
+      "Unmanaged coniferous woodland": 31,
+      "park/churchyard": 8,
+      "Bog woodland": 4,
+      "Acidic oak woodland": 4,
+      "roadside": 4,
+      "Forest bog": 3,
+      "bog": 2,
+      "garden": 2,
+      "hedgerow": 1,
+      "Thorny scrubland": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 570,
+      "leaf or needle litter": 26,
+      "dead wood (including bark)": 2,
+      "wood and roots of living trees": 2,
+      "wood": 2,
+      "mosses": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 605
+  },
+  "Mycena olivaceomarginata": {
+    "months": {
+      "11": 64,
+      "9": 59,
+      "10": 59,
+      "12": 5,
+      "7": 2,
+      "8": 2,
+      "6": 1
+    },
+    "habitats": {
+      "natural grassland": 71,
+      "lawn": 36,
+      "dune": 31,
+      "improved grassland": 8,
+      "Thorny scrubland": 7,
+      "roadside": 7,
+      "Mixed woodland (with coniferous and deciduous trees)": 7,
+      "park/churchyard": 7,
+      "garden": 4,
+      "heath": 4,
+      "salt meadow": 3,
+      "coniferous woodland/plantation": 3,
+      "Unmanaged coniferous woodland": 2,
+      "Deciduous woodland": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 144,
+      "stems of herbs, grass etc": 30,
+      "dead stems of herbs, grass etc": 9,
+      "mosses": 3,
+      "leaf or needle litter": 2,
+      "other substrate": 1,
+      "wood": 1
+    },
+    "total_samples": 192
+  },
+  "Agaricus sylvaticus": {
+    "months": {
+      "9": 60,
+      "10": 53,
+      "11": 25,
+      "8": 12,
+      "7": 5,
+      "12": 5,
+      "6": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 78,
+      "Mixed woodland (with coniferous and deciduous trees)": 24,
+      "Unmanaged coniferous woodland": 14,
+      "Deciduous woodland": 12,
+      "Unmanaged deciduous woodland": 9,
+      "other habitat": 8,
+      "park/churchyard": 8,
+      "roadside": 4,
+      "Forest bog": 3,
+      "natural grassland": 1,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 132,
+      "leaf or needle litter": 28,
+      "other substrate": 2
+    },
+    "total_samples": 162
+  },
+  "Russula fellea": {
+    "months": {
+      "9": 57,
+      "10": 44,
+      "8": 20,
+      "11": 15,
+      "7": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 82,
+      "Mixed woodland (with coniferous and deciduous trees)": 23,
+      "Unmanaged deciduous woodland": 23,
+      "coniferous woodland/plantation": 7,
+      "garden": 2,
+      "park/churchyard": 2
+    },
+    "substrates": {
+      "soil": 124,
+      "leaf or needle litter": 12,
+      "wood": 2,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 139
+  },
+  "Mycena pura": {
+    "months": {
+      "10": 147,
+      "9": 129,
+      "11": 51,
+      "8": 38,
+      "7": 16,
+      "6": 15,
+      "12": 6,
+      "5": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 135,
+      "Mixed woodland (with coniferous and deciduous trees)": 85,
+      "coniferous woodland/plantation": 74,
+      "Unmanaged deciduous woodland": 53,
+      "natural grassland": 17,
+      "park/churchyard": 6,
+      "dune": 5,
+      "lawn": 5,
+      "Thorny scrubland": 3,
+      "Acidic oak woodland": 3,
+      "heath": 3,
+      "wooded meadow, grazing forest": 2,
+      "Willow scrubland": 2,
+      "Unmanaged coniferous woodland": 2,
+      "other habitat": 2,
+      "salt meadow": 1
+    },
+    "substrates": {
+      "soil": 258,
+      "leaf or needle litter": 118,
+      "dead wood (including bark)": 13,
+      "wood": 5,
+      "stems of herbs, grass etc": 2,
+      "other substrate": 1,
+      "mosses": 1
+    },
+    "total_samples": 405
+  },
+  "Clitocybe odora": {
+    "months": {
+      "9": 74,
+      "10": 57,
+      "8": 13,
+      "11": 10
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 48,
+      "Deciduous woodland": 32,
+      "coniferous woodland/plantation": 31,
+      "Unmanaged deciduous woodland": 22,
+      "Thorny scrubland": 11,
+      "park/churchyard": 8,
+      "Acidic oak woodland": 2
+    },
+    "substrates": {
+      "soil": 123,
+      "leaf or needle litter": 26,
+      "dead wood (including bark)": 5
+    },
+    "total_samples": 154
+  },
+  "Agaricus impudicus": {
+    "months": {
+      "10": 140,
+      "11": 92,
+      "9": 84,
+      "12": 41,
+      "8": 26,
+      "7": 13,
+      "1": 7,
+      "6": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 136,
+      "coniferous woodland/plantation": 115,
+      "garden": 32,
+      "Deciduous woodland": 28,
+      "Unmanaged deciduous woodland": 19,
+      "hedgerow": 16,
+      "park/churchyard": 12,
+      "Unmanaged coniferous woodland": 11,
+      "roadside": 10,
+      "lawn": 5,
+      "fallow field": 4,
+      "dune": 4,
+      "bog": 4,
+      "other habitat": 3,
+      "natural grassland": 3,
+      "Bog woodland": 1,
+      "Thorny scrubland": 1
+    },
+    "substrates": {
+      "soil": 325,
+      "leaf or needle litter": 72,
+      "wood chips or mulch": 3,
+      "dead wood (including bark)": 2,
+      "other substrate": 1,
+      "wood": 1
+    },
+    "total_samples": 405
+  },
+  "Mycena inclinata": {
+    "months": {
+      "9": 108,
+      "10": 89,
+      "11": 30,
+      "8": 8,
+      "1": 6,
+      "12": 3,
+      "6": 2,
+      "7": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 109,
+      "Unmanaged deciduous woodland": 72,
+      "Mixed woodland (with coniferous and deciduous trees)": 40,
+      "coniferous woodland/plantation": 6,
+      "park/churchyard": 5,
+      "other habitat": 4,
+      "wooded meadow, grazing forest": 3,
+      "garden": 3,
+      "Unmanaged coniferous woodland": 2,
+      "natural grassland": 1,
+      "Acidic oak woodland": 1,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 151,
+      "wood": 86,
+      "soil": 5,
+      "wood chips or mulch": 3,
+      "wood and roots of living trees": 2
+    },
+    "total_samples": 247
+  },
+  "Russula atropurpurea": {
+    "months": {
+      "9": 102,
+      "8": 56,
+      "10": 48,
+      "7": 21,
+      "11": 6,
+      "6": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 126,
+      "park/churchyard": 40,
+      "Unmanaged deciduous woodland": 21,
+      "Mixed woodland (with coniferous and deciduous trees)": 20,
+      "Acidic oak woodland": 9,
+      "wooded meadow, grazing forest": 8,
+      "lawn": 5,
+      "coniferous woodland/plantation": 4,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 229,
+      "mosses": 2,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 234
+  },
+  "Russula caerulea": {
+    "months": {
+      "10": 23,
+      "9": 22,
+      "8": 15,
+      "7": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 32,
+      "Mixed woodland (with coniferous and deciduous trees)": 19,
+      "Unmanaged coniferous woodland": 8,
+      "dune": 2,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 60,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 62
+  },
+  "Russula aurora": {
+    "months": {
+      "8": 60,
+      "9": 39,
+      "7": 37,
+      "10": 22,
+      "11": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 120,
+      "Unmanaged deciduous woodland": 24,
+      "Mixed woodland (with coniferous and deciduous trees)": 9,
+      "wooded meadow, grazing forest": 1,
+      "park/churchyard": 1,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 159
+    },
+    "total_samples": 160
+  },
+  "Boletus subtomentosus": {
+    "months": {
+      "8": 67,
+      "7": 48,
+      "9": 44,
+      "10": 10,
+      "6": 9
+    },
+    "habitats": {
+      "Unmanaged deciduous woodland": 52,
+      "Deciduous woodland": 46,
+      "Mixed woodland (with coniferous and deciduous trees)": 38,
+      "park/churchyard": 11,
+      "meadow": 8,
+      "wooded meadow, grazing forest": 7,
+      "coniferous woodland/plantation": 5,
+      "ditch": 3,
+      "natural grassland": 3,
+      "garden": 2,
+      "Unmanaged coniferous woodland": 1,
+      "lawn": 1,
+      "Bog woodland": 1
+    },
+    "substrates": {
+      "soil": 173,
+      "dead wood (including bark)": 2,
+      "leaf or needle litter": 2,
+      "wood": 1
+    },
+    "total_samples": 178
+  },
+  "Mycena purpureofusca": {
+    "months": {
+      "9": 21,
+      "3": 14,
+      "7": 13,
+      "5": 7,
+      "6": 5,
+      "8": 5,
+      "2": 4,
+      "11": 4,
+      "1": 2,
+      "12": 2,
+      "10": 2,
+      "4": 1
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 30,
+      "coniferous woodland/plantation": 18,
+      "Unmanaged coniferous woodland": 18,
+      "Deciduous woodland": 7,
+      "Unmanaged deciduous woodland": 7
+    },
+    "substrates": {
+      "dead wood (including bark)": 36,
+      "wood": 22,
+      "leaf or needle litter": 6,
+      "bark": 5,
+      "soil": 4,
+      "bark of living trees": 2
+    },
+    "total_samples": 80
+  },
+  "Boletus aereus": {
+    "months": {
+      "9": 25,
+      "8": 22,
+      "10": 17,
+      "7": 6,
+      "11": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 49,
+      "Unmanaged deciduous woodland": 17,
+      "Mixed woodland (with coniferous and deciduous trees)": 3,
+      "park/churchyard": 2
+    },
+    "substrates": {
+      "soil": 67,
+      "leaf or needle litter": 4
+    },
+    "total_samples": 71
+  },
+  "Mycena abramsii": {
+    "months": {
+      "6": 42,
+      "5": 35,
+      "7": 24,
+      "9": 18,
+      "8": 16,
+      "4": 12,
+      "10": 6,
+      "11": 5
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 46,
+      "Deciduous woodland": 34,
+      "coniferous woodland/plantation": 30,
+      "Unmanaged deciduous woodland": 19,
+      "Thorny scrubland": 11,
+      "natural grassland": 6,
+      "Unmanaged coniferous woodland": 3,
+      "Forest bog": 3,
+      "Willow scrubland": 2,
+      "garden": 1
+    },
+    "substrates": {
+      "wood": 72,
+      "soil": 28,
+      "dead wood (including bark)": 26,
+      "leaf or needle litter": 18,
+      "wood chips or mulch": 5,
+      "bark of living trees": 2,
+      "cones": 2,
+      "bark": 2
+    },
+    "total_samples": 158
+  },
+  "Amanita fulva": {
+    "months": {
+      "9": 217,
+      "8": 157,
+      "7": 106,
+      "10": 60,
+      "6": 35
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 197,
+      "Deciduous woodland": 164,
+      "Unmanaged deciduous woodland": 57,
+      "coniferous woodland/plantation": 54,
+      "Forest bog": 28,
+      "Unmanaged coniferous woodland": 26,
+      "Bog woodland": 11,
+      "Acidic oak woodland": 10,
+      "park/churchyard": 8,
+      "heath": 5,
+      "bog": 5,
+      "natural grassland": 4,
+      "wooded meadow, grazing forest": 3,
+      "Thorny scrubland": 2,
+      "other habitat": 1
+    },
+    "substrates": {
+      "soil": 527,
+      "leaf or needle litter": 21,
+      "mosses": 10,
+      "dead wood (including bark)": 8,
+      "peat mosses": 5,
+      "wood and roots of living trees": 3
+    },
+    "total_samples": 575
+  },
+  "Mycena polygramma": {
+    "months": {
+      "11": 97,
+      "10": 96,
+      "12": 35,
+      "9": 27,
+      "1": 16,
+      "8": 4,
+      "4": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 87,
+      "Mixed woodland (with coniferous and deciduous trees)": 65,
+      "Unmanaged deciduous woodland": 45,
+      "Thorny scrubland": 14,
+      "coniferous woodland/plantation": 12,
+      "garden": 10,
+      "Acidic oak woodland": 6,
+      "lawn": 6,
+      "wooded meadow, grazing forest": 6,
+      "Bog woodland": 5,
+      "hedgerow": 5,
+      "park/churchyard": 5,
+      "natural grassland": 4,
+      "other habitat": 3,
+      "heath": 2,
+      "salt meadow": 2
+    },
+    "substrates": {
+      "dead wood (including bark)": 111,
+      "soil": 65,
+      "wood": 49,
+      "leaf or needle litter": 29,
+      "wood and roots of living trees": 4,
+      "bark of living trees": 3,
+      "bark": 3,
+      "stems of herbs, grass etc": 3,
+      "wood chips or mulch": 3,
+      "mosses": 2,
+      "other substrate": 2,
+      "cones": 1
+    },
+    "total_samples": 278
+  },
+  "Clitocybe phyllophila": {
+    "months": {
+      "10": 93,
+      "9": 37,
+      "11": 36,
+      "8": 6
+    },
+    "habitats": {
+      "Deciduous woodland": 63,
+      "coniferous woodland/plantation": 45,
+      "Mixed woodland (with coniferous and deciduous trees)": 34,
+      "Unmanaged deciduous woodland": 22,
+      "Thorny scrubland": 6,
+      "hedgerow": 1,
+      "heath": 1
+    },
+    "substrates": {
+      "soil": 105,
+      "leaf or needle litter": 67
+    },
+    "total_samples": 172
+  },
+  "Agaricus bisporus": {
+    "months": {
+      "5": 9,
+      "11": 8,
+      "10": 5,
+      "6": 3,
+      "9": 3,
+      "4": 3,
+      "8": 2
+    },
+    "habitats": {
+      "garden": 8,
+      "salt meadow": 5,
+      "improved grassland": 3,
+      "wooded meadow, grazing forest": 3,
+      "other habitat": 3,
+      "roadside": 3,
+      "fallow field": 2,
+      "Unmanaged coniferous woodland": 2,
+      "park/churchyard": 2,
+      "natural grassland": 2
+    },
+    "substrates": {
+      "soil": 28,
+      "living stems of herbs, grass etc": 3
+    },
+    "total_samples": 33
+  },
+  "Agaricus campestris": {
+    "months": {
+      "8": 126,
+      "9": 107,
+      "7": 105,
+      "10": 97,
+      "6": 20,
+      "11": 18,
+      "5": 6,
+      "12": 1
+    },
+    "habitats": {
+      "lawn": 161,
+      "natural grassland": 82,
+      "park/churchyard": 78,
+      "roadside": 75,
+      "improved grassland": 21,
+      "salt meadow": 17,
+      "garden": 13,
+      "meadow": 9,
+      "wooded meadow, grazing forest": 6,
+      "Deciduous woodland": 5,
+      "fallow field": 5,
+      "Thorny scrubland": 2,
+      "other habitat": 2,
+      "dune": 2,
+      "Unmanaged deciduous woodland": 1
+    },
+    "substrates": {
+      "soil": 455,
+      "stems of herbs, grass etc": 10,
+      "living stems of herbs, grass etc": 6,
+      "faeces": 3,
+      "leaf or needle litter": 2,
+      "fungi": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 480
+  },
+  "Agaricus bernardii": {
+    "months": {
+      "8": 30,
+      "9": 29,
+      "7": 18,
+      "6": 13,
+      "5": 8,
+      "10": 6,
+      "11": 2
+    },
+    "habitats": {
+      "roadside": 59,
+      "park/churchyard": 17,
+      "lawn": 15,
+      "natural grassland": 4,
+      "meadow": 4,
+      "other habitat": 2,
+      "Thorny scrubland": 2,
+      "Deciduous woodland": 2,
+      "salt meadow": 1
+    },
+    "substrates": {
+      "soil": 101,
+      "leaf or needle litter": 3,
+      "other substrate": 2
+    },
+    "total_samples": 106
+  },
+  "Clitocybe nebularis": {
+    "months": {
+      "10": 664,
+      "11": 277,
+      "9": 33,
+      "12": 24,
+      "1": 5
+    },
+    "habitats": {
+      "Deciduous woodland": 297,
+      "Unmanaged deciduous woodland": 186,
+      "Mixed woodland (with coniferous and deciduous trees)": 181,
+      "coniferous woodland/plantation": 120,
+      "Unmanaged coniferous woodland": 53,
+      "park/churchyard": 48,
+      "garden": 34,
+      "Thorny scrubland": 15,
+      "lawn": 12,
+      "natural grassland": 12,
+      "roadside": 10,
+      "hedgerow": 8,
+      "wooded meadow, grazing forest": 6,
+      "heath": 5,
+      "Acidic oak woodland": 5,
+      "salt meadow": 4,
+      "bog": 2,
+      "meadow": 2,
+      "Willow scrubland": 2,
+      "ditch": 1
+    },
+    "substrates": {
+      "soil": 718,
+      "leaf or needle litter": 200,
+      "dead wood (including bark)": 28,
+      "wood chips or mulch": 21,
+      "wood and roots of living trees": 13,
+      "wood": 12,
+      "mosses": 5,
+      "dead stems of herbs, grass etc": 4,
+      "bark of living trees": 2
+    },
+    "total_samples": 1003
+  },
+  "Russula violeipes": {
+    "months": {
+      "8": 93,
+      "9": 55,
+      "7": 42,
+      "10": 6,
+      "6": 3,
+      "11": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 85,
+      "Unmanaged deciduous woodland": 52,
+      "Mixed woodland (with coniferous and deciduous trees)": 42,
+      "park/churchyard": 13,
+      "coniferous woodland/plantation": 7,
+      "roadside": 1
+    },
+    "substrates": {
+      "soil": 193,
+      "leaf or needle litter": 5,
+      "wood and roots of living trees": 2
+    },
+    "total_samples": 200
+  },
+  "Mycena silvae-nigrae": {
+    "months": {
+      "4": 25,
+      "5": 16,
+      "2": 5,
+      "3": 4
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 32,
+      "Mixed woodland (with coniferous and deciduous trees)": 9,
+      "Unmanaged coniferous woodland": 6,
+      "Deciduous woodland": 3
+    },
+    "substrates": {
+      "dead wood (including bark)": 24,
+      "wood": 17,
+      "mosses": 4,
+      "soil": 2
+    },
+    "total_samples": 50
+  },
+  "Mycena aetites": {
+    "months": {
+      "10": 113,
+      "11": 48,
+      "9": 27,
+      "12": 3,
+      "6": 2,
+      "8": 1,
+      "7": 1
+    },
+    "habitats": {
+      "lawn": 56,
+      "natural grassland": 55,
+      "park/churchyard": 19,
+      "garden": 17,
+      "dune": 13,
+      "Mixed woodland (with coniferous and deciduous trees)": 7,
+      "salt meadow": 6,
+      "coniferous woodland/plantation": 5,
+      "roadside": 5,
+      "improved grassland": 3,
+      "ditch": 3,
+      "Thorny scrubland": 2,
+      "bog": 1,
+      "heath": 1,
+      "other habitat": 1
+    },
+    "substrates": {
+      "soil": 172,
+      "mosses": 8,
+      "leaf or needle litter": 7,
+      "stems of herbs, grass etc": 6
+    },
+    "total_samples": 195
+  },
+  "Amanita rubescens": {
+    "months": {
+      "9": 228,
+      "7": 161,
+      "8": 142,
+      "10": 83,
+      "6": 77,
+      "11": 12,
+      "5": 8,
+      "12": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 148,
+      "Deciduous woodland": 144,
+      "coniferous woodland/plantation": 129,
+      "Unmanaged deciduous woodland": 75,
+      "park/churchyard": 48,
+      "garden": 36,
+      "Unmanaged coniferous woodland": 33,
+      "Thorny scrubland": 33,
+      "lawn": 18,
+      "roadside": 13,
+      "natural grassland": 9,
+      "hedgerow": 8,
+      "wooded meadow, grazing forest": 7,
+      "Forest bog": 5,
+      "Bog woodland": 2,
+      "dune": 2,
+      "heath": 1,
+      "Acidic oak woodland": 1,
+      "meadow": 1
+    },
+    "substrates": {
+      "soil": 651,
+      "leaf or needle litter": 30,
+      "wood and roots of living trees": 13,
+      "stems of herbs, grass etc": 6,
+      "mosses": 6,
+      "wood chips or mulch": 5,
+      "living stems of herbs, grass etc": 2
+    },
+    "total_samples": 713
+  },
+  "Agaricus sylvicola": {
+    "months": {
+      "10": 101,
+      "9": 81,
+      "8": 58,
+      "11": 38,
+      "7": 17,
+      "6": 7,
+      "5": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 119,
+      "Deciduous woodland": 68,
+      "Mixed woodland (with coniferous and deciduous trees)": 57,
+      "roadside": 13,
+      "Unmanaged deciduous woodland": 12,
+      "natural grassland": 10,
+      "Thorny scrubland": 7,
+      "hedgerow": 6,
+      "wooded meadow, grazing forest": 5,
+      "Unmanaged coniferous woodland": 3,
+      "garden": 2
+    },
+    "substrates": {
+      "soil": 270,
+      "leaf or needle litter": 30,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 304
+  },
+  "Agaricus litoralis": {
+    "months": {
+      "10": 21,
+      "8": 17,
+      "6": 11,
+      "7": 10,
+      "11": 8,
+      "9": 7,
+      "5": 3
+    },
+    "habitats": {
+      "natural grassland": 29,
+      "salt meadow": 15,
+      "roadside": 10,
+      "lawn": 6,
+      "meadow": 5,
+      "dune": 4,
+      "gravel or clay pit": 3,
+      "improved grassland": 3,
+      "park/churchyard": 2
+    },
+    "substrates": {
+      "soil": 77
+    },
+    "total_samples": 77
+  },
+  "Russula nitida": {
+    "months": {
+      "8": 47,
+      "9": 37,
+      "10": 32,
+      "7": 25,
+      "11": 3,
+      "6": 3
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 44,
+      "Deciduous woodland": 21,
+      "Unmanaged coniferous woodland": 14,
+      "coniferous woodland/plantation": 14,
+      "Willow scrubland": 10,
+      "Forest bog": 9,
+      "garden": 8,
+      "lawn": 7,
+      "Bog woodland": 6,
+      "hedgerow": 3,
+      "park/churchyard": 3,
+      "Unmanaged deciduous woodland": 3,
+      "bog": 2,
+      "natural grassland": 2,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 142,
+      "wood": 2,
+      "peat mosses": 2,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 148
+  },
+  "Russula grisea": {
+    "months": {
+      "7": 22,
+      "9": 14,
+      "8": 14,
+      "6": 10,
+      "10": 9,
+      "5": 1
+    },
+    "habitats": {
+      "park/churchyard": 31,
+      "Deciduous woodland": 15,
+      "Mixed woodland (with coniferous and deciduous trees)": 9,
+      "Unmanaged deciduous woodland": 8,
+      "coniferous woodland/plantation": 3,
+      "Unmanaged coniferous woodland": 2,
+      "wooded meadow, grazing forest": 1,
+      "roadside": 1
+    },
+    "substrates": {
+      "soil": 66,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 70
+  },
+  "Russula sardonia": {
+    "months": {
+      "10": 62,
+      "9": 46,
+      "8": 10,
+      "11": 3
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 65,
+      "Mixed woodland (with coniferous and deciduous trees)": 33,
+      "Unmanaged coniferous woodland": 10,
+      "roadside": 4,
+      "bog": 4,
+      "natural grassland": 3,
+      "lawn": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 118,
+      "leaf or needle litter": 3
+    },
+    "total_samples": 121
+  },
+  "Agaricus xanthodermus": {
+    "months": {
+      "9": 128,
+      "8": 90,
+      "10": 83,
+      "7": 43,
+      "6": 36,
+      "11": 19,
+      "5": 2
+    },
+    "habitats": {
+      "park/churchyard": 179,
+      "lawn": 68,
+      "garden": 48,
+      "roadside": 23,
+      "Deciduous woodland": 22,
+      "Unmanaged deciduous woodland": 12,
+      "bog": 11,
+      "natural grassland": 10,
+      "hedgerow": 10,
+      "Mixed woodland (with coniferous and deciduous trees)": 5,
+      "meadow": 5,
+      "coniferous woodland/plantation": 4,
+      "Thorny scrubland": 2,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 386,
+      "leaf or needle litter": 8,
+      "wood and roots of living trees": 2,
+      "other substrate": 2,
+      "wood chips or mulch": 1,
+      "mosses": 1
+    },
+    "total_samples": 401
+  },
+  "Agaricus arvensis": {
+    "months": {
+      "9": 124,
+      "10": 74,
+      "8": 67,
+      "6": 61,
+      "7": 50,
+      "11": 41,
+      "5": 17,
+      "12": 3
+    },
+    "habitats": {
+      "lawn": 91,
+      "roadside": 91,
+      "park/churchyard": 87,
+      "natural grassland": 32,
+      "garden": 24,
+      "Deciduous woodland": 23,
+      "Mixed woodland (with coniferous and deciduous trees)": 14,
+      "Thorny scrubland": 13,
+      "hedgerow": 10,
+      "coniferous woodland/plantation": 10,
+      "salt meadow": 7,
+      "other habitat": 6,
+      "meadow": 6,
+      "Unmanaged coniferous woodland": 5,
+      "Unmanaged deciduous woodland": 4,
+      "bog": 3,
+      "Bog woodland": 2,
+      "fertilized field in rotation": 2,
+      "wooded meadow, grazing forest": 2,
+      "Willow scrubland": 2,
+      "improved grassland": 1,
+      "ditch": 1,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "soil": 414,
+      "stems of herbs, grass etc": 8,
+      "leaf or needle litter": 5,
+      "wood chips or mulch": 5
+    },
+    "total_samples": 437
+  },
+  "Russula paludosa": {
+    "months": {
+      "9": 102,
+      "7": 80,
+      "10": 57,
+      "8": 42,
+      "6": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 142,
+      "Mixed woodland (with coniferous and deciduous trees)": 61,
+      "Unmanaged coniferous woodland": 53,
+      "heath": 7,
+      "Forest bog": 4,
+      "Unmanaged deciduous woodland": 3,
+      "Deciduous woodland": 2,
+      "Thorny scrubland": 2,
+      "roadside": 2,
+      "bog": 2,
+      "natural grassland": 1,
+      "lawn": 1,
+      "hedgerow": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 265,
+      "mosses": 9,
+      "leaf or needle litter": 3,
+      "wood and roots of living trees": 3,
+      "bark of living trees": 2
+    },
+    "total_samples": 282
+  },
+  "Amanita pantherina": {
+    "months": {
+      "9": 154,
+      "10": 81,
+      "8": 44,
+      "11": 19,
+      "7": 14,
+      "6": 6
+    },
+    "habitats": {
+      "Deciduous woodland": 125,
+      "Unmanaged deciduous woodland": 53,
+      "Mixed woodland (with coniferous and deciduous trees)": 44,
+      "park/churchyard": 32,
+      "coniferous woodland/plantation": 22,
+      "hedgerow": 11,
+      "lawn": 7,
+      "Unmanaged coniferous woodland": 6,
+      "natural grassland": 5,
+      "garden": 4,
+      "salt meadow": 2,
+      "wooded meadow, grazing forest": 2,
+      "roadside": 2,
+      "Forest bog": 2,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 308,
+      "leaf or needle litter": 7,
+      "wood and roots of living trees": 2,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 318
+  },
+  "Mycena leptocephala": {
+    "months": {
+      "10": 102,
+      "9": 93,
+      "11": 52,
+      "8": 19,
+      "5": 11,
+      "7": 8,
+      "3": 7,
+      "4": 7,
+      "2": 4,
+      "6": 2,
+      "12": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 60,
+      "natural grassland": 39,
+      "Deciduous woodland": 25,
+      "Mixed woodland (with coniferous and deciduous trees)": 23,
+      "park/churchyard": 18,
+      "lawn": 17,
+      "Bog woodland": 16,
+      "dune": 15,
+      "garden": 12,
+      "roadside": 11,
+      "salt meadow": 11,
+      "Unmanaged deciduous woodland": 10,
+      "meadow": 7,
+      "hedgerow": 6,
+      "Forest bog": 6,
+      "bog": 6,
+      "Thorny scrubland": 5,
+      "Unmanaged coniferous woodland": 4,
+      "gravel or clay pit": 4,
+      "Willow scrubland": 3,
+      "fallow field": 3,
+      "heath": 2,
+      "wooded meadow, grazing forest": 1,
+      "improved grassland": 1
+    },
+    "substrates": {
+      "soil": 173,
+      "dead wood (including bark)": 33,
+      "leaf or needle litter": 28,
+      "wood": 24,
+      "stems of herbs, grass etc": 15,
+      "wood chips or mulch": 10,
+      "mosses": 7,
+      "bark": 5,
+      "dead stems of herbs, grass etc": 4,
+      "cones": 3,
+      "fire spot": 1,
+      "wood and roots of living trees": 1
+    },
+    "total_samples": 307
+  },
+  "Amanita gemmata": {
+    "months": {
+      "10": 82,
+      "9": 52,
+      "11": 43,
+      "8": 9,
+      "12": 6,
+      "6": 5,
+      "7": 5,
+      "4": 4,
+      "5": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 80,
+      "Unmanaged coniferous woodland": 52,
+      "Mixed woodland (with coniferous and deciduous trees)": 52,
+      "dune": 10,
+      "Thorny scrubland": 5,
+      "park/churchyard": 2,
+      "Unmanaged deciduous woodland": 2,
+      "Forest bog": 1,
+      "other habitat": 1,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 197,
+      "leaf or needle litter": 9
+    },
+    "total_samples": 207
+  },
+  "Russula aeruginea": {
+    "months": {
+      "9": 59,
+      "8": 33,
+      "7": 20,
+      "6": 15,
+      "10": 13,
+      "11": 13
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 47,
+      "coniferous woodland/plantation": 21,
+      "lawn": 18,
+      "park/churchyard": 18,
+      "Deciduous woodland": 17,
+      "Unmanaged coniferous woodland": 8,
+      "Unmanaged deciduous woodland": 6,
+      "garden": 5,
+      "Forest bog": 4,
+      "roadside": 4,
+      "heath": 2,
+      "natural grassland": 1,
+      "hedgerow": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 137,
+      "dead wood (including bark)": 4,
+      "living stems of herbs, grass etc": 4,
+      "leaf or needle litter": 3,
+      "bark": 2,
+      "stems of herbs, grass etc": 2,
+      "liverworts": 1
+    },
+    "total_samples": 153
+  },
+  "Russula velenovskyi": {
+    "months": {
+      "8": 52,
+      "9": 39,
+      "10": 36,
+      "7": 36,
+      "11": 13
+    },
+    "habitats": {
+      "Deciduous woodland": 51,
+      "Mixed woodland (with coniferous and deciduous trees)": 31,
+      "coniferous woodland/plantation": 21,
+      "lawn": 19,
+      "garden": 15,
+      "Unmanaged deciduous woodland": 12,
+      "park/churchyard": 10,
+      "Forest bog": 6,
+      "roadside": 4,
+      "Thorny scrubland": 3,
+      "bog": 2,
+      "Bog woodland": 2
+    },
+    "substrates": {
+      "soil": 172,
+      "leaf or needle litter": 4
+    },
+    "total_samples": 176
+  },
+  "Amanita crocea": {
+    "months": {
+      "9": 43,
+      "8": 28,
+      "7": 16,
+      "10": 11,
+      "11": 5,
+      "6": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 37,
+      "park/churchyard": 18,
+      "garden": 13,
+      "Mixed woodland (with coniferous and deciduous trees)": 12,
+      "coniferous woodland/plantation": 7,
+      "other habitat": 5,
+      "Unmanaged deciduous woodland": 4,
+      "natural grassland": 3,
+      "Forest bog": 2,
+      "lawn": 2,
+      "Unmanaged coniferous woodland": 1
+    },
+    "substrates": {
+      "soil": 101,
+      "dead wood (including bark)": 1,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 104
+  },
+  "Russula vesca": {
+    "months": {
+      "7": 126,
+      "8": 98,
+      "9": 87,
+      "6": 29,
+      "10": 23
+    },
+    "habitats": {
+      "Deciduous woodland": 108,
+      "Mixed woodland (with coniferous and deciduous trees)": 90,
+      "Unmanaged deciduous woodland": 68,
+      "coniferous woodland/plantation": 23,
+      "Unmanaged coniferous woodland": 12,
+      "park/churchyard": 11,
+      "wooded meadow, grazing forest": 10,
+      "roadside": 7,
+      "garden": 7,
+      "natural grassland": 7,
+      "Thorny scrubland": 5,
+      "lawn": 4,
+      "Forest bog": 3,
+      "other habitat": 2,
+      "Acidic oak woodland": 2,
+      "bog": 2,
+      "heath": 1
+    },
+    "substrates": {
+      "soil": 339,
+      "leaf or needle litter": 10,
+      "mosses": 6,
+      "stems of herbs, grass etc": 3,
+      "living leaves": 2
+    },
+    "total_samples": 363
+  },
+  "Agaricus lanipes": {
+    "months": {
+      "9": 19,
+      "11": 6,
+      "10": 5,
+      "8": 4
+    },
+    "habitats": {
+      "Unmanaged deciduous woodland": 6,
+      "Deciduous woodland": 5,
+      "roadside": 5,
+      "lawn": 4,
+      "park/churchyard": 4,
+      "wooded meadow, grazing forest": 3,
+      "Mixed woodland (with coniferous and deciduous trees)": 2,
+      "natural grassland": 2,
+      "hedgerow": 2
+    },
+    "substrates": {
+      "soil": 33
+    },
+    "total_samples": 34
+  },
+  "Mycena vitilis": {
+    "months": {
+      "11": 100,
+      "10": 57,
+      "8": 37,
+      "12": 33,
+      "9": 30,
+      "6": 21,
+      "1": 16,
+      "7": 14,
+      "5": 9,
+      "2": 4
+    },
+    "habitats": {
+      "Deciduous woodland": 111,
+      "Mixed woodland (with coniferous and deciduous trees)": 65,
+      "Unmanaged deciduous woodland": 52,
+      "Thorny scrubland": 23,
+      "wooded meadow, grazing forest": 14,
+      "park/churchyard": 10,
+      "Bog woodland": 9,
+      "coniferous woodland/plantation": 7,
+      "garden": 7,
+      "lawn": 5,
+      "natural grassland": 5,
+      "Forest bog": 4,
+      "hedgerow": 4,
+      "other habitat": 2,
+      "dune": 2,
+      "roadside": 1,
+      "bog": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 103,
+      "soil": 103,
+      "wood": 58,
+      "leaf or needle litter": 46,
+      "dead stems of herbs, grass etc": 3,
+      "stems of herbs, grass etc": 3,
+      "mosses": 3
+    },
+    "total_samples": 323
+  },
+  "Russula foetens": {
+    "months": {
+      "9": 71,
+      "8": 43,
+      "7": 27,
+      "10": 26,
+      "6": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 59,
+      "Unmanaged deciduous woodland": 34,
+      "Mixed woodland (with coniferous and deciduous trees)": 32,
+      "park/churchyard": 26,
+      "coniferous woodland/plantation": 9,
+      "garden": 4,
+      "Unmanaged coniferous woodland": 3,
+      "wooded meadow, grazing forest": 1,
+      "Forest bog": 1,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 167,
+      "leaf or needle litter": 3
+    },
+    "total_samples": 170
+  },
+  "Mycena tintinnabulum": {
+    "months": {
+      "1": 109,
+      "2": 75,
+      "12": 66,
+      "3": 40,
+      "11": 19,
+      "4": 9,
+      "10": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 154,
+      "Unmanaged deciduous woodland": 82,
+      "Mixed woodland (with coniferous and deciduous trees)": 47,
+      "Bog woodland": 12,
+      "Forest bog": 7,
+      "wooded meadow, grazing forest": 5,
+      "coniferous woodland/plantation": 3,
+      "hedgerow": 2,
+      "park/churchyard": 2,
+      "Unmanaged coniferous woodland": 1,
+      "lawn": 1,
+      "natural grassland": 1,
+      "roadside": 1,
+      "Willow scrubland": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 166,
+      "wood": 145,
+      "bark": 4,
+      "wood and roots of living trees": 2,
+      "soil": 1
+    },
+    "total_samples": 319
+  },
+  "Russula heterophylla": {
+    "months": {
+      "7": 52,
+      "9": 51,
+      "8": 30,
+      "10": 17,
+      "6": 7,
+      "11": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 62,
+      "Unmanaged deciduous woodland": 33,
+      "park/churchyard": 28,
+      "Mixed woodland (with coniferous and deciduous trees)": 24,
+      "wooded meadow, grazing forest": 5,
+      "natural grassland": 4,
+      "coniferous woodland/plantation": 4
+    },
+    "substrates": {
+      "soil": 153,
+      "leaf or needle litter": 4,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 160
+  },
+  "Boletus ferrugineus": {
+    "months": {
+      "9": 191,
+      "8": 121,
+      "10": 99,
+      "7": 55,
+      "11": 27,
+      "6": 21,
+      "12": 3
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 135,
+      "Deciduous woodland": 109,
+      "Mixed woodland (with coniferous and deciduous trees)": 108,
+      "Unmanaged deciduous woodland": 40,
+      "Unmanaged coniferous woodland": 32,
+      "park/churchyard": 24,
+      "natural grassland": 15,
+      "lawn": 11,
+      "garden": 11,
+      "Thorny scrubland": 10,
+      "roadside": 9,
+      "other habitat": 4,
+      "gravel or clay pit": 4,
+      "wooded meadow, grazing forest": 1,
+      "Bog woodland": 1
+    },
+    "substrates": {
+      "soil": 484,
+      "leaf or needle litter": 17,
+      "dead wood (including bark)": 5,
+      "stems of herbs, grass etc": 4,
+      "mosses": 3,
+      "wood chips or mulch": 2,
+      "fungi": 2
+    },
+    "total_samples": 517
+  },
+  "Russula fragilis": {
+    "months": {
+      "10": 104,
+      "9": 45,
+      "11": 27,
+      "8": 8,
+      "7": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 71,
+      "Deciduous woodland": 39,
+      "coniferous woodland/plantation": 15,
+      "lawn": 10,
+      "natural grassland": 9,
+      "other habitat": 9,
+      "park/churchyard": 7,
+      "Unmanaged deciduous woodland": 6,
+      "Acidic oak woodland": 5,
+      "roadside": 4,
+      "improved grassland": 3,
+      "Thorny scrubland": 3,
+      "meadow": 2,
+      "wooded meadow, grazing forest": 1,
+      "Forest bog": 1,
+      "Bog woodland": 1
+    },
+    "substrates": {
+      "soil": 185,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 186
+  },
+  "Russula ochroleuca": {
+    "months": {
+      "10": 269,
+      "9": 188,
+      "11": 83,
+      "8": 75,
+      "12": 10,
+      "7": 9,
+      "6": 2,
+      "1": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 178,
+      "coniferous woodland/plantation": 149,
+      "Deciduous woodland": 148,
+      "Unmanaged deciduous woodland": 58,
+      "Unmanaged coniferous woodland": 41,
+      "park/churchyard": 13,
+      "Thorny scrubland": 13,
+      "natural grassland": 11,
+      "wooded meadow, grazing forest": 6,
+      "garden": 6,
+      "Bog woodland": 5,
+      "other habitat": 3,
+      "bog": 2,
+      "lawn": 1,
+      "heath": 1,
+      "roadside": 1,
+      "hedgerow": 1
+    },
+    "substrates": {
+      "soil": 585,
+      "leaf or needle litter": 33,
+      "mosses": 8,
+      "wood and roots of living trees": 8,
+      "dead wood (including bark)": 3
+    },
+    "total_samples": 638
+  },
+  "Russula depallens": {
+    "months": {
+      "7": 96,
+      "8": 55,
+      "9": 44,
+      "10": 34,
+      "6": 34,
+      "5": 6,
+      "11": 3
+    },
+    "habitats": {
+      "park/churchyard": 68,
+      "Mixed woodland (with coniferous and deciduous trees)": 32,
+      "lawn": 31,
+      "Deciduous woodland": 26,
+      "garden": 24,
+      "roadside": 21,
+      "gravel or clay pit": 19,
+      "coniferous woodland/plantation": 13,
+      "natural grassland": 8,
+      "Unmanaged deciduous woodland": 8,
+      "hedgerow": 8,
+      "Willow scrubland": 3,
+      "other habitat": 3,
+      "Bog woodland": 2,
+      "Thorny scrubland": 2,
+      "Forest bog": 1,
+      "salt meadow": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 269,
+      "other substrate": 1
+    },
+    "total_samples": 272
+  },
+  "Clitocybe gibba": {
+    "months": {
+      "9": 95,
+      "8": 82,
+      "10": 37,
+      "7": 26,
+      "6": 10,
+      "11": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 115,
+      "Mixed woodland (with coniferous and deciduous trees)": 59,
+      "Unmanaged deciduous woodland": 22,
+      "Unmanaged coniferous woodland": 21,
+      "coniferous woodland/plantation": 20,
+      "other habitat": 5,
+      "park/churchyard": 2,
+      "wooded meadow, grazing forest": 2,
+      "heath": 2,
+      "garden": 1,
+      "Acidic oak woodland": 1,
+      "natural grassland": 1,
+      "meadow": 1,
+      "Thorny scrubland": 1
+    },
+    "substrates": {
+      "soil": 182,
+      "leaf or needle litter": 65,
+      "dead wood (including bark)": 2,
+      "mosses": 2,
+      "wood": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 253
+  },
+  "Russula virescens": {
+    "months": {
+      "8": 79,
+      "9": 35,
+      "7": 27,
+      "10": 7
+    },
+    "habitats": {
+      "Deciduous woodland": 83,
+      "Mixed woodland (with coniferous and deciduous trees)": 21,
+      "park/churchyard": 20,
+      "Unmanaged deciduous woodland": 18,
+      "wooded meadow, grazing forest": 3,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 144,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 148
+  },
+  "Mycena flavescens": {
+    "months": {
+      "9": 44,
+      "10": 23,
+      "11": 6,
+      "12": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 22,
+      "Unmanaged deciduous woodland": 13,
+      "Mixed woodland (with coniferous and deciduous trees)": 11,
+      "garden": 7,
+      "coniferous woodland/plantation": 3,
+      "park/churchyard": 3,
+      "Thorny scrubland": 3,
+      "dune": 2,
+      "Willow scrubland": 2,
+      "lawn": 2,
+      "Forest bog": 2,
+      "Bog woodland": 1,
+      "natural grassland": 1,
+      "hedgerow": 1,
+      "gravel or clay pit": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 42,
+      "soil": 25,
+      "other substrate": 3,
+      "bark": 2,
+      "stems of herbs, grass etc": 2
+    },
+    "total_samples": 74
+  },
+  "Mycena cinerella": {
+    "months": {
+      "11": 68,
+      "10": 33,
+      "12": 12
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 42,
+      "Deciduous woodland": 18,
+      "Unmanaged coniferous woodland": 11,
+      "Mixed woodland (with coniferous and deciduous trees)": 11,
+      "Bog woodland": 7,
+      "natural grassland": 7,
+      "Forest bog": 5,
+      "dune": 3,
+      "lawn": 2,
+      "garden": 2,
+      "heath": 2,
+      "Thorny scrubland": 1,
+      "Unmanaged deciduous woodland": 1,
+      "Willow scrubland": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 67,
+      "soil": 28,
+      "mosses": 7,
+      "other substrate": 5,
+      "stems of herbs, grass etc": 5,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 113
+  },
+  "Clitocybe fragrans": {
+    "months": {
+      "11": 139,
+      "10": 119,
+      "1": 44,
+      "12": 35,
+      "3": 31,
+      "5": 20,
+      "9": 19,
+      "2": 17,
+      "4": 15,
+      "6": 5,
+      "7": 5,
+      "8": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 136,
+      "Mixed woodland (with coniferous and deciduous trees)": 95,
+      "natural grassland": 55,
+      "Unmanaged coniferous woodland": 44,
+      "Deciduous woodland": 23,
+      "Thorny scrubland": 21,
+      "hedgerow": 11,
+      "garden": 10,
+      "park/churchyard": 10,
+      "roadside": 7,
+      "Unmanaged deciduous woodland": 7,
+      "lawn": 6,
+      "other habitat": 5,
+      "dune": 4,
+      "Bog woodland": 4,
+      "fallow field": 3,
+      "gravel or clay pit": 3,
+      "wooded meadow, grazing forest": 3,
+      "heath": 1,
+      "Forest bog": 1,
+      "meadow": 1
+    },
+    "substrates": {
+      "soil": 358,
+      "leaf or needle litter": 66,
+      "mosses": 10,
+      "dead wood (including bark)": 6,
+      "stems of herbs, grass etc": 3,
+      "wood chips or mulch": 2,
+      "dead stems of herbs, grass etc": 2,
+      "cones": 2,
+      "wood": 1
+    },
+    "total_samples": 450
+  },
+  "Clitocybe costata": {
+    "months": {
+      "8": 26,
+      "7": 22,
+      "6": 13,
+      "9": 12,
+      "10": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 22,
+      "coniferous woodland/plantation": 17,
+      "roadside": 14,
+      "Deciduous woodland": 11,
+      "natural grassland": 5,
+      "ditch": 2,
+      "lawn": 2,
+      "Unmanaged coniferous woodland": 1,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 63,
+      "dead wood (including bark)": 6,
+      "leaf or needle litter": 3,
+      "wood chips or mulch": 2
+    },
+    "total_samples": 75
+  },
+  "Russula emetica": {
+    "months": {
+      "10": 58,
+      "9": 52,
+      "8": 24,
+      "11": 9,
+      "7": 3
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 80,
+      "Unmanaged coniferous woodland": 24,
+      "Mixed woodland (with coniferous and deciduous trees)": 20,
+      "Bog woodland": 8,
+      "Unmanaged deciduous woodland": 4,
+      "Deciduous woodland": 3,
+      "Forest bog": 3,
+      "natural grassland": 2,
+      "park/churchyard": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 134,
+      "mosses": 9,
+      "dead wood (including bark)": 1,
+      "wood": 1,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 146
+  },
+  "Mycena filopes": {
+    "months": {
+      "10": 57,
+      "11": 53,
+      "9": 25,
+      "8": 10,
+      "2": 5,
+      "7": 4,
+      "12": 3
+    },
+    "habitats": {
+      "natural grassland": 29,
+      "Mixed woodland (with coniferous and deciduous trees)": 21,
+      "Deciduous woodland": 18,
+      "coniferous woodland/plantation": 15,
+      "Bog woodland": 13,
+      "Thorny scrubland": 9,
+      "lawn": 8,
+      "Unmanaged deciduous woodland": 7,
+      "garden": 7,
+      "Willow scrubland": 7,
+      "roadside": 4,
+      "Forest bog": 4,
+      "Unmanaged coniferous woodland": 3,
+      "heath": 2,
+      "park/churchyard": 2,
+      "hedgerow": 2,
+      "bog": 1,
+      "meadow": 1,
+      "Acidic oak woodland": 1,
+      "dune": 1,
+      "salt meadow": 1
+    },
+    "substrates": {
+      "soil": 71,
+      "leaf or needle litter": 36,
+      "dead wood (including bark)": 12,
+      "wood": 9,
+      "mosses": 9,
+      "stems of herbs, grass etc": 7,
+      "cones": 4,
+      "wood chips or mulch": 3,
+      "bark": 2,
+      "other substrate": 1
+    },
+    "total_samples": 157
+  },
+  "Amanita vaginata": {
+    "months": {
+      "9": 41,
+      "8": 25,
+      "10": 24,
+      "11": 9,
+      "6": 2,
+      "7": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 62,
+      "Unmanaged deciduous woodland": 16,
+      "Mixed woodland (with coniferous and deciduous trees)": 11,
+      "Thorny scrubland": 5,
+      "coniferous woodland/plantation": 4,
+      "park/churchyard": 3
+    },
+    "substrates": {
+      "soil": 99,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 102
+  },
+  "Russula solaris": {
+    "months": {
+      "9": 83,
+      "8": 57,
+      "10": 45,
+      "7": 45,
+      "11": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 145,
+      "park/churchyard": 33,
+      "Unmanaged deciduous woodland": 28,
+      "Mixed woodland (with coniferous and deciduous trees)": 15,
+      "lawn": 7,
+      "roadside": 3,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 222,
+      "leaf or needle litter": 7,
+      "wood chips or mulch": 3
+    },
+    "total_samples": 232
+  },
+  "Amanita citrina": {
+    "months": {
+      "10": 88,
+      "9": 73,
+      "8": 18,
+      "11": 16
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 55,
+      "Deciduous woodland": 54,
+      "Unmanaged deciduous woodland": 31,
+      "coniferous woodland/plantation": 23,
+      "natural grassland": 12,
+      "Unmanaged coniferous woodland": 10,
+      "Acidic oak woodland": 3,
+      "salt meadow": 3,
+      "lawn": 3,
+      "bog": 1
+    },
+    "substrates": {
+      "soil": 165,
+      "leaf or needle litter": 25,
+      "wood chips or mulch": 3,
+      "dead wood (including bark)": 2
+    },
+    "total_samples": 195
+  },
+  "Russula romellii": {
+    "months": {
+      "8": 35,
+      "7": 30,
+      "9": 28,
+      "10": 14,
+      "6": 13
+    },
+    "habitats": {
+      "Deciduous woodland": 90,
+      "Unmanaged deciduous woodland": 21,
+      "coniferous woodland/plantation": 3,
+      "park/churchyard": 3,
+      "Mixed woodland (with coniferous and deciduous trees)": 2,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 112,
+      "leaf or needle litter": 4,
+      "wood chips or mulch": 2,
+      "dead wood (including bark)": 2
+    },
+    "total_samples": 120
+  },
+  "Mycena galopus": {
+    "months": {
+      "10": 119,
+      "9": 89,
+      "11": 74,
+      "8": 23,
+      "12": 16,
+      "7": 10,
+      "2": 6,
+      "6": 4,
+      "1": 2,
+      "5": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 85,
+      "coniferous woodland/plantation": 70,
+      "Deciduous woodland": 46,
+      "heath": 25,
+      "natural grassland": 19,
+      "Unmanaged deciduous woodland": 18,
+      "Bog woodland": 18,
+      "Unmanaged coniferous woodland": 17,
+      "Forest bog": 14,
+      "Thorny scrubland": 9,
+      "bog": 8,
+      "park/churchyard": 4,
+      "dune": 3,
+      "garden": 2,
+      "Willow scrubland": 1,
+      "lawn": 1,
+      "meadow": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 157,
+      "leaf or needle litter": 72,
+      "dead wood (including bark)": 38,
+      "mosses": 20,
+      "cones": 15,
+      "stems of herbs, grass etc": 13,
+      "wood": 8,
+      "bark": 5,
+      "peat mosses": 4,
+      "fire spot": 4,
+      "faeces": 2,
+      "other substrate": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 345
+  },
+  "Russula amoenolens": {
+    "months": {
+      "9": 54,
+      "8": 46,
+      "7": 26,
+      "6": 2,
+      "10": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 41,
+      "Mixed woodland (with coniferous and deciduous trees)": 23,
+      "park/churchyard": 12,
+      "Unmanaged deciduous woodland": 10,
+      "coniferous woodland/plantation": 8,
+      "Acidic oak woodland": 8,
+      "hedgerow": 5,
+      "natural grassland": 4,
+      "lawn": 3,
+      "garden": 3,
+      "improved grassland": 3,
+      "roadside": 2,
+      "Thorny scrubland": 2,
+      "heath": 2,
+      "other habitat": 2,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 130
+    },
+    "total_samples": 130
+  },
+  "Mycena amicta": {
+    "months": {
+      "10": 46,
+      "9": 16,
+      "8": 12,
+      "11": 7,
+      "7": 6,
+      "5": 3,
+      "2": 2,
+      "12": 1
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 28,
+      "coniferous woodland/plantation": 27,
+      "Unmanaged coniferous woodland": 11,
+      "Deciduous woodland": 10,
+      "natural grassland": 4,
+      "roadside": 4,
+      "Unmanaged deciduous woodland": 3,
+      "Thorny scrubland": 2,
+      "Willow scrubland": 1,
+      "wooded meadow, grazing forest": 1,
+      "Forest bog": 1,
+      "gravel or clay pit": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 32,
+      "leaf or needle litter": 18,
+      "soil": 14,
+      "wood chips or mulch": 8,
+      "wood": 7,
+      "cones": 6,
+      "bark": 4,
+      "dead stems of herbs, grass etc": 2,
+      "mosses": 1
+    },
+    "total_samples": 93
+  },
+  "Russula subrubens": {
+    "months": {
+      "10": 28,
+      "9": 11,
+      "8": 6,
+      "11": 4,
+      "7": 3
+    },
+    "habitats": {
+      "dune": 12,
+      "natural grassland": 9,
+      "Willow scrubland": 8,
+      "heath": 5,
+      "other habitat": 3,
+      "salt meadow": 3,
+      "Bog woodland": 2,
+      "Unmanaged deciduous woodland": 2,
+      "Forest bog": 2,
+      "Mixed woodland (with coniferous and deciduous trees)": 2,
+      "Thorny scrubland": 2,
+      "garden": 1,
+      "coniferous woodland/plantation": 1
+    },
+    "substrates": {
+      "soil": 51,
+      "mosses": 1
+    },
+    "total_samples": 52
+  },
+  "Amanita submembranacea": {
+    "months": {
+      "10": 62,
+      "9": 34,
+      "8": 17,
+      "11": 3,
+      "6": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 73,
+      "Mixed woodland (with coniferous and deciduous trees)": 17,
+      "Unmanaged deciduous woodland": 9,
+      "coniferous woodland/plantation": 7,
+      "park/churchyard": 4,
+      "wooded meadow, grazing forest": 3,
+      "Bog woodland": 2,
+      "Unmanaged coniferous woodland": 1,
+      "gravel or clay pit": 1,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "soil": 114,
+      "wood": 3,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 119
+  },
+  "Mycena rubromarginata": {
+    "months": {
+      "9": 55,
+      "10": 22,
+      "7": 22,
+      "8": 22,
+      "11": 8,
+      "6": 5,
+      "12": 2,
+      "5": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 72,
+      "Mixed woodland (with coniferous and deciduous trees)": 36,
+      "Bog woodland": 10,
+      "natural grassland": 6,
+      "Forest bog": 5,
+      "Unmanaged coniferous woodland": 3,
+      "Deciduous woodland": 2,
+      "Willow scrubland": 2,
+      "other habitat": 1,
+      "heath": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 69,
+      "wood": 26,
+      "leaf or needle litter": 11,
+      "soil": 9,
+      "bark": 9,
+      "mosses": 8,
+      "cones": 3,
+      "faeces": 2
+    },
+    "total_samples": 138
+  },
+  "Russula ionochlora": {
+    "months": {
+      "9": 40,
+      "7": 33,
+      "8": 25,
+      "10": 15,
+      "6": 8,
+      "11": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 59,
+      "park/churchyard": 29,
+      "Mixed woodland (with coniferous and deciduous trees)": 13,
+      "coniferous woodland/plantation": 9,
+      "Unmanaged deciduous woodland": 8,
+      "natural grassland": 3,
+      "wooded meadow, grazing forest": 1,
+      "Thorny scrubland": 1,
+      "Forest bog": 1,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 123
+    },
+    "total_samples": 125
+  },
+  "Russula puellaris": {
+    "months": {
+      "8": 36,
+      "9": 36,
+      "10": 30,
+      "7": 8,
+      "11": 1,
+      "6": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 36,
+      "Deciduous woodland": 33,
+      "Mixed woodland (with coniferous and deciduous trees)": 27,
+      "park/churchyard": 3,
+      "hedgerow": 3,
+      "roadside": 2,
+      "Unmanaged deciduous woodland": 2,
+      "Bog woodland": 1,
+      "other habitat": 1,
+      "salt meadow": 1,
+      "garden": 1,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 108,
+      "wood": 2,
+      "mosses": 1
+    },
+    "total_samples": 112
+  },
+  "Russula insignis": {
+    "months": {
+      "7": 14,
+      "9": 11,
+      "8": 3
+    },
+    "habitats": {
+      "park/churchyard": 28
+    },
+    "substrates": {
+      "soil": 28
+    },
+    "total_samples": 28
+  },
+  "Mycena pterigena": {
+    "months": {
+      "11": 27,
+      "10": 15,
+      "12": 11,
+      "9": 6,
+      "1": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 14,
+      "Bog woodland": 11,
+      "Deciduous woodland": 9,
+      "garden": 8,
+      "Unmanaged deciduous woodland": 4,
+      "natural grassland": 3,
+      "Willow scrubland": 2,
+      "Acidic oak woodland": 2,
+      "Forest bog": 2,
+      "Unmanaged coniferous woodland": 1,
+      "park/churchyard": 1,
+      "Thorny scrubland": 1,
+      "hedgerow": 1,
+      "gravel or clay pit": 1
+    },
+    "substrates": {
+      "stems of herbs, grass etc": 37,
+      "dead stems of herbs, grass etc": 22,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 61
+  },
+  "Russula sororia": {
+    "months": {
+      "7": 19,
+      "9": 16,
+      "8": 14,
+      "10": 5
+    },
+    "habitats": {
+      "park/churchyard": 30,
+      "Acidic oak woodland": 7,
+      "Unmanaged deciduous woodland": 6,
+      "Deciduous woodland": 5,
+      "wooded meadow, grazing forest": 4,
+      "roadside": 2
+    },
+    "substrates": {
+      "soil": 54
+    },
+    "total_samples": 54
+  },
+  "Mycena haematopus": {
+    "months": {
+      "9": 209,
+      "10": 125,
+      "8": 71,
+      "11": 50,
+      "7": 30,
+      "12": 12,
+      "6": 3,
+      "1": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 184,
+      "Unmanaged deciduous woodland": 116,
+      "Mixed woodland (with coniferous and deciduous trees)": 80,
+      "Bog woodland": 30,
+      "Thorny scrubland": 25,
+      "Forest bog": 19,
+      "coniferous woodland/plantation": 7,
+      "wooded meadow, grazing forest": 7,
+      "bog": 6,
+      "garden": 5,
+      "park/churchyard": 4,
+      "Acidic oak woodland": 4,
+      "natural grassland": 3,
+      "roadside": 3,
+      "Unmanaged coniferous woodland": 3,
+      "Willow scrubland": 2,
+      "meadow": 1,
+      "other habitat": 1,
+      "salt meadow": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 364,
+      "wood": 104,
+      "soil": 20,
+      "wood and roots of living trees": 3,
+      "wood chips or mulch": 3,
+      "bark of living trees": 3,
+      "mosses": 2,
+      "other substrate": 2
+    },
+    "total_samples": 503
+  },
+  "Agaricus bitorquis": {
+    "months": {
+      "6": 60,
+      "8": 56,
+      "7": 45,
+      "9": 40,
+      "5": 29,
+      "10": 21,
+      "11": 6
+    },
+    "habitats": {
+      "roadside": 115,
+      "park/churchyard": 86,
+      "lawn": 12,
+      "Unmanaged deciduous woodland": 9,
+      "hedgerow": 6,
+      "Deciduous woodland": 5,
+      "garden": 5,
+      "other habitat": 4,
+      "Mixed woodland (with coniferous and deciduous trees)": 4,
+      "ditch": 2,
+      "gravel or clay pit": 2,
+      "bog": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 250,
+      "other substrate": 2
+    },
+    "total_samples": 257
+  },
+  "Mycena tenerrima": {
+    "months": {
+      "11": 49,
+      "10": 29,
+      "9": 18,
+      "12": 17,
+      "8": 17,
+      "6": 14,
+      "7": 13,
+      "3": 9,
+      "1": 6
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 34,
+      "Deciduous woodland": 28,
+      "coniferous woodland/plantation": 20,
+      "Unmanaged deciduous woodland": 18,
+      "garden": 17,
+      "Willow scrubland": 13,
+      "natural grassland": 8,
+      "Bog woodland": 7,
+      "bog": 7,
+      "Thorny scrubland": 5,
+      "Forest bog": 3,
+      "Unmanaged coniferous woodland": 3,
+      "lawn": 3,
+      "park/churchyard": 2,
+      "hedgerow": 2,
+      "meadow": 1,
+      "gravel or clay pit": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 66,
+      "wood": 28,
+      "bark": 21,
+      "bark of living trees": 11,
+      "stems of herbs, grass etc": 9,
+      "fruits": 7,
+      "wood chips or mulch": 7,
+      "fungi": 6,
+      "leaf or needle litter": 6,
+      "mosses": 3,
+      "other substrate": 2,
+      "wood and roots of living trees": 1,
+      "dead stems of herbs, grass etc": 1,
+      "cones": 1
+    },
+    "total_samples": 172
+  },
+  "Russula cuprea": {
+    "months": {
+      "7": 17,
+      "9": 15,
+      "8": 12,
+      "6": 2,
+      "10": 1
+    },
+    "habitats": {
+      "park/churchyard": 22,
+      "Deciduous woodland": 14,
+      "roadside": 7,
+      "Unmanaged deciduous woodland": 2,
+      "lawn": 1
+    },
+    "substrates": {
+      "soil": 45
+    },
+    "total_samples": 47
+  },
+  "Russula aurea": {
+    "months": {
+      "7": 17,
+      "9": 17,
+      "8": 7,
+      "6": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 22,
+      "Unmanaged deciduous woodland": 15,
+      "Mixed woodland (with coniferous and deciduous trees)": 5
+    },
+    "substrates": {
+      "soil": 42
+    },
+    "total_samples": 43
+  },
+  "Russula viscida": {
+    "months": {
+      "10": 19,
+      "9": 17,
+      "8": 10,
+      "7": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 20,
+      "Mixed woodland (with coniferous and deciduous trees)": 13,
+      "Unmanaged deciduous woodland": 7,
+      "Unmanaged coniferous woodland": 3,
+      "coniferous woodland/plantation": 3,
+      "Forest bog": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 47,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 48
+  },
+  "Russula delica": {
+    "months": {
+      "8": 25,
+      "9": 21,
+      "10": 17,
+      "7": 16,
+      "11": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 27,
+      "Unmanaged deciduous woodland": 14,
+      "Mixed woodland (with coniferous and deciduous trees)": 12,
+      "park/churchyard": 9,
+      "other habitat": 4,
+      "garden": 3,
+      "wooded meadow, grazing forest": 2,
+      "natural grassland": 2,
+      "lawn": 2,
+      "coniferous woodland/plantation": 2,
+      "hedgerow": 1,
+      "Willow scrubland": 1,
+      "roadside": 1
+    },
+    "substrates": {
+      "soil": 73,
+      "leaf or needle litter": 3,
+      "wood and roots of living trees": 3,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 81
+  },
+  "Russula chloroides": {
+    "months": {
+      "9": 87,
+      "8": 51,
+      "10": 27,
+      "7": 21
+    },
+    "habitats": {
+      "Deciduous woodland": 102,
+      "Unmanaged deciduous woodland": 27,
+      "Mixed woodland (with coniferous and deciduous trees)": 26,
+      "park/churchyard": 14,
+      "coniferous woodland/plantation": 9,
+      "garden": 3,
+      "Unmanaged coniferous woodland": 2,
+      "lawn": 2,
+      "roadside": 1
+    },
+    "substrates": {
+      "soil": 183,
+      "leaf or needle litter": 3
+    },
+    "total_samples": 186
+  },
+  "Russula atrorubens": {
+    "months": {
+      "10": 21,
+      "9": 10,
+      "11": 7,
+      "8": 4,
+      "12": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 21,
+      "Mixed woodland (with coniferous and deciduous trees)": 13,
+      "Deciduous woodland": 3,
+      "Willow scrubland": 2,
+      "heath": 1,
+      "roadside": 1,
+      "Acidic oak woodland": 1,
+      "park/churchyard": 1
+    },
+    "substrates": {
+      "soil": 41,
+      "wood": 1,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 43
+  },
+  "Mycena vulgaris": {
+    "months": {
+      "10": 22,
+      "11": 12,
+      "9": 3,
+      "3": 1,
+      "8": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 26,
+      "Mixed woodland (with coniferous and deciduous trees)": 3,
+      "natural grassland": 3,
+      "heath": 3,
+      "lawn": 1,
+      "bog": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 25,
+      "soil": 7,
+      "mosses": 3,
+      "other substrate": 1,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 39
+  },
+  "Russula luteotacta": {
+    "months": {
+      "8": 22,
+      "9": 11,
+      "10": 4,
+      "7": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 19,
+      "Unmanaged deciduous woodland": 9,
+      "park/churchyard": 5,
+      "Mixed woodland (with coniferous and deciduous trees)": 5,
+      "natural grassland": 2
+    },
+    "substrates": {
+      "soil": 40
+    },
+    "total_samples": 40
+  },
+  "Mycena luteovariegata": {
+    "months": {
+      "10": 23,
+      "11": 7,
+      "9": 4,
+      "8": 1
+    },
+    "habitats": {
+      "natural grassland": 18,
+      "heath": 6,
+      "salt meadow": 5,
+      "dune": 3,
+      "lawn": 2,
+      "Deciduous woodland": 1
+    },
+    "substrates": {
+      "soil": 34,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 35
+  },
+  "Clitocybe agrestis": {
+    "months": {
+      "11": 21,
+      "9": 13,
+      "10": 9,
+      "8": 6
+    },
+    "habitats": {
+      "natural grassland": 15,
+      "park/churchyard": 6,
+      "lawn": 5,
+      "salt meadow": 5,
+      "dune": 4,
+      "Mixed woodland (with coniferous and deciduous trees)": 3,
+      "roadside": 3,
+      "gravel or clay pit": 2,
+      "garden": 2,
+      "Deciduous woodland": 2,
+      "Unmanaged coniferous woodland": 1,
+      "meadow": 1
+    },
+    "substrates": {
+      "soil": 37,
+      "faeces": 9,
+      "leaf or needle litter": 3
+    },
+    "total_samples": 49
+  },
+  "Russula claroflava": {
+    "months": {
+      "9": 77,
+      "7": 49,
+      "10": 30,
+      "8": 25,
+      "6": 18,
+      "11": 1
+    },
+    "habitats": {
+      "Forest bog": 41,
+      "Mixed woodland (with coniferous and deciduous trees)": 38,
+      "Unmanaged deciduous woodland": 37,
+      "Bog woodland": 15,
+      "Deciduous woodland": 14,
+      "natural grassland": 13,
+      "bog": 10,
+      "park/churchyard": 7,
+      "Unmanaged coniferous woodland": 6,
+      "lawn": 5,
+      "Thorny scrubland": 4,
+      "Willow scrubland": 4,
+      "heath": 2,
+      "coniferous woodland/plantation": 1,
+      "hedgerow": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 188,
+      "mosses": 4,
+      "wood and roots of living trees": 3,
+      "peat mosses": 2,
+      "wood": 2
+    },
+    "total_samples": 200
+  },
+  "Amanita virosa": {
+    "months": {
+      "9": 105,
+      "8": 75,
+      "10": 29,
+      "7": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 86,
+      "Mixed woodland (with coniferous and deciduous trees)": 72,
+      "coniferous woodland/plantation": 23,
+      "Unmanaged deciduous woodland": 17,
+      "Unmanaged coniferous woodland": 6,
+      "Acidic oak woodland": 2,
+      "Thorny scrubland": 2,
+      "Bog woodland": 2,
+      "Forest bog": 1
+    },
+    "substrates": {
+      "soil": 200,
+      "leaf or needle litter": 6,
+      "mosses": 4,
+      "peat mosses": 1
+    },
+    "total_samples": 211
+  },
+  "Amanita porphyria": {
+    "months": {
+      "9": 105,
+      "10": 58,
+      "8": 39,
+      "7": 11,
+      "11": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 82,
+      "Mixed woodland (with coniferous and deciduous trees)": 60,
+      "Deciduous woodland": 29,
+      "Unmanaged coniferous woodland": 15,
+      "Forest bog": 15,
+      "Unmanaged deciduous woodland": 7,
+      "bog": 2,
+      "Thorny scrubland": 2,
+      "park/churchyard": 1,
+      "Willow scrubland": 1
+    },
+    "substrates": {
+      "soil": 187,
+      "leaf or needle litter": 15,
+      "mosses": 10
+    },
+    "total_samples": 214
+  },
+  "Mycena rosella": {
+    "months": {
+      "10": 14,
+      "11": 10,
+      "9": 9
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 21,
+      "coniferous woodland/plantation": 12
+    },
+    "substrates": {
+      "leaf or needle litter": 29,
+      "soil": 4
+    },
+    "total_samples": 33
+  },
+  "Amanita strobiliformis": {
+    "months": {
+      "7": 50,
+      "8": 41,
+      "9": 29,
+      "10": 13,
+      "6": 5
+    },
+    "habitats": {
+      "Deciduous woodland": 61,
+      "park/churchyard": 32,
+      "Unmanaged deciduous woodland": 21,
+      "roadside": 10,
+      "lawn": 7,
+      "Mixed woodland (with coniferous and deciduous trees)": 3,
+      "wooded meadow, grazing forest": 3,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 138
+    },
+    "total_samples": 138
+  },
+  "Russula graveolens": {
+    "months": {
+      "9": 49,
+      "8": 29,
+      "7": 28,
+      "10": 14,
+      "11": 2
+    },
+    "habitats": {
+      "park/churchyard": 78,
+      "lawn": 12,
+      "Deciduous woodland": 9,
+      "Unmanaged deciduous woodland": 8,
+      "wooded meadow, grazing forest": 5,
+      "Mixed woodland (with coniferous and deciduous trees)": 4,
+      "Acidic oak woodland": 2,
+      "roadside": 2,
+      "Thorny scrubland": 1
+    },
+    "substrates": {
+      "soil": 121
+    },
+    "total_samples": 122
+  },
+  "Amanita franchetii": {
+    "months": {
+      "9": 28,
+      "8": 13,
+      "7": 9
+    },
+    "habitats": {
+      "Deciduous woodland": 22,
+      "park/churchyard": 22,
+      "Unmanaged deciduous woodland": 5,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 46,
+      "wood and roots of living trees": 4
+    },
+    "total_samples": 50
+  },
+  "Mycena diosma": {
+    "months": {
+      "10": 56,
+      "11": 30,
+      "9": 10,
+      "8": 4
+    },
+    "habitats": {
+      "Deciduous woodland": 51,
+      "Unmanaged deciduous woodland": 22,
+      "Mixed woodland (with coniferous and deciduous trees)": 12,
+      "coniferous woodland/plantation": 8,
+      "park/churchyard": 2,
+      "natural grassland": 2,
+      "hedgerow": 2,
+      "Unmanaged coniferous woodland": 1
+    },
+    "substrates": {
+      "soil": 63,
+      "leaf or needle litter": 34,
+      "dead wood (including bark)": 2,
+      "wood": 1
+    },
+    "total_samples": 100
+  },
+  "Mycena sanguinolenta": {
+    "months": {
+      "9": 80,
+      "8": 43,
+      "6": 36,
+      "10": 35,
+      "7": 32,
+      "11": 22,
+      "12": 2,
+      "5": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 63,
+      "Deciduous woodland": 46,
+      "Mixed woodland (with coniferous and deciduous trees)": 44,
+      "natural grassland": 22,
+      "Unmanaged deciduous woodland": 20,
+      "Unmanaged coniferous woodland": 12,
+      "Bog woodland": 8,
+      "hedgerow": 7,
+      "Forest bog": 6,
+      "meadow": 4,
+      "Willow scrubland": 4,
+      "Acidic oak woodland": 3,
+      "lawn": 2,
+      "Thorny scrubland": 2,
+      "gravel or clay pit": 1,
+      "park/churchyard": 1,
+      "heath": 1,
+      "bog": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 91,
+      "leaf or needle litter": 54,
+      "dead wood (including bark)": 35,
+      "wood": 29,
+      "mosses": 10,
+      "cones": 10,
+      "wood chips or mulch": 5,
+      "wood and roots of living trees": 3,
+      "bark of living trees": 3,
+      "dead stems of herbs, grass etc": 2,
+      "stems of herbs, grass etc": 2,
+      "bark": 1,
+      "other substrate": 1,
+      "fruits": 1
+    },
+    "total_samples": 251
+  },
+  "Boletus pinophilus": {
+    "months": {
+      "9": 30,
+      "10": 10,
+      "8": 8,
+      "7": 5,
+      "6": 4,
+      "11": 4,
+      "5": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 32,
+      "Unmanaged coniferous woodland": 12,
+      "Unmanaged deciduous woodland": 9,
+      "Mixed woodland (with coniferous and deciduous trees)": 8,
+      "dune": 2
+    },
+    "substrates": {
+      "soil": 54,
+      "leaf or needle litter": 9
+    },
+    "total_samples": 63
+  },
+  "Russula laccata": {
+    "months": {
+      "10": 36,
+      "11": 13,
+      "9": 12,
+      "12": 2,
+      "8": 1
+    },
+    "habitats": {
+      "Willow scrubland": 17,
+      "dune": 12,
+      "natural grassland": 10,
+      "Thorny scrubland": 9,
+      "heath": 7,
+      "Bog woodland": 3,
+      "salt meadow": 2,
+      "meadow": 2,
+      "park/churchyard": 2
+    },
+    "substrates": {
+      "soil": 63,
+      "other substrate": 1
+    },
+    "total_samples": 64
+  },
+  "Amanita ceciliae": {
+    "months": {
+      "9": 45,
+      "10": 28,
+      "6": 25,
+      "8": 22,
+      "7": 18,
+      "11": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 64,
+      "park/churchyard": 24,
+      "Unmanaged deciduous woodland": 24,
+      "coniferous woodland/plantation": 16,
+      "Mixed woodland (with coniferous and deciduous trees)": 7,
+      "wooded meadow, grazing forest": 1,
+      "Unmanaged coniferous woodland": 1
+    },
+    "substrates": {
+      "soil": 134,
+      "wood and roots of living trees": 4,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 139
+  },
+  "Russula illota": {
+    "months": {
+      "10": 27,
+      "9": 21,
+      "8": 19,
+      "7": 7
+    },
+    "habitats": {
+      "Deciduous woodland": 49,
+      "Unmanaged deciduous woodland": 14,
+      "Mixed woodland (with coniferous and deciduous trees)": 6,
+      "roadside": 3,
+      "park/churchyard": 1,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 72,
+      "wood": 1,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 74
+  },
+  "Russula laeta": {
+    "months": {
+      "8": 16,
+      "10": 8,
+      "7": 7,
+      "9": 1
+    },
+    "habitats": {
+      "park/churchyard": 18,
+      "Deciduous woodland": 8,
+      "Unmanaged deciduous woodland": 5,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 32
+    },
+    "total_samples": 32
+  },
+  "Russula cessans": {
+    "months": {
+      "9": 55,
+      "10": 46,
+      "8": 32,
+      "7": 21,
+      "11": 6,
+      "6": 4
+    },
+    "habitats": {
+      "park/churchyard": 41,
+      "coniferous woodland/plantation": 28,
+      "Mixed woodland (with coniferous and deciduous trees)": 22,
+      "Unmanaged coniferous woodland": 17,
+      "garden": 17,
+      "natural grassland": 15,
+      "lawn": 9,
+      "other habitat": 4,
+      "roadside": 3,
+      "salt meadow": 2,
+      "Thorny scrubland": 2,
+      "hedgerow": 2,
+      "dune": 2
+    },
+    "substrates": {
+      "soil": 164
+    },
+    "total_samples": 164
+  },
+  "Agaricus cupreobrunneus": {
+    "months": {
+      "10": 46,
+      "9": 13,
+      "11": 6,
+      "8": 3
+    },
+    "habitats": {
+      "dune": 18,
+      "natural grassland": 17,
+      "salt meadow": 10,
+      "heath": 9,
+      "lawn": 6,
+      "roadside": 5,
+      "Thorny scrubland": 3
+    },
+    "substrates": {
+      "soil": 62,
+      "other substrate": 3,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 68
+  },
+  "Mycena clavicularis": {
+    "months": {
+      "8": 15,
+      "9": 13,
+      "10": 8,
+      "7": 3,
+      "1": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 15,
+      "Mixed woodland (with coniferous and deciduous trees)": 11,
+      "Unmanaged coniferous woodland": 8,
+      "hedgerow": 2,
+      "Forest bog": 1,
+      "bog": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 22,
+      "soil": 9,
+      "catkins": 7
+    },
+    "total_samples": 40
+  },
+  "Russula cyanoxantha": {
+    "months": {
+      "9": 109,
+      "7": 87,
+      "6": 75,
+      "10": 68,
+      "8": 61,
+      "11": 15,
+      "12": 3,
+      "5": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 213,
+      "Unmanaged deciduous woodland": 118,
+      "Mixed woodland (with coniferous and deciduous trees)": 46,
+      "park/churchyard": 15,
+      "coniferous woodland/plantation": 10,
+      "Bog woodland": 5,
+      "natural grassland": 4,
+      "wooded meadow, grazing forest": 2,
+      "roadside": 2,
+      "Acidic oak woodland": 2,
+      "lawn": 2,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 401,
+      "leaf or needle litter": 12,
+      "wood chips or mulch": 4,
+      "wood and roots of living trees": 2,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 420
+  },
+  "Russula versicolor": {
+    "months": {
+      "9": 35,
+      "8": 22,
+      "10": 19,
+      "7": 13,
+      "6": 6,
+      "11": 4
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 16,
+      "park/churchyard": 15,
+      "garden": 12,
+      "natural grassland": 10,
+      "lawn": 9,
+      "gravel or clay pit": 6,
+      "Deciduous woodland": 6,
+      "roadside": 5,
+      "Willow scrubland": 4,
+      "Bog woodland": 4,
+      "Unmanaged deciduous woodland": 3,
+      "fallow field": 2,
+      "bog": 2,
+      "coniferous woodland/plantation": 2,
+      "Forest bog": 1,
+      "Unmanaged coniferous woodland": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 89,
+      "mosses": 4,
+      "dead wood (including bark)": 3,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 99
+  },
+  "Russula betularum": {
+    "months": {
+      "9": 43,
+      "10": 33,
+      "8": 25,
+      "7": 12,
+      "6": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 30,
+      "Unmanaged deciduous woodland": 15,
+      "Forest bog": 13,
+      "Bog woodland": 12,
+      "Willow scrubland": 11,
+      "bog": 6,
+      "Deciduous woodland": 6,
+      "Unmanaged coniferous woodland": 5,
+      "natural grassland": 5,
+      "coniferous woodland/plantation": 5,
+      "park/churchyard": 3,
+      "Thorny scrubland": 2,
+      "wooded meadow, grazing forest": 2
+    },
+    "substrates": {
+      "soil": 105,
+      "mosses": 8,
+      "wood": 1,
+      "peat mosses": 1
+    },
+    "total_samples": 115
+  },
+  "Mycena stylobates": {
+    "months": {
+      "8": 37,
+      "9": 24,
+      "10": 11,
+      "7": 7
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 26,
+      "Deciduous woodland": 20,
+      "coniferous woodland/plantation": 13,
+      "Bog woodland": 7,
+      "Unmanaged deciduous woodland": 5,
+      "natural grassland": 3,
+      "Willow scrubland": 1,
+      "bog": 1,
+      "Acidic oak woodland": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 53,
+      "stems of herbs, grass etc": 9,
+      "dead wood (including bark)": 4,
+      "wood": 4,
+      "mosses": 3,
+      "cones": 1,
+      "soil": 1,
+      "dead stems of herbs, grass etc": 1,
+      "wood and roots of living trees": 1
+    },
+    "total_samples": 79
+  },
+  "Russula praetervisa": {
+    "months": {
+      "7": 74,
+      "8": 65,
+      "9": 58,
+      "10": 28,
+      "6": 9,
+      "11": 4
+    },
+    "habitats": {
+      "park/churchyard": 97,
+      "Deciduous woodland": 30,
+      "Mixed woodland (with coniferous and deciduous trees)": 28,
+      "garden": 21,
+      "lawn": 20,
+      "Unmanaged deciduous woodland": 13,
+      "roadside": 11,
+      "other habitat": 6,
+      "hedgerow": 5,
+      "coniferous woodland/plantation": 1,
+      "wooded meadow, grazing forest": 1,
+      "natural grassland": 1,
+      "Acidic oak woodland": 1,
+      "bog": 1,
+      "Thorny scrubland": 1
+    },
+    "substrates": {
+      "soil": 230,
+      "leaf or needle litter": 4,
+      "dead wood (including bark)": 2,
+      "wood": 1
+    },
+    "total_samples": 238
+  },
+  "Mycena juniperina": {
+    "months": {
+      "12": 10,
+      "11": 9,
+      "10": 6,
+      "1": 6,
+      "8": 4,
+      "3": 3,
+      "7": 2,
+      "9": 2
+    },
+    "habitats": {
+      "natural grassland": 16,
+      "Thorny scrubland": 8,
+      "Mixed woodland (with coniferous and deciduous trees)": 8,
+      "heath": 6,
+      "coniferous woodland/plantation": 2,
+      "dune": 2
+    },
+    "substrates": {
+      "bark": 14,
+      "dead wood (including bark)": 12,
+      "bark of living trees": 8,
+      "wood": 6,
+      "wood and roots of living trees": 1
+    },
+    "total_samples": 42
+  },
+  "Mycena clavularis": {
+    "months": {
+      "11": 22,
+      "10": 12,
+      "1": 10,
+      "9": 3,
+      "12": 2,
+      "2": 2,
+      "7": 1
+    },
+    "habitats": {
+      "Unmanaged deciduous woodland": 12,
+      "Willow scrubland": 10,
+      "Thorny scrubland": 6,
+      "park/churchyard": 5,
+      "dune": 4,
+      "Deciduous woodland": 3,
+      "Bog woodland": 2,
+      "gravel or clay pit": 2,
+      "meadow": 2,
+      "other habitat": 2,
+      "coniferous woodland/plantation": 2,
+      "hedgerow": 1,
+      "Mixed woodland (with coniferous and deciduous trees)": 1
+    },
+    "substrates": {
+      "bark": 21,
+      "dead wood (including bark)": 20,
+      "bark of living trees": 7,
+      "wood": 3,
+      "fungi": 1
+    },
+    "total_samples": 52
+  },
+  "Clitocybe squamulosa": {
+    "months": {
+      "8": 29,
+      "6": 26,
+      "7": 24,
+      "9": 4,
+      "10": 4,
+      "5": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 40,
+      "Mixed woodland (with coniferous and deciduous trees)": 15,
+      "roadside": 9,
+      "lawn": 7,
+      "garden": 4,
+      "natural grassland": 2,
+      "park/churchyard": 2,
+      "heath": 2,
+      "Unmanaged coniferous woodland": 2,
+      "dune": 1,
+      "Thorny scrubland": 1,
+      "Deciduous woodland": 1,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 70,
+      "leaf or needle litter": 11,
+      "mosses": 3,
+      "stems of herbs, grass etc": 2,
+      "living stems of herbs, grass etc": 2
+    },
+    "total_samples": 88
+  },
+  "Russula faginea": {
+    "months": {
+      "8": 30,
+      "7": 19,
+      "9": 19,
+      "10": 15
+    },
+    "habitats": {
+      "Deciduous woodland": 58,
+      "Unmanaged deciduous woodland": 11,
+      "park/churchyard": 7,
+      "Mixed woodland (with coniferous and deciduous trees)": 5,
+      "wooded meadow, grazing forest": 2
+    },
+    "substrates": {
+      "soil": 81,
+      "dead wood (including bark)": 1,
+      "wood": 1
+    },
+    "total_samples": 83
+  },
+  "Russula rosea": {
+    "months": {
+      "8": 96,
+      "9": 85,
+      "7": 38,
+      "10": 33,
+      "6": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 150,
+      "Unmanaged deciduous woodland": 67,
+      "Mixed woodland (with coniferous and deciduous trees)": 18,
+      "wooded meadow, grazing forest": 6,
+      "park/churchyard": 4,
+      "garden": 3,
+      "gravel or clay pit": 2,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 239,
+      "leaf or needle litter": 10,
+      "stems of herbs, grass etc": 1,
+      "living leaves": 1
+    },
+    "total_samples": 253
+  },
+  "Amanita lividopallescens": {
+    "months": {
+      "7": 15,
+      "8": 9,
+      "9": 7,
+      "6": 3,
+      "10": 3
+    },
+    "habitats": {
+      "park/churchyard": 23,
+      "Deciduous woodland": 9,
+      "wooded meadow, grazing forest": 3,
+      "improved grassland": 1
+    },
+    "substrates": {
+      "soil": 36
+    },
+    "total_samples": 37
+  },
+  "Clitocybe metachroa": {
+    "months": {
+      "10": 124,
+      "11": 78,
+      "12": 21,
+      "9": 9,
+      "1": 6,
+      "8": 2,
+      "5": 1,
+      "4": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 93,
+      "Mixed woodland (with coniferous and deciduous trees)": 57,
+      "Deciduous woodland": 37,
+      "natural grassland": 12,
+      "Unmanaged coniferous woodland": 12,
+      "garden": 8,
+      "Thorny scrubland": 6,
+      "heath": 3,
+      "Acidic oak woodland": 3,
+      "Willow scrubland": 2,
+      "lawn": 2,
+      "roadside": 2,
+      "Unmanaged deciduous woodland": 2,
+      "bog": 1
+    },
+    "substrates": {
+      "soil": 142,
+      "leaf or needle litter": 86,
+      "dead wood (including bark)": 5,
+      "mosses": 4,
+      "wood chips or mulch": 4,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 242
+  },
+  "Mycena stipata": {
+    "months": {
+      "9": 39,
+      "10": 23,
+      "11": 13,
+      "3": 11,
+      "8": 6,
+      "12": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 29,
+      "Unmanaged coniferous woodland": 27,
+      "Mixed woodland (with coniferous and deciduous trees)": 21,
+      "natural grassland": 5,
+      "Unmanaged deciduous woodland": 5,
+      "Deciduous woodland": 3,
+      "Bog woodland": 2,
+      "Forest bog": 1,
+      "bog": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 59,
+      "wood": 32,
+      "bark": 2,
+      "soil": 1
+    },
+    "total_samples": 94
+  },
+  "Russula brunneoviolacea": {
+    "months": {
+      "7": 15,
+      "8": 10,
+      "9": 10,
+      "10": 6,
+      "6": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 37,
+      "Mixed woodland (with coniferous and deciduous trees)": 3,
+      "Unmanaged deciduous woodland": 2
+    },
+    "substrates": {
+      "soil": 41,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 42
+  },
+  "Russula xerampelina": {
+    "months": {
+      "9": 112,
+      "10": 98,
+      "8": 35,
+      "11": 21,
+      "7": 10
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 109,
+      "Mixed woodland (with coniferous and deciduous trees)": 67,
+      "Unmanaged coniferous woodland": 42,
+      "park/churchyard": 18,
+      "natural grassland": 13,
+      "lawn": 5,
+      "heath": 5,
+      "salt meadow": 3,
+      "roadside": 2,
+      "garden": 2,
+      "Thorny scrubland": 2,
+      "Unmanaged deciduous woodland": 2,
+      "Forest bog": 2,
+      "ditch": 1,
+      "other habitat": 1,
+      "dune": 1,
+      "gravel or clay pit": 1
+    },
+    "substrates": {
+      "soil": 257,
+      "leaf or needle litter": 7,
+      "dead wood (including bark)": 5,
+      "stems of herbs, grass etc": 4,
+      "mosses": 3
+    },
+    "total_samples": 276
+  },
+  "Russula densifolia": {
+    "months": {
+      "9": 71,
+      "8": 48,
+      "10": 36,
+      "7": 8,
+      "11": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 116,
+      "Mixed woodland (with coniferous and deciduous trees)": 32,
+      "Unmanaged deciduous woodland": 14,
+      "coniferous woodland/plantation": 2
+    },
+    "substrates": {
+      "soil": 163,
+      "wood": 1
+    },
+    "total_samples": 164
+  },
+  "Mycena arcangeliana": {
+    "months": {
+      "11": 67,
+      "12": 52,
+      "10": 49,
+      "9": 15,
+      "1": 12,
+      "8": 1
+    },
+    "habitats": {
+      "Thorny scrubland": 44,
+      "Mixed woodland (with coniferous and deciduous trees)": 26,
+      "Unmanaged deciduous woodland": 25,
+      "garden": 14,
+      "coniferous woodland/plantation": 13,
+      "hedgerow": 12,
+      "natural grassland": 9,
+      "Deciduous woodland": 9,
+      "park/churchyard": 8,
+      "Bog woodland": 6,
+      "Willow scrubland": 6,
+      "salt meadow": 6,
+      "Forest bog": 4,
+      "gravel or clay pit": 4,
+      "roof": 3,
+      "Acidic oak woodland": 2,
+      "roadside": 2,
+      "bog": 1,
+      "meadow": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 90,
+      "wood": 28,
+      "bark": 17,
+      "soil": 14,
+      "bark of living trees": 12,
+      "stems of herbs, grass etc": 10,
+      "dead stems of herbs, grass etc": 9,
+      "leaf or needle litter": 6,
+      "wood chips or mulch": 6,
+      "catkins": 1,
+      "other substrate": 1,
+      "mosses": 1
+    },
+    "total_samples": 196
+  },
+  "Clitocybe rivulosa": {
+    "months": {
+      "10": 89,
+      "11": 23,
+      "9": 22,
+      "8": 10,
+      "7": 3,
+      "1": 1
+    },
+    "habitats": {
+      "natural grassland": 70,
+      "park/churchyard": 16,
+      "lawn": 15,
+      "salt meadow": 12,
+      "roadside": 8,
+      "garden": 7,
+      "dune": 5,
+      "meadow": 4,
+      "heath": 3,
+      "Thorny scrubland": 2,
+      "Unmanaged deciduous woodland": 2,
+      "wooded meadow, grazing forest": 1,
+      "Willow scrubland": 1,
+      "Mixed woodland (with coniferous and deciduous trees)": 1
+    },
+    "substrates": {
+      "soil": 134,
+      "stems of herbs, grass etc": 6,
+      "faeces": 3,
+      "bark": 1
+    },
+    "total_samples": 148
+  },
+  "Russula odorata": {
+    "months": {
+      "7": 21,
+      "8": 20,
+      "9": 19,
+      "6": 17,
+      "10": 2
+    },
+    "habitats": {
+      "park/churchyard": 54,
+      "lawn": 6,
+      "Mixed woodland (with coniferous and deciduous trees)": 6,
+      "Unmanaged deciduous woodland": 4,
+      "roadside": 3,
+      "Deciduous woodland": 2,
+      "natural grassland": 2,
+      "wooded meadow, grazing forest": 1,
+      "bog": 1
+    },
+    "substrates": {
+      "soil": 79
+    },
+    "total_samples": 79
+  },
+  "Russula queletii": {
+    "months": {
+      "9": 90,
+      "10": 82,
+      "8": 31,
+      "11": 12,
+      "7": 5
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 124,
+      "Mixed woodland (with coniferous and deciduous trees)": 39,
+      "Unmanaged coniferous woodland": 13,
+      "Deciduous woodland": 12,
+      "park/churchyard": 8,
+      "garden": 6,
+      "roadside": 6,
+      "bog": 4,
+      "lawn": 4,
+      "Unmanaged deciduous woodland": 1,
+      "natural grassland": 1,
+      "ditch": 1,
+      "hedgerow": 1
+    },
+    "substrates": {
+      "soil": 211,
+      "leaf or needle litter": 4,
+      "wood and roots of living trees": 3,
+      "wood chips or mulch": 1,
+      "mosses": 1
+    },
+    "total_samples": 220
+  },
+  "Russula faustiana": {
+    "months": {
+      "7": 16,
+      "8": 15,
+      "9": 10
+    },
+    "habitats": {
+      "Deciduous woodland": 39,
+      "park/churchyard": 2
+    },
+    "substrates": {
+      "soil": 41
+    },
+    "total_samples": 41
+  },
+  "Russula integra": {
+    "months": {
+      "9": 26,
+      "8": 18,
+      "10": 15,
+      "7": 10
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 38,
+      "park/churchyard": 25,
+      "Unmanaged coniferous woodland": 2,
+      "Mixed woodland (with coniferous and deciduous trees)": 2,
+      "Deciduous woodland": 2
+    },
+    "substrates": {
+      "soil": 69
+    },
+    "total_samples": 69
+  },
+  "Mycena capillaripes": {
+    "months": {
+      "9": 26,
+      "11": 12,
+      "10": 7,
+      "8": 5,
+      "6": 2,
+      "7": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 25,
+      "Mixed woodland (with coniferous and deciduous trees)": 19,
+      "Unmanaged coniferous woodland": 3,
+      "garden": 2,
+      "park/churchyard": 2,
+      "lawn": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 33,
+      "soil": 11,
+      "peat mosses": 6,
+      "mosses": 2
+    },
+    "total_samples": 53
+  },
+  "Mycena citrinomarginata": {
+    "months": {
+      "9": 20,
+      "8": 17,
+      "11": 15,
+      "10": 11,
+      "7": 7,
+      "6": 5,
+      "12": 4,
+      "1": 3,
+      "5": 2
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 15,
+      "coniferous woodland/plantation": 15,
+      "Deciduous woodland": 8,
+      "lawn": 7,
+      "Willow scrubland": 6,
+      "Unmanaged coniferous woodland": 6,
+      "Bog woodland": 5,
+      "Thorny scrubland": 5,
+      "heath": 4,
+      "natural grassland": 3,
+      "garden": 3,
+      "dune": 2,
+      "Forest bog": 1,
+      "roadside": 1,
+      "Unmanaged deciduous woodland": 1,
+      "bog": 1
+    },
+    "substrates": {
+      "leaf or needle litter": 49,
+      "soil": 15,
+      "wood": 5,
+      "other substrate": 4,
+      "dead stems of herbs, grass etc": 3,
+      "dead wood (including bark)": 3,
+      "mosses": 2,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 84
+  },
+  "Clitocybe diatreta": {
+    "months": {
+      "10": 15,
+      "9": 9,
+      "11": 7
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 12,
+      "natural grassland": 8,
+      "Mixed woodland (with coniferous and deciduous trees)": 6,
+      "salt meadow": 1,
+      "roadside": 1,
+      "Unmanaged coniferous woodland": 1,
+      "Forest bog": 1,
+      "wooded meadow, grazing forest": 1,
+      "hedgerow": 1
+    },
+    "substrates": {
+      "soil": 26,
+      "leaf or needle litter": 5,
+      "wood": 1
+    },
+    "total_samples": 32
+  },
+  "Agaricus subperonatus": {
+    "months": {
+      "10": 25,
+      "9": 18,
+      "7": 8,
+      "8": 3,
+      "6": 2,
+      "11": 1,
+      "5": 1
+    },
+    "habitats": {
+      "roadside": 18,
+      "park/churchyard": 15,
+      "Deciduous woodland": 8,
+      "hedgerow": 7,
+      "lawn": 4,
+      "Unmanaged deciduous woodland": 2,
+      "salt meadow": 2,
+      "bog": 1,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 58
+    },
+    "total_samples": 58
+  },
+  "Clitocybe vibecina": {
+    "months": {
+      "10": 40,
+      "11": 33,
+      "12": 5,
+      "9": 3,
+      "4": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 38,
+      "Mixed woodland (with coniferous and deciduous trees)": 18,
+      "Unmanaged coniferous woodland": 16,
+      "heath": 5,
+      "Thorny scrubland": 2,
+      "dune": 1,
+      "salt meadow": 1,
+      "natural grassland": 1,
+      "roadside": 1
+    },
+    "substrates": {
+      "soil": 58,
+      "leaf or needle litter": 17,
+      "mosses": 5,
+      "other substrate": 1,
+      "stems of herbs, grass etc": 1,
+      "wood chips or mulch": 1
+    },
+    "total_samples": 83
+  },
+  "Mycena renati": {
+    "months": {
+      "9": 15,
+      "8": 12,
+      "7": 10,
+      "6": 8,
+      "11": 2,
+      "10": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 19,
+      "Unmanaged deciduous woodland": 17,
+      "Mixed woodland (with coniferous and deciduous trees)": 5,
+      "wooded meadow, grazing forest": 3,
+      "natural grassland": 3,
+      "Unmanaged coniferous woodland": 1,
+      "Bog woodland": 1
+    },
+    "substrates": {
+      "dead wood (including bark)": 33,
+      "wood": 15,
+      "soil": 1
+    },
+    "total_samples": 49
+  },
+  "Mycena meliigena": {
+    "months": {
+      "12": 48,
+      "11": 32,
+      "10": 26,
+      "1": 8,
+      "8": 4,
+      "2": 3,
+      "3": 3,
+      "9": 1
+    },
+    "habitats": {
+      "Thorny scrubland": 67,
+      "Willow scrubland": 12,
+      "Acidic oak woodland": 7,
+      "natural grassland": 6,
+      "Forest bog": 5,
+      "Deciduous woodland": 5,
+      "park/churchyard": 4,
+      "Unmanaged deciduous woodland": 4,
+      "garden": 4,
+      "Mixed woodland (with coniferous and deciduous trees)": 4,
+      "wooded meadow, grazing forest": 2,
+      "roadside": 2,
+      "bog": 2,
+      "heath": 1
+    },
+    "substrates": {
+      "bark of living trees": 93,
+      "bark": 26,
+      "wood and roots of living trees": 2,
+      "dead wood (including bark)": 2,
+      "mosses": 1,
+      "wood": 1
+    },
+    "total_samples": 125
+  },
+  "Russula farinipes": {
+    "months": {
+      "9": 13,
+      "8": 8,
+      "10": 7,
+      "7": 5
+    },
+    "habitats": {
+      "Deciduous woodland": 20,
+      "park/churchyard": 8,
+      "Mixed woodland (with coniferous and deciduous trees)": 4,
+      "Unmanaged deciduous woodland": 1
+    },
+    "substrates": {
+      "soil": 32,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 33
+  },
+  "Russula nauseosa": {
+    "months": {
+      "7": 37,
+      "10": 24,
+      "8": 22,
+      "6": 17,
+      "9": 17,
+      "11": 6,
+      "5": 3
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 72,
+      "Unmanaged coniferous woodland": 22,
+      "Mixed woodland (with coniferous and deciduous trees)": 17,
+      "Deciduous woodland": 5,
+      "roadside": 5,
+      "garden": 3,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 106,
+      "leaf or needle litter": 15,
+      "mosses": 2,
+      "wood": 2
+    },
+    "total_samples": 126
+  },
+  "Russula pelargonia": {
+    "months": {
+      "9": 16,
+      "10": 10,
+      "8": 7,
+      "7": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 11,
+      "park/churchyard": 9,
+      "Unmanaged deciduous woodland": 6,
+      "Willow scrubland": 3,
+      "wooded meadow, grazing forest": 2,
+      "Bog woodland": 2,
+      "Mixed woodland (with coniferous and deciduous trees)": 2
+    },
+    "substrates": {
+      "soil": 34,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 35
+  },
+  "Russula grata": {
+    "months": {
+      "9": 81,
+      "10": 36,
+      "7": 25,
+      "8": 25,
+      "11": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 96,
+      "Unmanaged deciduous woodland": 19,
+      "Mixed woodland (with coniferous and deciduous trees)": 19,
+      "park/churchyard": 13,
+      "lawn": 8,
+      "natural grassland": 4,
+      "coniferous woodland/plantation": 4,
+      "Acidic oak woodland": 3,
+      "garden": 1
+    },
+    "substrates": {
+      "soil": 163,
+      "fungi": 3,
+      "dead wood (including bark)": 1
+    },
+    "total_samples": 168
+  },
+  "Agaricus crocodilinus": {
+    "months": {
+      "10": 18,
+      "11": 11,
+      "9": 6,
+      "6": 3,
+      "8": 1
+    },
+    "habitats": {
+      "natural grassland": 18,
+      "roadside": 6,
+      "Deciduous woodland": 5,
+      "coniferous woodland/plantation": 3,
+      "Unmanaged coniferous woodland": 3,
+      "lawn": 2,
+      "meadow": 1,
+      "park/churchyard": 1
+    },
+    "substrates": {
+      "soil": 37,
+      "leaf or needle litter": 2
+    },
+    "total_samples": 39
+  },
+  "Mycena belliae": {
+    "months": {
+      "11": 32,
+      "10": 13,
+      "12": 12,
+      "9": 3,
+      "1": 1
+    },
+    "habitats": {
+      "bog": 25,
+      "other habitat": 12,
+      "Bog woodland": 11,
+      "Willow scrubland": 3,
+      "Thorny scrubland": 3,
+      "Forest bog": 1,
+      "salt meadow": 1,
+      "ditch": 1
+    },
+    "substrates": {
+      "stems of herbs, grass etc": 42,
+      "dead stems of herbs, grass etc": 17
+    },
+    "total_samples": 61
+  },
+  "Russula pseudointegra": {
+    "months": {
+      "9": 28,
+      "8": 20,
+      "7": 9,
+      "10": 4,
+      "11": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 33,
+      "park/churchyard": 12,
+      "Mixed woodland (with coniferous and deciduous trees)": 10,
+      "Unmanaged deciduous woodland": 6,
+      "meadow": 2
+    },
+    "substrates": {
+      "soil": 63
+    },
+    "total_samples": 63
+  },
+  "Agaricus dulcidulus": {
+    "months": {
+      "9": 53,
+      "10": 37,
+      "7": 19,
+      "11": 13,
+      "8": 7,
+      "6": 1
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 50,
+      "Deciduous woodland": 22,
+      "Mixed woodland (with coniferous and deciduous trees)": 13,
+      "lawn": 9,
+      "roadside": 7,
+      "garden": 7,
+      "Thorny scrubland": 5,
+      "salt meadow": 4,
+      "park/churchyard": 4,
+      "wooded meadow, grazing forest": 4,
+      "Unmanaged deciduous woodland": 2,
+      "natural grassland": 2,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 110,
+      "leaf or needle litter": 20
+    },
+    "total_samples": 130
+  },
+  "Russula veternosa": {
+    "months": {
+      "9": 46,
+      "8": 27,
+      "7": 7,
+      "6": 7,
+      "10": 5
+    },
+    "habitats": {
+      "Deciduous woodland": 59,
+      "Unmanaged deciduous woodland": 11,
+      "park/churchyard": 8,
+      "roadside": 8,
+      "Mixed woodland (with coniferous and deciduous trees)": 6
+    },
+    "substrates": {
+      "soil": 87,
+      "leaf or needle litter": 4
+    },
+    "total_samples": 92
+  },
+  "Mycena chlorantha": {
+    "months": {
+      "11": 32,
+      "10": 20,
+      "12": 11,
+      "1": 9
+    },
+    "habitats": {
+      "dune": 53,
+      "Mixed woodland (with coniferous and deciduous trees)": 5,
+      "salt meadow": 4,
+      "heath": 4,
+      "Thorny scrubland": 2,
+      "gravel or clay pit": 2,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 47,
+      "stems of herbs, grass etc": 16,
+      "other substrate": 3,
+      "mosses": 3,
+      "dead stems of herbs, grass etc": 2,
+      "living stems of herbs, grass etc": 1
+    },
+    "total_samples": 72
+  },
+  "Russula roseoaurantia": {
+    "months": {
+      "7": 20,
+      "9": 13,
+      "8": 10,
+      "6": 4
+    },
+    "habitats": {
+      "Deciduous woodland": 40,
+      "park/churchyard": 4,
+      "Unmanaged deciduous woodland": 3
+    },
+    "substrates": {
+      "soil": 44
+    },
+    "total_samples": 47
+  },
+  "Russula silvestris": {
+    "months": {
+      "9": 34,
+      "10": 26,
+      "11": 8,
+      "12": 3,
+      "8": 2,
+      "7": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 54,
+      "Mixed woodland (with coniferous and deciduous trees)": 10,
+      "Unmanaged deciduous woodland": 6,
+      "coniferous woodland/plantation": 4,
+      "park/churchyard": 1
+    },
+    "substrates": {
+      "soil": 75
+    },
+    "total_samples": 75
+  },
+  "Russula acrifolia": {
+    "months": {
+      "9": 22,
+      "8": 15,
+      "10": 11,
+      "7": 5,
+      "11": 1
+    },
+    "habitats": {
+      "Deciduous woodland": 33,
+      "Unmanaged deciduous woodland": 8,
+      "park/churchyard": 4,
+      "roadside": 3,
+      "Mixed woodland (with coniferous and deciduous trees)": 3,
+      "Acidic oak woodland": 1
+    },
+    "substrates": {
+      "soil": 52
+    },
+    "total_samples": 54
+  },
+  "Russula parazurea": {
+    "months": {
+      "9": 51,
+      "10": 21,
+      "8": 20,
+      "7": 15,
+      "6": 6,
+      "11": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 71,
+      "park/churchyard": 17,
+      "Unmanaged deciduous woodland": 9,
+      "Mixed woodland (with coniferous and deciduous trees)": 6,
+      "coniferous woodland/plantation": 5,
+      "natural grassland": 3,
+      "bog": 2,
+      "Thorny scrubland": 2,
+      "hedgerow": 1
+    },
+    "substrates": {
+      "soil": 109,
+      "leaf or needle litter": 7
+    },
+    "total_samples": 116
+  },
+  "Clitocybe phaeophthalma": {
+    "months": {
+      "9": 22,
+      "8": 11,
+      "10": 9,
+      "11": 3
+    },
+    "habitats": {
+      "Deciduous woodland": 27,
+      "Unmanaged deciduous woodland": 6,
+      "park/churchyard": 4,
+      "coniferous woodland/plantation": 2,
+      "natural grassland": 2,
+      "roadside": 1,
+      "Thorny scrubland": 1
+    },
+    "substrates": {
+      "soil": 26,
+      "leaf or needle litter": 17
+    },
+    "total_samples": 45
+  },
+  "Mycena acicula": {
+    "months": {
+      "6": 37,
+      "9": 37,
+      "8": 27,
+      "7": 24,
+      "10": 16,
+      "5": 12,
+      "11": 4
+    },
+    "habitats": {
+      "Deciduous woodland": 32,
+      "Unmanaged deciduous woodland": 25,
+      "Willow scrubland": 22,
+      "Mixed woodland (with coniferous and deciduous trees)": 17,
+      "Bog woodland": 16,
+      "garden": 7,
+      "wooded meadow, grazing forest": 5,
+      "Thorny scrubland": 5,
+      "park/churchyard": 4,
+      "roadside": 4,
+      "natural grassland": 3,
+      "coniferous woodland/plantation": 3,
+      "Forest bog": 3,
+      "bog": 3,
+      "lawn": 3,
+      "gravel or clay pit": 1,
+      "hedgerow": 1,
+      "Unmanaged coniferous woodland": 1
+    },
+    "substrates": {
+      "soil": 50,
+      "dead wood (including bark)": 30,
+      "wood": 29,
+      "mosses": 19,
+      "wood and roots of living trees": 6,
+      "stems of herbs, grass etc": 5,
+      "leaf or needle litter": 5,
+      "wood chips or mulch": 3,
+      "bark": 2,
+      "bark of living trees": 1,
+      "dead stems of herbs, grass etc": 1
+    },
+    "total_samples": 157
+  },
+  "Agaricus brunneolus": {
+    "months": {
+      "10": 22,
+      "11": 11,
+      "9": 8,
+      "8": 6,
+      "7": 4,
+      "6": 3
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 19,
+      "coniferous woodland/plantation": 18,
+      "Unmanaged deciduous woodland": 9,
+      "Deciduous woodland": 3,
+      "Thorny scrubland": 2,
+      "natural grassland": 2,
+      "wooded meadow, grazing forest": 1
+    },
+    "substrates": {
+      "soil": 36,
+      "leaf or needle litter": 18
+    },
+    "total_samples": 54
+  },
+  "Russula maculata": {
+    "months": {
+      "9": 19,
+      "7": 9,
+      "8": 6
+    },
+    "habitats": {
+      "park/churchyard": 17,
+      "roadside": 6,
+      "Deciduous woodland": 5,
+      "Unmanaged deciduous woodland": 5
+    },
+    "substrates": {
+      "soil": 33
+    },
+    "total_samples": 34
+  },
+  "Agaricus langei": {
+    "months": {
+      "9": 32,
+      "10": 18,
+      "8": 11,
+      "6": 5,
+      "11": 4,
+      "7": 4
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 22,
+      "Deciduous woodland": 19,
+      "Mixed woodland (with coniferous and deciduous trees)": 12,
+      "roadside": 7,
+      "park/churchyard": 7,
+      "hedgerow": 3,
+      "garden": 2,
+      "Unmanaged deciduous woodland": 1,
+      "natural grassland": 1
+    },
+    "substrates": {
+      "soil": 64,
+      "leaf or needle litter": 9,
+      "stems of herbs, grass etc": 1
+    },
+    "total_samples": 74
+  },
+  "Mycena capillaris": {
+    "months": {
+      "10": 57,
+      "11": 41,
+      "12": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 51,
+      "Mixed woodland (with coniferous and deciduous trees)": 24,
+      "Unmanaged deciduous woodland": 15,
+      "park/churchyard": 4,
+      "garden": 2,
+      "Forest bog": 2,
+      "wooded meadow, grazing forest": 2
+    },
+    "substrates": {
+      "leaf or needle litter": 99,
+      "wood": 1
+    },
+    "total_samples": 100
+  },
+  "Russula melliolens": {
+    "months": {
+      "9": 25,
+      "8": 23,
+      "7": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 29,
+      "park/churchyard": 17,
+      "lawn": 4
+    },
+    "substrates": {
+      "soil": 50
+    },
+    "total_samples": 50
+  },
+  "Mycena megaspora": {
+    "months": {
+      "9": 40,
+      "10": 6,
+      "8": 5
+    },
+    "habitats": {
+      "Forest bog": 13,
+      "bog": 9,
+      "Mixed woodland (with coniferous and deciduous trees)": 8,
+      "natural grassland": 7,
+      "coniferous woodland/plantation": 6,
+      "Bog woodland": 5,
+      "meadow": 2,
+      "heath": 1
+    },
+    "substrates": {
+      "soil": 30,
+      "mosses": 9,
+      "peat mosses": 5,
+      "leaf or needle litter": 4,
+      "wood": 3
+    },
+    "total_samples": 51
+  },
+  "Agaricus subfloccosus": {
+    "months": {
+      "7": 9,
+      "9": 8,
+      "8": 6,
+      "6": 4,
+      "3": 3,
+      "10": 3,
+      "5": 2
+    },
+    "habitats": {
+      "coniferous woodland/plantation": 16,
+      "Mixed woodland (with coniferous and deciduous trees)": 5,
+      "roadside": 4,
+      "garden": 4,
+      "park/churchyard": 3,
+      "Thorny scrubland": 1,
+      "Unmanaged coniferous woodland": 1,
+      "Unmanaged deciduous woodland": 1
+    },
+    "substrates": {
+      "soil": 34,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 35
+  },
+  "Agaricus moelleri": {
+    "months": {
+      "9": 23,
+      "10": 18,
+      "8": 12,
+      "11": 6,
+      "12": 4,
+      "7": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 41,
+      "garden": 8,
+      "Unmanaged deciduous woodland": 7,
+      "park/churchyard": 3,
+      "hedgerow": 2,
+      "roadside": 2,
+      "Mixed woodland (with coniferous and deciduous trees)": 1,
+      "dune": 1
+    },
+    "substrates": {
+      "soil": 64,
+      "leaf or needle litter": 1
+    },
+    "total_samples": 65
+  },
+  "Mycena erubescens": {
+    "months": {
+      "10": 21,
+      "11": 11,
+      "9": 11,
+      "12": 4,
+      "1": 3
+    },
+    "habitats": {
+      "Unmanaged deciduous woodland": 19,
+      "wooded meadow, grazing forest": 11,
+      "Willow scrubland": 7,
+      "Deciduous woodland": 7,
+      "natural grassland": 1,
+      "hedgerow": 1,
+      "bog": 1,
+      "park/churchyard": 1
+    },
+    "substrates": {
+      "wood": 15,
+      "bark": 13,
+      "bark of living trees": 10,
+      "dead wood (including bark)": 7,
+      "soil": 3
+    },
+    "total_samples": 50
+  },
+  "Russula curtipes": {
+    "months": {
+      "9": 12,
+      "8": 12,
+      "10": 8,
+      "7": 4,
+      "6": 2
+    },
+    "habitats": {
+      "Deciduous woodland": 30,
+      "park/churchyard": 4,
+      "Unmanaged deciduous woodland": 3,
+      "Mixed woodland (with coniferous and deciduous trees)": 1
+    },
+    "substrates": {
+      "soil": 36,
+      "leaf or needle litter": 1,
+      "wood": 1
+    },
+    "total_samples": 38
+  },
+  "Mycena aurantiomarginata": {
+    "months": {
+      "10": 19,
+      "11": 9,
+      "9": 9
+    },
+    "habitats": {
+      "Mixed woodland (with coniferous and deciduous trees)": 17,
+      "coniferous woodland/plantation": 14,
+      "Deciduous woodland": 4,
+      "Unmanaged coniferous woodland": 2
+    },
+    "substrates": {
+      "leaf or needle litter": 23,
+      "soil": 12,
+      "wood chips or mulch": 2
+    },
+    "total_samples": 37
+  },
+  "Russula sanguinea": {
+    "months": {
+      "10": 20,
+      "9": 17,
+      "11": 16,
+      "8": 10,
+      "7": 6
+    },
+    "habitats": {
+      "park/churchyard": 24,
+      "coniferous woodland/plantation": 15,
+      "Mixed woodland (with coniferous and deciduous trees)": 14,
+      "Unmanaged coniferous woodland": 7,
+      "garden": 3,
+      "Forest bog": 2,
+      "natural grassland": 1,
+      "dune": 1,
+      "other habitat": 1,
+      "Thorny scrubland": 1
+    },
+    "substrates": {
+      "soil": 68
+    },
+    "total_samples": 69
+  },
+  "Agaricus bohusii": {
+    "months": {
+      "9": 25,
+      "10": 6,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "habitats": {
+      "park/churchyard": 23,
+      "Deciduous woodland": 6,
+      "roadside": 5
+    },
+    "substrates": {
+      "soil": 34
+    },
+    "total_samples": 34
+  },
+  "Russula seperina": {
+    "months": {
+      "9": 18,
+      "8": 15,
+      "7": 6,
+      "10": 2
+    },
+    "habitats": {
+      "Unmanaged deciduous woodland": 21,
+      "park/churchyard": 13,
+      "wooded meadow, grazing forest": 4,
+      "Thorny scrubland": 2
+    },
+    "substrates": {
+      "soil": 40
+    },
+    "total_samples": 41
+  }
+}

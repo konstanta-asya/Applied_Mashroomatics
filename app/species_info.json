@@ -1,0 +1,1255 @@
+{
+  "Agaricus arvensis": {
+    "common_name_ua": "Печериця польова",
+    "edibility": "edible",
+    "description": "Large white mushroom with anise smell",
+    "habitat": "Meadows, pastures",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus augustus": {
+    "common_name_ua": "Печериця велична",
+    "edibility": "edible",
+    "description": "Large brown-scaled cap with almond smell",
+    "habitat": "Coniferous forests, parks",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus bernardii": {
+    "common_name_ua": "Печериця Бернара",
+    "edibility": "edible",
+    "description": "Salt-tolerant species with cracked cap",
+    "habitat": "Coastal areas, salty soils",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus bisporus": {
+    "common_name_ua": "Печериця двоспорова",
+    "edibility": "edible",
+    "description": "Common cultivated mushroom (champignon)",
+    "habitat": "Cultivated, grasslands",
+    "season": ["spring", "summer", "autumn"]
+  },
+  "Agaricus bitorquis": {
+    "common_name_ua": "Печериця міська",
+    "edibility": "edible",
+    "description": "Urban species growing through asphalt",
+    "habitat": "Urban areas, roadsides",
+    "season": ["spring", "summer", "autumn"]
+  },
+  "Agaricus bohusii": {
+    "common_name_ua": "Печериця Богуша",
+    "edibility": "edible",
+    "description": "Rare species with scaly cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus brunneolus": {
+    "common_name_ua": "Печериця буренька",
+    "edibility": "edible",
+    "description": "Small brown capped species",
+    "habitat": "Grasslands",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus campestris": {
+    "common_name_ua": "Печериця лучна",
+    "edibility": "edible",
+    "description": "Classic field mushroom",
+    "habitat": "Meadows, pastures",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus crocodilinus": {
+    "common_name_ua": "Печериця крокодиляча",
+    "edibility": "edible",
+    "description": "Large with crocodile-like scales",
+    "habitat": "Gardens, parks",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus cupreobrunneus": {
+    "common_name_ua": "Печериця мідно-бура",
+    "edibility": "edible",
+    "description": "Copper-brown colored cap",
+    "habitat": "Grasslands",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus dulcidulus": {
+    "common_name_ua": "Печериця солоденька",
+    "edibility": "edible",
+    "description": "Small delicate species",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Agaricus impudicus": {
+    "common_name_ua": "Печериця безсоромна",
+    "edibility": "edible",
+    "description": "Strong unpleasant smell when old",
+    "habitat": "Forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus langei": {
+    "common_name_ua": "Печериця Ланге",
+    "edibility": "edible",
+    "description": "Reddening flesh when cut",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus lanipes": {
+    "common_name_ua": "Печериця вовнистонога",
+    "edibility": "edible",
+    "description": "Woolly stem base",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus litoralis": {
+    "common_name_ua": "Печериця приморська",
+    "edibility": "edible",
+    "description": "Coastal species",
+    "habitat": "Sandy coastal areas",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus moelleri": {
+    "common_name_ua": "Печериця темнолуската",
+    "edibility": "poisonous",
+    "description": "TOXIC - causes GI upset, yellowing base",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus subfloccosus": {
+    "common_name_ua": "Печериця напівлуската",
+    "edibility": "edible",
+    "description": "Slightly floccose cap",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus subperonatus": {
+    "common_name_ua": "Печериця напівокутана",
+    "edibility": "edible",
+    "description": "Partial veil remnants on stem",
+    "habitat": "Parks, gardens",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus sylvaticus": {
+    "common_name_ua": "Печериця лісова",
+    "edibility": "edible",
+    "description": "Forest species with scaly cap",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus sylvicola": {
+    "common_name_ua": "Печериця тонка",
+    "edibility": "edible",
+    "description": "Slender woodland species with anise smell",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Agaricus xanthodermus": {
+    "common_name_ua": "Печериця жовтошкіра",
+    "edibility": "poisonous",
+    "description": "TOXIC - yellows when cut, ink smell",
+    "habitat": "Gardens, parks, grasslands",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita ceciliae": {
+    "common_name_ua": "Мухомор Цецилії",
+    "edibility": "edible",
+    "description": "Grey-brown with grey patches",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita citrina": {
+    "common_name_ua": "Мухомор жовтий",
+    "edibility": "inedible",
+    "description": "Lemon yellow with potato smell",
+    "habitat": "Deciduous and coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita crocea": {
+    "common_name_ua": "Мухомор шафрановий",
+    "edibility": "edible",
+    "description": "Orange cap without ring",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita excelsa": {
+    "common_name_ua": "Мухомор сірий",
+    "edibility": "edible",
+    "description": "Grey cap with grey patches",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita franchetii": {
+    "common_name_ua": "Мухомор Франше",
+    "edibility": "inedible",
+    "description": "Yellow patches on cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita fulva": {
+    "common_name_ua": "Мухомор жовто-бурий",
+    "edibility": "edible",
+    "description": "Tawny brown cap without ring",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita gemmata": {
+    "common_name_ua": "Мухомор жемчужний",
+    "edibility": "poisonous",
+    "description": "Pale yellow with white warts",
+    "habitat": "Coniferous forests",
+    "season": ["spring", "summer", "autumn"]
+  },
+  "Amanita lividopallescens": {
+    "common_name_ua": "Мухомор блідуватий",
+    "edibility": "unknown",
+    "description": "Pale greyish cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita muscaria": {
+    "common_name_ua": "Мухомор червоний",
+    "edibility": "poisonous",
+    "description": "Iconic red cap with white spots",
+    "habitat": "Birch, pine forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita pantherina": {
+    "common_name_ua": "Мухомор пантерний",
+    "edibility": "poisonous",
+    "description": "Brown cap with white warts, very toxic",
+    "habitat": "Coniferous and deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita phalloides": {
+    "common_name_ua": "Бліда поганка",
+    "edibility": "deadly",
+    "description": "DEADLY - greenish cap, white gills",
+    "habitat": "Oak and beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita porphyria": {
+    "common_name_ua": "Мухомор порфіровий",
+    "edibility": "poisonous",
+    "description": "Grey-brown with purplish tinge",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita rubescens": {
+    "common_name_ua": "Мухомор сіро-рожевий",
+    "edibility": "edible",
+    "description": "Flesh turns pink when damaged",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita strobiliformis": {
+    "common_name_ua": "Мухомор шишкоподібний",
+    "edibility": "edible",
+    "description": "Large white with pyramidal warts",
+    "habitat": "Deciduous forests, parks",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita submembranacea": {
+    "common_name_ua": "Мухомор напівплівчастий",
+    "edibility": "edible",
+    "description": "Grey-brown delicate species",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita vaginata": {
+    "common_name_ua": "Мухомор піхвовий",
+    "edibility": "edible",
+    "description": "Grey cap without ring",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Amanita virosa": {
+    "common_name_ua": "Мухомор смердючий",
+    "edibility": "deadly",
+    "description": "DEADLY - pure white, destroying angel",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Boletus aereus": {
+    "common_name_ua": "Боровик бронзовий",
+    "edibility": "edible",
+    "description": "Dark bronze cap, excellent edible",
+    "habitat": "Oak forests",
+    "season": ["summer", "autumn"]
+  },
+  "Boletus edulis": {
+    "common_name_ua": "Білий гриб",
+    "edibility": "edible",
+    "description": "King bolete, prized edible",
+    "habitat": "Coniferous and deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Boletus ferrugineus": {
+    "common_name_ua": "Боровик іржавий",
+    "edibility": "edible",
+    "description": "Rusty brown cap",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Boletus pinophilus": {
+    "common_name_ua": "Боровик сосновий",
+    "edibility": "edible",
+    "description": "Pine bolete with reddish cap",
+    "habitat": "Pine forests",
+    "season": ["summer", "autumn"]
+  },
+  "Boletus reticulatus": {
+    "common_name_ua": "Боровик сітчастий",
+    "edibility": "edible",
+    "description": "Reticulated stem pattern",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Boletus subtomentosus": {
+    "common_name_ua": "Моховик зелений",
+    "edibility": "edible",
+    "description": "Olive-brown cap, yellow pores",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Clitocybe agrestis": {
+    "common_name_ua": "Лійкоподібна польова",
+    "edibility": "unknown",
+    "description": "Small white funnel-shaped",
+    "habitat": "Grasslands",
+    "season": ["autumn"]
+  },
+  "Clitocybe costata": {
+    "common_name_ua": "Лійкоподібна ребриста",
+    "edibility": "unknown",
+    "description": "Ribbed cap surface",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe diatreta": {
+    "common_name_ua": "Лійкоподібна рожева",
+    "edibility": "unknown",
+    "description": "Pinkish cap",
+    "habitat": "Coniferous forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe fragrans": {
+    "common_name_ua": "Лійкоподібна запашна",
+    "edibility": "poisonous",
+    "description": "Fragrant smell, contains toxins",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe gibba": {
+    "common_name_ua": "Лійкоподібна горбата",
+    "edibility": "edible",
+    "description": "Funnel-shaped with central bump",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Clitocybe metachroa": {
+    "common_name_ua": "Лійкоподібна мінлива",
+    "edibility": "unknown",
+    "description": "Color-changing species",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe nebularis": {
+    "common_name_ua": "Лійкоподібна димчаста",
+    "edibility": "inedible",
+    "description": "Large grey, causes GI upset in some",
+    "habitat": "Deciduous forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe odora": {
+    "common_name_ua": "Лійкоподібна анісова",
+    "edibility": "edible",
+    "description": "Blue-green with strong anise smell",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Clitocybe phaeophthalma": {
+    "common_name_ua": "Лійкоподібна темноока",
+    "edibility": "unknown",
+    "description": "Dark center on cap",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe phyllophila": {
+    "common_name_ua": "Лійкоподібна листолюбна",
+    "edibility": "poisonous",
+    "description": "White, grows in leaf litter, contains muscarine",
+    "habitat": "Deciduous forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe rivulosa": {
+    "common_name_ua": "Лійкоподібна борознчаста",
+    "edibility": "poisonous",
+    "description": "TOXIC - white, contains muscarine",
+    "habitat": "Grasslands, lawns",
+    "season": ["summer", "autumn"]
+  },
+  "Clitocybe squamulosa": {
+    "common_name_ua": "Лійкоподібна лускувата",
+    "edibility": "unknown",
+    "description": "Small scales on cap",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Clitocybe vibecina": {
+    "common_name_ua": "Лійкоподібна смугаста",
+    "edibility": "unknown",
+    "description": "Striated cap margin",
+    "habitat": "Coniferous forests",
+    "season": ["autumn"]
+  },
+  "Mycena abramsii": {
+    "common_name_ua": "Міцена Абрамса",
+    "edibility": "inedible",
+    "description": "Small, grows on dead wood",
+    "habitat": "Dead wood",
+    "season": ["autumn"]
+  },
+  "Mycena acicula": {
+    "common_name_ua": "Міцена голчаста",
+    "edibility": "inedible",
+    "description": "Tiny orange-red cap",
+    "habitat": "Dead wood, mossy areas",
+    "season": ["summer", "autumn"]
+  },
+  "Mycena aetites": {
+    "common_name_ua": "Міцена орлина",
+    "edibility": "inedible",
+    "description": "Grey-brown small species",
+    "habitat": "Grasslands",
+    "season": ["autumn"]
+  },
+  "Mycena amicta": {
+    "common_name_ua": "Міцена вбрана",
+    "edibility": "inedible",
+    "description": "Blue-grey coloration",
+    "habitat": "Coniferous forests",
+    "season": ["autumn"]
+  },
+  "Mycena arcangeliana": {
+    "common_name_ua": "Міцена Арканджелі",
+    "edibility": "inedible",
+    "description": "Olive tones, on wood",
+    "habitat": "Dead wood",
+    "season": ["autumn"]
+  },
+  "Mycena aurantiomarginata": {
+    "common_name_ua": "Міцена оранжевокрая",
+    "edibility": "inedible",
+    "description": "Orange gill edges",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Mycena belliae": {
+    "common_name_ua": "Міцена Беллі",
+    "edibility": "inedible",
+    "description": "Small white species",
+    "habitat": "Dead reeds",
+    "season": ["autumn"]
+  },
+  "Mycena capillaripes": {
+    "common_name_ua": "Міцена волосконога",
+    "edibility": "inedible",
+    "description": "Very thin stem",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena capillaris": {
+    "common_name_ua": "Міцена волосиста",
+    "edibility": "inedible",
+    "description": "Tiny on beech leaves",
+    "habitat": "Beech litter",
+    "season": ["autumn"]
+  },
+  "Mycena chlorantha": {
+    "common_name_ua": "Міцена зеленкувата",
+    "edibility": "inedible",
+    "description": "Greenish tinge",
+    "habitat": "Mossy areas",
+    "season": ["autumn"]
+  },
+  "Mycena cinerella": {
+    "common_name_ua": "Міцена попеляста",
+    "edibility": "inedible",
+    "description": "Grey ashy color",
+    "habitat": "Coniferous forests",
+    "season": ["autumn"]
+  },
+  "Mycena citrinomarginata": {
+    "common_name_ua": "Міцена жовтокрая",
+    "edibility": "inedible",
+    "description": "Yellow gill edges",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena clavicularis": {
+    "common_name_ua": "Міцена булавовидна",
+    "edibility": "inedible",
+    "description": "Club-shaped stem base",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Mycena clavularis": {
+    "common_name_ua": "Міцена ключична",
+    "edibility": "inedible",
+    "description": "Small white on needles",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Mycena crocata": {
+    "common_name_ua": "Міцена шафранова",
+    "edibility": "inedible",
+    "description": "Orange latex when cut",
+    "habitat": "Beech forests",
+    "season": ["autumn"]
+  },
+  "Mycena diosma": {
+    "common_name_ua": "Міцена пахуча",
+    "edibility": "inedible",
+    "description": "Strong smell",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena epipterygia": {
+    "common_name_ua": "Міцена слизька",
+    "edibility": "inedible",
+    "description": "Slimy yellowish cap",
+    "habitat": "Mossy forests",
+    "season": ["autumn"]
+  },
+  "Mycena erubescens": {
+    "common_name_ua": "Міцена червоніюча",
+    "edibility": "inedible",
+    "description": "Bruises reddish",
+    "habitat": "Deciduous forests",
+    "season": ["autumn"]
+  },
+  "Mycena filopes": {
+    "common_name_ua": "Міцена нитконога",
+    "edibility": "inedible",
+    "description": "Thread-like stem",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena flavescens": {
+    "common_name_ua": "Міцена жовтіюча",
+    "edibility": "inedible",
+    "description": "Yellowish tones",
+    "habitat": "Grasslands",
+    "season": ["autumn"]
+  },
+  "Mycena galericulata": {
+    "common_name_ua": "Міцена ковпачкова",
+    "edibility": "edible",
+    "description": "Common on stumps, edible but bland",
+    "habitat": "Dead wood",
+    "season": ["spring", "summer", "autumn"]
+  },
+  "Mycena galopus": {
+    "common_name_ua": "Міцена молочна",
+    "edibility": "inedible",
+    "description": "White milk when stem broken",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Mycena haematopus": {
+    "common_name_ua": "Міцена кривава",
+    "edibility": "inedible",
+    "description": "Red blood-like latex",
+    "habitat": "Dead wood",
+    "season": ["summer", "autumn"]
+  },
+  "Mycena inclinata": {
+    "common_name_ua": "Міцена нахилена",
+    "edibility": "inedible",
+    "description": "Clustered on oak stumps",
+    "habitat": "Oak stumps",
+    "season": ["autumn"]
+  },
+  "Mycena juniperina": {
+    "common_name_ua": "Міцена ялівцева",
+    "edibility": "inedible",
+    "description": "On juniper wood",
+    "habitat": "Juniper",
+    "season": ["autumn"]
+  },
+  "Mycena leptocephala": {
+    "common_name_ua": "Міцена тонкошапкова",
+    "edibility": "inedible",
+    "description": "Chlorine smell, grey cap",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena luteovariegata": {
+    "common_name_ua": "Міцена жовтопляма",
+    "edibility": "inedible",
+    "description": "Yellow spots",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Mycena megaspora": {
+    "common_name_ua": "Міцена великоспорова",
+    "edibility": "inedible",
+    "description": "Large spores",
+    "habitat": "Sphagnum bogs",
+    "season": ["autumn"]
+  },
+  "Mycena meliigena": {
+    "common_name_ua": "Міцена медова",
+    "edibility": "inedible",
+    "description": "On bark of living trees",
+    "habitat": "Tree bark",
+    "season": ["autumn", "winter"]
+  },
+  "Mycena metata": {
+    "common_name_ua": "Міцена метна",
+    "edibility": "inedible",
+    "description": "Pinkish grey cap",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Mycena olivaceomarginata": {
+    "common_name_ua": "Міцена оливковокрая",
+    "edibility": "inedible",
+    "description": "Olive-colored gill edges",
+    "habitat": "Grasslands",
+    "season": ["autumn"]
+  },
+  "Mycena pelianthina": {
+    "common_name_ua": "Міцена темноквіткова",
+    "edibility": "poisonous",
+    "description": "Purple-edged gills, radish smell",
+    "habitat": "Beech forests",
+    "season": ["autumn"]
+  },
+  "Mycena polygramma": {
+    "common_name_ua": "Міцена багаторядна",
+    "edibility": "inedible",
+    "description": "Striated silvery stem",
+    "habitat": "Dead wood",
+    "season": ["autumn"]
+  },
+  "Mycena pseudocorticola": {
+    "common_name_ua": "Міцена несправжньокоркова",
+    "edibility": "inedible",
+    "description": "On bark",
+    "habitat": "Tree bark",
+    "season": ["autumn"]
+  },
+  "Mycena pterigena": {
+    "common_name_ua": "Міцена папоротева",
+    "edibility": "inedible",
+    "description": "On fern stems",
+    "habitat": "Dead ferns",
+    "season": ["autumn"]
+  },
+  "Mycena pura": {
+    "common_name_ua": "Міцена чиста",
+    "edibility": "poisonous",
+    "description": "Pink-lilac, contains muscarine",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Mycena purpureofusca": {
+    "common_name_ua": "Міцена пурпурово-бура",
+    "edibility": "inedible",
+    "description": "Dark purple-brown cap",
+    "habitat": "Coniferous forests",
+    "season": ["autumn"]
+  },
+  "Mycena renati": {
+    "common_name_ua": "Міцена Рената",
+    "edibility": "inedible",
+    "description": "Pink cap, yellow stem base",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Mycena rosea": {
+    "common_name_ua": "Міцена рожева",
+    "edibility": "poisonous",
+    "description": "Pink species, contains muscarine",
+    "habitat": "Deciduous forests",
+    "season": ["autumn"]
+  },
+  "Mycena rosella": {
+    "common_name_ua": "Міцена рожевенька",
+    "edibility": "inedible",
+    "description": "Small pink species",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Mycena rubromarginata": {
+    "common_name_ua": "Міцена червонокрая",
+    "edibility": "inedible",
+    "description": "Red gill edges",
+    "habitat": "Dead wood",
+    "season": ["autumn"]
+  },
+  "Mycena sanguinolenta": {
+    "common_name_ua": "Міцена кров'яниста",
+    "edibility": "inedible",
+    "description": "Red-brown bleeding latex",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Mycena silvae-nigrae": {
+    "common_name_ua": "Міцена чорнолісова",
+    "edibility": "inedible",
+    "description": "From Black Forest region",
+    "habitat": "Forests",
+    "season": ["autumn"]
+  },
+  "Mycena stipata": {
+    "common_name_ua": "Міцена скупчена",
+    "edibility": "inedible",
+    "description": "Clustered growth, chlorine smell",
+    "habitat": "Coniferous stumps",
+    "season": ["autumn"]
+  },
+  "Mycena stylobates": {
+    "common_name_ua": "Міцена дископодібна",
+    "edibility": "inedible",
+    "description": "Disc-like stem base",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena tenerrima": {
+    "common_name_ua": "Міцена найніжніша",
+    "edibility": "inedible",
+    "description": "Extremely delicate white",
+    "habitat": "Dead twigs",
+    "season": ["autumn"]
+  },
+  "Mycena tintinnabulum": {
+    "common_name_ua": "Міцена дзвіночкова",
+    "edibility": "inedible",
+    "description": "Bell-shaped cap",
+    "habitat": "Dead wood",
+    "season": ["winter", "spring"]
+  },
+  "Mycena vitilis": {
+    "common_name_ua": "Міцена тонка",
+    "edibility": "inedible",
+    "description": "Long thin elastic stem",
+    "habitat": "Leaf litter",
+    "season": ["autumn"]
+  },
+  "Mycena vulgaris": {
+    "common_name_ua": "Міцена звичайна",
+    "edibility": "inedible",
+    "description": "Common slimy cap",
+    "habitat": "Coniferous litter",
+    "season": ["autumn"]
+  },
+  "Russula acrifolia": {
+    "common_name_ua": "Сироїжка гостролиста",
+    "edibility": "inedible",
+    "description": "Acrid taste, darkening gills",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula adusta": {
+    "common_name_ua": "Сироїжка чорніюча",
+    "edibility": "inedible",
+    "description": "Darkens to black when old",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula aeruginea": {
+    "common_name_ua": "Сироїжка зелена",
+    "edibility": "edible",
+    "description": "Green cap, mild taste",
+    "habitat": "Birch forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula amoenolens": {
+    "common_name_ua": "Сироїжка приємнопахуча",
+    "edibility": "inedible",
+    "description": "Strong fetid smell",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula atropurpurea": {
+    "common_name_ua": "Сироїжка темно-пурпурова",
+    "edibility": "edible",
+    "description": "Dark purple-red cap",
+    "habitat": "Oak forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula atrorubens": {
+    "common_name_ua": "Сироїжка темно-червона",
+    "edibility": "inedible",
+    "description": "Dark red, acrid taste",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula aurea": {
+    "common_name_ua": "Сироїжка золотиста",
+    "edibility": "edible",
+    "description": "Golden yellow cap, excellent",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula aurora": {
+    "common_name_ua": "Сироїжка зоряна",
+    "edibility": "edible",
+    "description": "Pink with yellow center",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula betularum": {
+    "common_name_ua": "Сироїжка березова",
+    "edibility": "inedible",
+    "description": "Small pale pink, acrid",
+    "habitat": "Birch forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula brunneoviolacea": {
+    "common_name_ua": "Сироїжка буро-фіолетова",
+    "edibility": "edible",
+    "description": "Brown-violet cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula caerulea": {
+    "common_name_ua": "Сироїжка синя",
+    "edibility": "edible",
+    "description": "Blue-purple cap with central bump",
+    "habitat": "Pine forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula cessans": {
+    "common_name_ua": "Сироїжка тьмяна",
+    "edibility": "edible",
+    "description": "Dull colored cap",
+    "habitat": "Pine forests",
+    "season": ["autumn"]
+  },
+  "Russula chloroides": {
+    "common_name_ua": "Сироїжка зеленувата",
+    "edibility": "edible",
+    "description": "Whitish with blue-green tinge",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula claroflava": {
+    "common_name_ua": "Сироїжка жовта",
+    "edibility": "edible",
+    "description": "Bright yellow cap, greys with age",
+    "habitat": "Birch forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula cuprea": {
+    "common_name_ua": "Сироїжка мідна",
+    "edibility": "inedible",
+    "description": "Copper colored, acrid",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula curtipes": {
+    "common_name_ua": "Сироїжка коротконога",
+    "edibility": "edible",
+    "description": "Short stem",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula cyanoxantha": {
+    "common_name_ua": "Сироїжка зелено-червона",
+    "edibility": "edible",
+    "description": "Variable colors, flexible gills",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula decolorans": {
+    "common_name_ua": "Сироїжка вицвітаюча",
+    "edibility": "edible",
+    "description": "Orange fading to grey",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula delica": {
+    "common_name_ua": "Сироїжка біла",
+    "edibility": "edible",
+    "description": "Large white funnel-shaped",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula densifolia": {
+    "common_name_ua": "Сироїжка густолиста",
+    "edibility": "inedible",
+    "description": "Crowded gills, reddening flesh",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula depallens": {
+    "common_name_ua": "Сироїжка блякла",
+    "edibility": "edible",
+    "description": "Fading cap color",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula emetica": {
+    "common_name_ua": "Сироїжка блювотна",
+    "edibility": "poisonous",
+    "description": "Bright red, causes vomiting",
+    "habitat": "Coniferous forests, bogs",
+    "season": ["summer", "autumn"]
+  },
+  "Russula faginea": {
+    "common_name_ua": "Сироїжка букова",
+    "edibility": "edible",
+    "description": "With beech trees",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula farinipes": {
+    "common_name_ua": "Сироїжка борошниста",
+    "edibility": "inedible",
+    "description": "Mealy stem base",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula faustiana": {
+    "common_name_ua": "Сироїжка Фауста",
+    "edibility": "edible",
+    "description": "Reddish cap",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula fellea": {
+    "common_name_ua": "Сироїжка жовчна",
+    "edibility": "inedible",
+    "description": "Straw yellow, very acrid",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula foetens": {
+    "common_name_ua": "Сироїжка смердюча",
+    "edibility": "inedible",
+    "description": "Strong unpleasant odor",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula fragilis": {
+    "common_name_ua": "Сироїжка ламка",
+    "edibility": "inedible",
+    "description": "Very fragile, purple cap",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula grata": {
+    "common_name_ua": "Сироїжка приємна",
+    "edibility": "inedible",
+    "description": "Almond smell, bitter taste",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula graveolens": {
+    "common_name_ua": "Сироїжка сильнопахуча",
+    "edibility": "edible",
+    "description": "Strong herring smell",
+    "habitat": "Oak forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula grisea": {
+    "common_name_ua": "Сироїжка сіра",
+    "edibility": "edible",
+    "description": "Grey-violet cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula heterophylla": {
+    "common_name_ua": "Сироїжка різнопластинкова",
+    "edibility": "edible",
+    "description": "Green cap, forked gills",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula illota": {
+    "common_name_ua": "Сироїжка немита",
+    "edibility": "inedible",
+    "description": "Dirty spotted appearance",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula insignis": {
+    "common_name_ua": "Сироїжка видатна",
+    "edibility": "inedible",
+    "description": "Large yellowish, acrid",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula integra": {
+    "common_name_ua": "Сироїжка цілісна",
+    "edibility": "edible",
+    "description": "Brown cap, mild taste",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula ionochlora": {
+    "common_name_ua": "Сироїжка фіолетово-зелена",
+    "edibility": "edible",
+    "description": "Violet center, green edge",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula laccata": {
+    "common_name_ua": "Сироїжка лакована",
+    "edibility": "edible",
+    "description": "Shiny red cap",
+    "habitat": "Coniferous forests",
+    "season": ["autumn"]
+  },
+  "Russula laeta": {
+    "common_name_ua": "Сироїжка весела",
+    "edibility": "edible",
+    "description": "Bright colored cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula luteotacta": {
+    "common_name_ua": "Сироїжка жовтіюча",
+    "edibility": "inedible",
+    "description": "Yellows when touched",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula maculata": {
+    "common_name_ua": "Сироїжка плямиста",
+    "edibility": "edible",
+    "description": "Spotted cap surface",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula melliolens": {
+    "common_name_ua": "Сироїжка медовопахуча",
+    "edibility": "edible",
+    "description": "Honey smell",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula nauseosa": {
+    "common_name_ua": "Сироїжка нудотна",
+    "edibility": "inedible",
+    "description": "Unpleasant smell",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula nitida": {
+    "common_name_ua": "Сироїжка блискуча",
+    "edibility": "inedible",
+    "description": "Shiny purple-red cap",
+    "habitat": "Birch forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula nobilis": {
+    "common_name_ua": "Сироїжка благородна",
+    "edibility": "inedible",
+    "description": "Bright red, beech lover",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula ochroleuca": {
+    "common_name_ua": "Сироїжка охристо-жовта",
+    "edibility": "edible",
+    "description": "Ochre yellow cap",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula odorata": {
+    "common_name_ua": "Сироїжка запашна",
+    "edibility": "edible",
+    "description": "Fruity smell",
+    "habitat": "Oak forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula olivacea": {
+    "common_name_ua": "Сироїжка оливкова",
+    "edibility": "edible",
+    "description": "Large olive-brown cap",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula paludosa": {
+    "common_name_ua": "Сироїжка болотна",
+    "edibility": "edible",
+    "description": "Large red, in wet areas",
+    "habitat": "Boggy coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula parazurea": {
+    "common_name_ua": "Сироїжка синювата",
+    "edibility": "edible",
+    "description": "Blue-grey cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula pelargonia": {
+    "common_name_ua": "Сироїжка пеларгонієва",
+    "edibility": "inedible",
+    "description": "Geranium smell",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula praetervisa": {
+    "common_name_ua": "Сироїжка непомітна",
+    "edibility": "edible",
+    "description": "Easily overlooked species",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula pseudointegra": {
+    "common_name_ua": "Сироїжка несправжньоцілісна",
+    "edibility": "inedible",
+    "description": "Resembles R. integra",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula puellaris": {
+    "common_name_ua": "Сироїжка дівоча",
+    "edibility": "edible",
+    "description": "Small delicate species",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula queletii": {
+    "common_name_ua": "Сироїжка Келе",
+    "edibility": "inedible",
+    "description": "Purple cap, acrid taste",
+    "habitat": "Spruce forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula risigallina": {
+    "common_name_ua": "Сироїжка золотисто-жовта",
+    "edibility": "edible",
+    "description": "Apricot yellow cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula romellii": {
+    "common_name_ua": "Сироїжка Ромелля",
+    "edibility": "edible",
+    "description": "Yellow-green cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula rosea": {
+    "common_name_ua": "Сироїжка рожева",
+    "edibility": "edible",
+    "description": "Pink cap, mild taste",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula roseoaurantia": {
+    "common_name_ua": "Сироїжка рожево-оранжева",
+    "edibility": "unknown",
+    "description": "Pink-orange colors",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula sanguinea": {
+    "common_name_ua": "Сироїжка криваво-червона",
+    "edibility": "inedible",
+    "description": "Blood red, very acrid",
+    "habitat": "Pine forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula sardonia": {
+    "common_name_ua": "Сироїжка сардонійська",
+    "edibility": "inedible",
+    "description": "Purple cap, very acrid",
+    "habitat": "Pine forests",
+    "season": ["autumn"]
+  },
+  "Russula seperina": {
+    "common_name_ua": "Сироїжка відділена",
+    "edibility": "edible",
+    "description": "Greyish cap",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula silvestris": {
+    "common_name_ua": "Сироїжка лісова",
+    "edibility": "inedible",
+    "description": "Small red cap",
+    "habitat": "Mixed forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula solaris": {
+    "common_name_ua": "Сироїжка сонячна",
+    "edibility": "inedible",
+    "description": "Bright yellow, acrid",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula sororia": {
+    "common_name_ua": "Сироїжка сестринська",
+    "edibility": "inedible",
+    "description": "Greyish brown, fetid smell",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula subrubens": {
+    "common_name_ua": "Сироїжка червонувата",
+    "edibility": "edible",
+    "description": "Reddish tones",
+    "habitat": "Birch forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula velenovskyi": {
+    "common_name_ua": "Сироїжка Веленовського",
+    "edibility": "edible",
+    "description": "Orange-red cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula versicolor": {
+    "common_name_ua": "Сироїжка різнобарвна",
+    "edibility": "edible",
+    "description": "Variable colored cap",
+    "habitat": "Birch forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula vesca": {
+    "common_name_ua": "Сироїжка їстівна",
+    "edibility": "edible",
+    "description": "Excellent edible, nutty taste",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula veternosa": {
+    "common_name_ua": "Сироїжка стара",
+    "edibility": "inedible",
+    "description": "Cream to yellow cap",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula violeipes": {
+    "common_name_ua": "Сироїжка фіолетовонога",
+    "edibility": "edible",
+    "description": "Violet tinge on stem",
+    "habitat": "Beech forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula virescens": {
+    "common_name_ua": "Сироїжка зеленувата",
+    "edibility": "edible",
+    "description": "Cracked green cap, excellent edible",
+    "habitat": "Deciduous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula viscida": {
+    "common_name_ua": "Сироїжка клейка",
+    "edibility": "inedible",
+    "description": "Sticky purple-brown cap",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  },
+  "Russula xerampelina": {
+    "common_name_ua": "Сироїжка оселедцева",
+    "edibility": "edible",
+    "description": "Herring smell, variable colors",
+    "habitat": "Coniferous forests",
+    "season": ["summer", "autumn"]
+  }
+}

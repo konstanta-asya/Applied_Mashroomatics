@@ -19,18 +19,27 @@ with st.sidebar:
 # Load species data
 @st.cache_data
 def load_species_data():
-    data_path = Path(__file__).parent.parent.parent / "data" / "species_info.json"
-    if data_path.exists():
-        with open(data_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+    # Try app folder first (for cloud), then data folder (for local)
+    paths = [
+        Path(__file__).parent.parent / "species_info.json",  # app/species_info.json
+        Path(__file__).parent.parent.parent / "data" / "species_info.json",  # data/species_info.json
+    ]
+    for data_path in paths:
+        if data_path.exists():
+            with open(data_path, "r", encoding="utf-8") as f:
+                return json.load(f)
     return {}
 
 @st.cache_data
 def load_species_metadata():
-    data_path = Path(__file__).parent.parent.parent / "data" / "species_metadata.json"
-    if data_path.exists():
-        with open(data_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+    paths = [
+        Path(__file__).parent.parent / "species_metadata.json",
+        Path(__file__).parent.parent.parent / "data" / "species_metadata.json",
+    ]
+    for data_path in paths:
+        if data_path.exists():
+            with open(data_path, "r", encoding="utf-8") as f:
+                return json.load(f)
     return {}
 
 
