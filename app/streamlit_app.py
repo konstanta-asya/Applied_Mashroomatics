@@ -212,13 +212,11 @@ def load_models():
     except Exception as e:
         print(f"CNN load error: {e}")
 
-    # Load YOLO (YOLOv5 model) - skip on cloud to reduce startup time
-    # YOLO will be loaded lazily on first use
-    if os.path.exists(YOLO_PATH):
-        models['yolo_path'] = YOLO_PATH
-        print(f"YOLO model found at {YOLO_PATH} (will load on first use)")
-    else:
-        print(f"YOLO path not found: {YOLO_PATH}")
+    # YOLO disabled for cloud deployment (too slow to load via torch.hub)
+    # For local use, uncomment below:
+    # if os.path.exists(YOLO_PATH):
+    #     models['yolo'] = torch.hub.load('ultralytics/yolov5', 'custom', path=YOLO_PATH)
+    print("YOLO disabled for faster cloud startup")
 
     return models
 
@@ -654,57 +652,21 @@ with col_right:
     st.markdown("### 📊 Results")
     st.caption("Compare model predictions")
 
-    # Results section: three tabs
-    tab_yolo, tab_cnn, tab_vit = st.tabs([
-        "🛡️ YOLO",
-        "🧠 CNN",
-        "🔬 ViT"
+    # Results section: two tabs (YOLO disabled for cloud)
+    tab_cnn, tab_vit = st.tabs([
+        "🧠 CNN — Species",
+        "🔬 ViT + Metadata"
     ])
 
     # Display results if available
     if 'results' in st.session_state:
         results = st.session_state['results']
-        yolo_result = results['yolo']
         cnn_result = results['cnn']
         vit_result = results['vit']
         num_views = results.get('num_views', 1)
 
         if num_views > 1:
             st.success(f"Combined predictions from {num_views} views")
-
-        # YOLO tab
-        with tab_yolo:
-            # Show all detection images
-            yolo_imgs = yolo_result.get('all_imgs', [yolo_result['img']])
-            if len(yolo_imgs) > 1:
-                st.markdown("**Detections (all views)**")
-                img_cols = st.columns(len(yolo_imgs))
-                for i, img in enumerate(yolo_imgs):
-                    with img_cols[i]:
-                        st.image(img, caption=f"View {i+1}", use_container_width=True)
-            else:
-                st.markdown("**Detection**")
-                st.image(yolo_result['img'], use_container_width=True)
-
-            st.divider()
-
-            st.markdown("**Safety Prediction**")
-            if yolo_result['error']:
-                st.warning(yolo_result['error'])
-            elif yolo_result['edible'] is not None:
-                if yolo_result['edible']:
-                    st.markdown(
-                        '<div class="verdict-edible">✓ Edible</div>',
-                        unsafe_allow_html=True
-                    )
-                else:
-                    st.markdown(
-                        '<div class="verdict-poisonous">✗ Poisonous</div>',
-                        unsafe_allow_html=True
-                    )
-                st.write(f"Confidence: {yolo_result['conf']*100:.1f}%")
-                st.progress(int(yolo_result['conf'] * 100))
-            st.caption("⚠️ Always verify with an expert before consuming.")
 
         # CNN tab
         with tab_cnn:
@@ -780,8 +742,6 @@ with col_right:
                     st.image(vit_result['attn_img'], use_container_width=True)
 
     else:
-        with tab_yolo:
-            st.info("Upload photos and click Classify to see results")
         with tab_cnn:
             st.info("Upload photos and click Classify to see results")
         with tab_vit:
@@ -792,7 +752,7 @@ st.divider()
 st.markdown(
     "<p style='text-align:center;color:#aaa;font-size:12px'>"
     "Applied Mashroomatics · DF20-Mini · 180 species · "
-    "YOLOv8 · EfficientNet-B0 · ViT-Base/16 · PyTorch + Streamlit"
+    "EfficientNet-B0 · ViT-Base/16 · PyTorch + Streamlit"
     "</p>",
     unsafe_allow_html=True
 )
