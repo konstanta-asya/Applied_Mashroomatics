@@ -158,6 +158,7 @@ def load_models():
         from src.models.mushroom_vit import MushroomViTWithMetadata
 
         if os.path.exists(VIT_PATH):
+            print(f"Loading ViT from {VIT_PATH}...")
             ckpt = torch.load(VIT_PATH, map_location='cpu', weights_only=False)
 
             habitat_vocab = ckpt.get('habitat_vocab', {})
@@ -180,8 +181,11 @@ def load_models():
             models['vit'] = model
             models['habitat_vocab'] = habitat_vocab
             models['substrate_vocab'] = substrate_vocab
+            print("ViT loaded successfully!")
+        else:
+            print(f"ViT path not found: {VIT_PATH}")
     except Exception as e:
-        pass
+        print(f"ViT load error: {e}")
 
     # Load CNN
     try:
@@ -208,17 +212,13 @@ def load_models():
     except Exception as e:
         print(f"CNN load error: {e}")
 
-    # Load YOLO (YOLOv5 model)
-    try:
-        if os.path.exists(YOLO_PATH):
-            # Load YOLOv5 model using torch.hub
-            models['yolo'] = torch.hub.load('ultralytics/yolov5', 'custom', path=YOLO_PATH, force_reload=False)
-            models['yolo'].conf = 0.25  # confidence threshold
-            print(f"YOLO loaded successfully from {YOLO_PATH}")
-        else:
-            print(f"YOLO path not found: {YOLO_PATH}")
-    except Exception as e:
-        print(f"YOLO load error: {e}")
+    # Load YOLO (YOLOv5 model) - skip on cloud to reduce startup time
+    # YOLO will be loaded lazily on first use
+    if os.path.exists(YOLO_PATH):
+        models['yolo_path'] = YOLO_PATH
+        print(f"YOLO model found at {YOLO_PATH} (will load on first use)")
+    else:
+        print(f"YOLO path not found: {YOLO_PATH}")
 
     return models
 
@@ -244,8 +244,26 @@ def draw_yolo_box(image, boxes, label, edible):
     return img
 
 
-def safe_predict_yolo(image, model):
+@st.cache_resource
+def load_yolo_model(path):
+    """Load YOLO model lazily."""
+    try:
+        model = torch.hub.load('ultralytics/yolov5', 'custom', path=path, force_reload=False)
+        model.conf = 0.25
+        return model
+    except Exception as e:
+        print(f"YOLO load error: {e}")
+        return None
+
+
+def safe_predict_yolo(image, model_or_path):
     """YOLO prediction with error handling (YOLOv5)."""
+    # Lazy load YOLO model
+    if isinstance(model_or_path, str):
+        model = load_yolo_model(model_or_path)
+    else:
+        model = model_or_path
+
     if model is None:
         return {'img': image, 'edible': None, 'conf': 0.0, 'error': 'YOLO not loaded'}
 
@@ -514,8 +532,9 @@ def run_all_models_multiview(images, habitat, substrate, month, models):
     attn_imgs = []
 
     for img in images:
-        # YOLO
-        yolo_result = safe_predict_yolo(img, models['yolo'])
+        # YOLO (use path for lazy loading)
+        yolo_model = models.get('yolo') or models.get('yolo_path')
+        yolo_result = safe_predict_yolo(img, yolo_model)
         all_yolo.append(yolo_result)
         yolo_imgs.append(yolo_result['img'])
 
