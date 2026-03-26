@@ -25,7 +25,7 @@ st.set_page_config(
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # Model paths for Colab
-YOLO_PATH = '/content/drive/MyDrive/yolo_mushroom/best.pt'
+YOLO_PATH = '/content/drive/MyDrive/yolo_mushroom/yolo_model.pt'
 CNN_PATH = '/content/drive/MyDrive/mushroom_checkpoints/cnn_best.pth'
 VIT_PATH = '/content/drive/MyDrive/mushroom_checkpoints/best_model.pth'
 
