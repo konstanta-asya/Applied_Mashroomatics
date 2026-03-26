@@ -111,7 +111,25 @@ preprocess = transforms.Compose([
 
 # ============== Model Loading ==============
 def load_species_mapping():
-    """Load species mapping from CSV."""
+    """Load species mapping from JSON or CSV."""
+    import json
+
+    # Try JSON file first (for cloud deployment)
+    json_paths = [
+        'app/species_mapping.json',
+        os.path.join(os.path.dirname(__file__), 'species_mapping.json'),
+    ]
+    for json_path in json_paths:
+        if os.path.exists(json_path):
+            with open(json_path, 'r') as f:
+                data = json.load(f)
+            species_to_id = data.get('species_to_id', {})
+            # JSON keys are strings, convert to int for id_to_species
+            id_to_species = {int(k): v for k, v in data.get('id_to_species', {}).items()}
+            print(f"Loaded {len(species_to_id)} species from {json_path}")
+            return species_to_id, id_to_species
+
+    # Fallback to CSV
     csv_paths = [
         'data/raw/DF20M-metadata/DF20M-train_metadata_PROD.csv',
         '/content/drive/MyDrive/raw/DF20M-metadata/DF20M-train_metadata_PROD.csv',
