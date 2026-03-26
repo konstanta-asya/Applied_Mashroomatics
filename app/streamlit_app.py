@@ -115,16 +115,22 @@ def load_species_mapping():
     import json
 
     # Try JSON file first (for cloud deployment)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     json_paths = [
+        os.path.join(script_dir, 'species_mapping.json'),
         'app/species_mapping.json',
-        os.path.join(os.path.dirname(__file__), 'species_mapping.json'),
+        'species_mapping.json',
     ]
+
+    print(f"Looking for species mapping. Script dir: {script_dir}")
+    print(f"Current working dir: {os.getcwd()}")
+
     for json_path in json_paths:
+        print(f"Checking: {json_path} - exists: {os.path.exists(json_path)}")
         if os.path.exists(json_path):
             with open(json_path, 'r') as f:
                 data = json.load(f)
             species_to_id = data.get('species_to_id', {})
-            # JSON keys are strings, convert to int for id_to_species
             id_to_species = {int(k): v for k, v in data.get('id_to_species', {}).items()}
             print(f"Loaded {len(species_to_id)} species from {json_path}")
             return species_to_id, id_to_species
@@ -142,6 +148,8 @@ def load_species_mapping():
             species_to_id = {sp: i for i, sp in enumerate(species_list)}
             id_to_species = {i: sp for sp, i in species_to_id.items()}
             return species_to_id, id_to_species
+
+    print("WARNING: No species mapping found!")
     return {}, {}
 
 
