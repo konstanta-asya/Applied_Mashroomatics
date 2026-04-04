@@ -56,6 +56,10 @@ Applied_Mashroomatics/
 - **Data augmentation**: Random crops, flips, rotations with ImageNet normalization
 - **Colab support**: Training notebooks designed for Google Colab with GPU
 
+## Development
+
+This project was developed with assistance from [Claude](https://claude.ai) (Anthropic's AI assistant) for building the Streamlit web application, code refactoring, and documentation.
+
 ## Installation
 
 ```bash
